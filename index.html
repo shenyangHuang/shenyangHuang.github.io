@@ -1,1 +1,587 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Shenyang Huang</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/plain-style.css">
+    <link rel="stylesheet" type="text/css" href="css/bibbase_css.css">
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" >
+  <!-- Navigation -->
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header page-scroll">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand page-scroll" href="#page-top"></a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav">
+          <!-- Hidden li included to remove active class from research link when scrolled up past research section -->
+          <li class="hidden">
+            <a class="page-scroll" href="#page-top"></a>
+          </li>
+
+          <li>
+            <a class="page-scroll" href="#bio"> Bio </a>
+          </li>
+
+          <li>
+            <a class="page-scroll" href="#news"> News </a>
+          </li>
+
+          <li>
+            <a class="page-scroll" href="#publication"> Publications </a>
+          </li>
+
+          <li>
+            <a class="page-scroll" href="#blog"> Blogs </a>
+          </li>
+
+          <li>
+            <a href="https://www.cs.mcgill.ca/~shuang43/rg.html"> TG Reading Group</a>
+          </li>
+
+
+          <!-- <li>
+            <a href="phyhack/physhackathon2017/main.html">Hackathon</a>
+          </li>
+ -->
+
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+  </nav>
+
+  <!-- Intro Section -->
+
+<br/>
+<br/>
+<br/>
+<br/>
+
+  <div class="container">
+      <div class="row">
+	<div class="col-sm-2" >	</div>
+	<div class="col-sm-2" >
+		  <div class="right", align = "right">
+		    <img src="images/profile.jpg" width="100%" alt="profile picture" class="img-responsive" />
+		    </div>
+	</div>
+
+	<div class="col-sm-8">
+		<!-- <p> -->
+		  <!-- <div class="listing" style="clear:both;">			 -->
+		  <div class="left", align = "left">
+		    <!-- 	  <br/> -->
+		    <font size="5"> Shenyang Huang</font>
+        <br/>
+        <br/>
+        Preferred name: Andy <br/>
+        Ph.D. student at <a href="https://www.cs.mcgill.ca/">School of Computer Science</a>, McGill University <br/>
+        and <a href="https://mila.quebec/en/"> Mila </a> - Quebec Artificial Intelligence Institute <br/>
+        E-mail: shenyang.huang@mail.mcgill.ca <br/>
+        Google Scholar: <a href="https://scholar.google.com/citations?user=ljIXv6kAAAAJ&hl=en"> link </a> <br/>
+        Github: <a href="https://github.com/shenyangHuang"> https://github.com/shenyangHuang </a> <br/>
+        CV: <a href="https://drive.google.com/file/d/1XA2-E19CgubfOtIRj8kxHrUt84_yBwHp/view?usp=sharing"> Shenyang Huang </a> [updated 4.12.2024] <br/> 
+        Linkedin: <a href="https://www.linkedin.com/in/shenyang-huang">https://www.linkedin.com/in/shenyang-huang </a> <br/>
+        Twitter: <a href="https://twitter.com/shenyangHuang">shenyangHuang</a> <br/>
+
+      </div>
+	</div>
+    	<div class="col-sm-2"></div>
+</div>
+</div>
+
+
+<!-- </section> -->
+
+<section id="bio" class="some-section">
+  <div class="container">
+    <div class="row">
+  <div class="col-sm-2"></div>
+  <div class="col-sm-8">
+  <div class="listing" style="clear:both;">
+    <div class="left">
+      <h3 style="text-align:center">Bio</h3>
+      <p>
+
+      I am a final year Ph.D. student at <a href="https://mila.quebec/en/"> Mila </a> and <a href="https://cs.mcgill.ca/"> McGill University </a>, 
+      supervised by Professor <a href="http://www.reirab.com/"> Reihaneh Rabbany </a> and Professor <a href="https://www-labs.iro.umontreal.ca/~grabus/"> Guillaume Rabusseau </a>.
+      Previously I obtained an Honours in Computer Science from McGill University in 2019. I have a broad interest in temporal graph neural networks, graph transformers, graph neural networks and spectral methods. 
+      My research focuses on machine learning models for complex and evolving networks in the real world, referred to as Temporal Graph Learning (TGL). I also actively engage in building the TGL community by organizing the <a href="https://www.cs.mcgill.ca/~shuang43/rg.html">TGL reading group</a> and two editions of the <a href="https://sites.google.com/view/tglworkshop-2023/home">TGL workshop</a> @ NeurIPS 2022 / 2023. Through my research, I aim to answer the following questions:</p>
+      
+      <ul class="list-group">
+        <li class="list-group-item">How to design more scalable, expressive and powerful temporal graph methods?</li>
+        <li class="list-group-item">How to properly evaluate temporal graph methods based on real world considerations?</li>
+        <li class="list-group-item">How to deploy TGL methods for applications such as disease modeling, anomaly detection and forecasting?</li>
+      </ul>
+      
+<!--         <can add more space here>
+ -->    <!-- <br/> -->
+    </div>
+  </div>
+  <!-- <div class="col-sm-2"></div>
+      </div>
+    </div>
+  </div> -->
+</section>
+
+<section id="news" class="some-section">
+  <div class="container">
+    <div class="row">
+  <div class="col-sm-2"></div>
+  <div class="col-sm-8">
+  <div class="listing" style="clear:both;">
+    <div class="left">
+      <h3 style="text-align:center">News!</h3>
+
+        <li> <small><b>[2024/06]</b> Happy to share two preprints from our recent work, <a href="https://arxiv.org/abs/2406.09639v1">TGB 2.0: A Benchmark for Learning on Temporal Knowledge Graphs and Heterogeneous Graphs</a> and <a href="https://arxiv.org/abs/2406.10426">Towards Neural Scaling Laws for Foundation Models on Temporal Graphs</a>. Thanks to all my amazing collaborators. </small> </li>
+        <br>
+
+        <li> <small><b>[2024/06]</b> Excited to annouce our paper <a href="https://arxiv.org/pdf/2404.14986">MiniMol: A Parameter-Efficient Foundation Model for Molecular Learning</a> is selected as a spotlight poster at ICML 2024 Workshop on Efficient and Accessible Foundation Models for Biological Discovery. Thanks to my amazing collaborators at GraphCore, RWTH Aachen University, New Jersey Institute of Technology and Mila.</small></li>
+        <br>
+
+        <li> <small><b>[2024/06]</b> Excited to annouce our paper <a href="https://arxiv.org/abs/2406.02362">Temporal Graph Rewiring with Expander Graphs</a> has been accepted to the ICML 2024 Workshop on Geometry-grounded Representation Learning and Generative Modeling. Thanks to my amazing co-authors <a href="https://www.linkedin.com/in/katpetrovic/">Katarina Petrović</a>, <a href="https://fpour.github.io/">Farimah Poursafaei</a> and <a href="https://petar-v.com/">Petar Veličković</a>.</small> </li>
+        <br>
+
+        <li> <small><b>[2024/05]</b> Excited to announce our paper <a href="https://www.nature.com/articles/s41598-024-62271-0">Static graph approximations of dynamic contact networks for epidemic forecasting</a> is accepted at <a href="https://www.nature.com/articles/s41598-024-62271-0">Scientific Reports</a>. Thanks to my amazing co-authors Razieh Shirzadkhani, Abby Leung and Reihaneh Rabbany.</small> </li>
+        <br>
+
+        <li> <small><b>[2024/02]</b> Excited to announce our paper <a href="https://arxiv.org/abs/2402.03651">Temporal Graph Analysis with TGX</a> is accepted at <a href="https://www.wsdm-conference.org/2024/demonstrations/">WSDM 2024 Demo Paper Track</a>. Thanks to my amazing co-authors Razieh Shirzadkhani, Elahe Kooshafar, Reihaneh Rabbany and Farimah Poursafaei. </small> </li>
+        <br>
+        <!-- <a href="https://github.com/ComplexData-MILA/TGX">TGX</a> is a package that supports temporal graph loading, analysis and visualization and contains 19 TGX datasets from <a href="https://pypi.org/project/dgb/">DGB</a> and <a href="https://tgb.complexdatalab.com/">TGB</a> out of the box. Stay tuned for upcoming talk on TGX.</small> </li> -->
+
+        <li> <small><b>[2024/01]</b> See our <a href="https://medium.com/towards-data-science/temporal-graph-learning-in-2024-feaa9371b8e2">blog post</a> providing an overview of trends and future directions in Temporal Graph Learning so far in 2024. Thanks to my amazing co-authors: <a href="https://emanuelerossi.co.uk/">Emanuele Rossi</a>, <a href="https://migalkin.github.io/cv/">Michael Galkin</a>, <a href="https://andreacini.github.io/">Andrea Cini</a> and <a href="https://www.ingoscholtes.net/">Ingo Scholtes</a>.</small></li>
+        <br>
+
+        <li> <small><b>[2024/01]</b> Excited to annouce two papers accepted at ICLR 2024, <a href="https://openreview.net/forum?id=DZqic2sPTY">Graphpulse: Topological representations for temporal graph property prediction</a> and 
+          <a href="https://openreview.net/forum?id=Zc2aIcucwc">Towards Foundational Models for Molecular Learning on Large-Scale Multi-Task Datasets</a>. Thanks to all my amazing collaborators!</small></li>
+        <br>
+
+        <!-- <li> <small><b>[2023/12]</b> Travelling to New Orleans for NeurIPS from Dec 10th to Dec.16th 2023, if you would like to discuss temporal graph learning, feel free to reach out by email.</small> </li>
+        <br> -->
+
+        <!-- <li> <small><b>[2023/12]</b> Excited to announce our paper <a href="https://arxiv.org/abs/2312.01217">Understanding Opinions Towards Climate Change on Social Media</a> is accepted at the NeurIPS 2023 Workshop: <a href="https://www.climatechange.ai/events/neurips2023">Tackling Climate Change with Machine Learning</a>. Thanks my co-authors Yashaswi Pupneja, Joseph Zou and Sacha Lévy. </small> </li>
+        <br> -->
+
+        <!-- <li> <small><b>[2023/12]</b> Invited Oral Talk at the LOG Meetup Mila Dec. 4th, presenting <a href="https://arxiv.org/abs/2307.01026">Temporal Graph Benchmark</a> and <a href="https://arxiv.org/abs/2310.04292">Graphium</a>. Here are the <a href="https://www.youtube.com/watch?v=Z5l-gaV-DUo&ab_channel=MeetupLOG2023MTL">recordings</a> (TGB: 1:49:41 and Graphium: 2:26:09) and <a href="https://sites.google.com/view/log2023-montreal/%E9%A6%96%E9%A1%B5">slides</a>.Thanks to the organizers for this great event!</small> </li>
+        <br> -->
+
+
+        <!-- <li> <small><b>[2023/11]</b> Excited to annouce that our work <a href="https://dl.acm.org/doi/10.1145/3631609">"Laplacian Change Point Detection for Single and Multi-view Dynamic Graphs"</a> is accepted at TKDD. 
+          Thanks to my co-authors: Samy Coulombe, Yasmeen Hitti, Reihaneh Rabbany, Guillaume Rabusseau. </small></li>
+        <br> -->
+        
+
+        <!-- <li> <small><b>[2023/10]</b> Excited to annouce our preprint <a href="https://arxiv.org/abs/2310.04292">"Towards Foundational Models For Molecular Learning on Large-scale Multi-task Datasets"</a> is now available on <a href="https://arxiv.org/abs/2310.04292">arXiv</a>. Thanks to all my great collaborators to embark on the journey of building a collection of datasets for molecular foundational model. 
+          Here is the <a href="https://graphium-docs.datamol.io/stable/">project website</a>, <a href="https://github.com/datamol-io/graphium">Github</a>, dataset link on Zenodo <a href="https://zenodo.org/record/8372621">Part 1</a> and <a href="https://zenodo.org/record/8427533">Part 2</a>. </small></li>
+        <br> -->
+          
+
+        <!-- <li> <small><b>[2023/09]</b> Excited to see our work <a href="https://arxiv.org/abs/2307.01026">"Temporal Graph Benchmark for Machine Learning on Temporal Graphs"</a> accepted at NeurIPS 2023 Datasets and Benchmarks Track. See the <a href="https://arxiv.org/abs/2307.01026">updated arxiv version</a> and TGB <a href="https://pypi.org/project/py-tgb/"><img src="https://img.shields.io/pypi/v/py-tgb.svg?color=brightgreen"></a>. See my talk at the temporal graph reading group on <a href="https://youtu.be/QmYZOT_so9U">YouTube</a>. 
+          Thanks to all my amazing coauthors: Farimah Poursafaei, Jacob Danovitch, Matthias Fey, Weihua Hu, Emanuele Rossi, Jure Leskovec, Michael Bronstein, Guillaume Rabusseau and Reihaneh Rabbany. </small></li>
+        <br> -->
+
+        <!-- <li> <small><b>[2023/09]</b> Excited to be organizing the Temporal Graph Learning Workshop @ NeurIPS 2023 along with many great co-organizers! The submission portal is now open on <a href="https://openreview.net/group?id=NeurIPS.cc/2023/Workshop/TGL">OpenReview</a> and call for paper on the <a href="https://sites.google.com/view/tglworkshop-2023/home">workshop website</a>. The submission deadline is <b>Oct. 3rd, 2023, AoE</b> and hope to see your work there! </small> </li>
+        <br> -->
+        
+        <!-- <li> <small>[2023/08] The pre-print for our work <a href="https://arxiv.org/abs/2308.07883">Towards Temporal Edge Regression: A Case Study on Agriculture Trade Between Nations</a> is now available. Thanks to my amazing collaborators at Mila and University of Cambridge!</small></li>
+        <br> -->
+        
+        <!-- <li> <small><b>[2023/08]</b> Our work <a href="https://openreview.net/forum?id=moVEUgJaHO">"GPS++: Reviving the Art of Message Passing for Molecular Property Prediction"</a> is accepted at TMLR. Thanks to all my amazing collaborators at <a href="https://www.valencediscovery.com/">Valence</a>, <a href="https://www.graphcore.ai/">graphcore</a> and Mila. </small> </li>
+        <br> -->
+        
+        <!-- <li> <small>[2023/07] Excited to see our <a href="https://github.com/datamol-io/graphium">Graphium Library</a> being released : a powerful and flexible python library for training molecular GNNs at scale. 
+          See Dominique Beaini's excellent <a href="https://m2d2.io/blog/posts/graphium-a-powerful-and-flexible-python-library-for-training-molecular-gnns-at-scale/"> blog post</a> for more details on the library. </small></li>
+        <br> -->
+        
+        <!-- <li> <small>[2023/07] The pre-print for our work <a href="https://arxiv.org/abs/2307.01026">"Temporal Graph Benchmark for Machine Learning on Temporal Graphs"</a> is now available. 
+          Check out our project on <a href="https://pypi.org/project/py-tgb/"><img src="https://img.shields.io/pypi/v/py-tgb.svg?color=brightgreen"></a> and our website <a href="https://tgb.complexdatalab.com/"><img src="https://img.shields.io/badge/website-blue"></a>.
+          Thanks to all my amazing collaborators from Mila, McGill, Kumo.AI, Imperial College London, University of Montreal, Stanford and Oxford. </small></li> -->
+<!--         
+        <li> <small><b>[2023/05]</b> Travelled to PAKDD 2023 to present our accepted work <a href="https://arxiv.org/abs/2305.08750"> Fast and Attributed Change Detection on Dynamic Graphs with Density of States </a>. Thanks to my amazing co-authors <a href="https://jacobdanovitch.me/">Jacob Danovitch</a>, <a href="https://www-labs.iro.umontreal.ca/~grabus/">Guillaume Rabusseau</a> and <a href="http://www.reirab.com/"> Reihaneh Rabbany </a></small> </li>
+        <br> -->
+
+        <!-- <li> <small><b>[2023/02]</b> Happy to annouce the weekly <a href="https://www.cs.mcgill.ca/~shuang43/rg.html"> Temporal Graph Reading Group</a> organized by Farimah Poursafaei, Julia Gastinger and me. Join us weekly at 11am EDT on Thursdays! </small></li>
+        <br> -->
+        <!-- <li> [2023/02] The pre-print for our work <a href="https://arxiv.org/abs/2302.01204">"Laplacian Change Point Detection for Single and Multi-view Dynamic Graphs"</a> is now available. 
+            In this work, we extend our prior work <a href="https://www.kdd.org/kdd2020/accepted-papers/view/laplacian-change-point-detection-for-dynamic-graphs">LAD</a> to multi-view dynamic graphs.
+            Thanks to my co-authors: Samy Coulombe, Yasmeen Hitti, Reihaneh Rabbany, Guillaume Rabusseau. </li> -->
+        
+        <!-- <li> <small><b>[2023/01]</b> See our <a href="https://towardsdatascience.com/temporal-graph-learning-in-2023-d28d1640dbf2">blog post</a> providing an overview of trends and future directions in Temporal Graph Learning so far in 2023. Thanks to my amazing co-authors: <a href="https://emanuelerossi.co.uk/">Emanuele Rossi</a>, <a href="https://migalkin.github.io/cv/">Michael Galkin</a> and <a href="https://scholar.google.com/citations?user=_s2HT_0AAAAJ&hl=en">Kellin Pelrine</a>. Also thanks to <a href="https://scholar.google.ca/citations?user=gZ7HEsMAAAAJ&hl=en">Farimah Poursafaei</a> for suggestions. </small></li>
+        <br> -->
+
+        <!-- <h4>2022</h4> -->
+        <!-- <li> [2022/12] The Temporal Graph Learning (TGL) Workshop was hosted at NeurIPS 2022. Happy to see many in person and online attendees interested in TGL. You can find the list of accepted papers and talk recordings on the  <a href="https://neurips.cc/virtual/2022/workshop/49999">NeurIPS virtual site</a> and more information on the <a href="https://sites.google.com/view/tglworkshop2022/home">workshop website</a></li>  -->
+        <!-- <li> [2022/11] I was invited to give a talk at the <a href="https://hannes-stark.com/logag-reading-group">LoGaG reading group</a> about our <a href="https://openreview.net/forum?id=1GVpwr2Tfdg">recent work</a>. The video is now available <a href="https://youtu.be/nGBP_JjKGQI">youtube</a>.</li>  -->
+        <!-- <li> [2022/10] The companion blog post for our NeurIPS 2022 Datasets and Benchmarks Track <a href="https://openreview.net/forum?id=1GVpwr2Tfdg">paper</a> is now available on <a href="https://medium.com/@shenyanghuang1996/towards-better-link-prediction-in-dynamic-graphs-cdb8bb1e24e9">medium</a> and <a href="https://complexdata.ml/blog/2022/10/20/dgb">our lab website</a></li> -->
+        <!-- <li> [2022/9] Our submission <a href="https://openreview.net/forum?id=1GVpwr2Tfdg"> Towards Better Evaluation for Dynamic Link Prediction </a> has been accepted to the Datasets and Benchmarks Track at NeurIPS 2022! Huge thanks to my co-authors! </li> -->
+        <!-- <li> [2022/9] The TGL workshop <a href="https://openreview.net/group?id=NeurIPS.cc/2022/Workshop/TGL">Submission Portal</a> is now available. 
+          Follow us on <a href="https://twitter.com/tgl_workshop">Twitter</a> for updates!</li> -->
+        <!-- <li> [2022/6] I am co-organizing the <a href="https://sites.google.com/view/tglworkshop2022/home">Temporal Graph Learning Workshop@NeurIPS 2022</a>. 
+          Thanks to my amazing co-organizers: Farimah Poursafaei, Kellin Pelrine, Aarash Feizi, Jianan Zhao, Meng Qu, Reihaneh Rabbany, Jian Tang,  Michael Bronstein. </li> -->
+    </div>
+  </div>
+</section>
+
+
+
+<!-- <br>
+ -->
+<section id="publication" class="some-section">
+  <div class="container">
+    <div class="row">
+	<div class="col-sm-2"></div>
+	<div class="col-sm-8">
+	<div class="listing" style="clear:both;">
+	  <div class="left">
+      <!-- use APA -->
+	    <h3 style="text-align:center"> Publications </h3>
+        <h4> 2024 </h4>
+        <li> Shirzadkhani, R.*, Ngo, T. G. B.*, Shamsi, K.* <b><u>Huang, S.</u></b>, Poursafaei, F., Azad, P., Rabbany, R., Coskunuzer, B., Rabusseau, G., and Akcora, G. C.
+          <i>Towards Neural Scaling Laws for Foundation Models on Temporal Graphs</i> (preprint)
+          <br>
+          <a href="https://arxiv.org/abs/2406.10426"><img src="https://img.shields.io/badge/arXiv-pdf-yellowgreen"></a> 
+          <a href="https://github.com/benjaminnNgo/ScalingTGNs"><img src="https://img.shields.io/badge/Github-link-lightgrey"></a>
+        </li>
+
+
+        <li> Gastinger, J.* <b><u>Huang, S.*</u></b>, Galkin, M., Loghmani, E., Parviz, A., Poursafaei, F., Danovitch, J., Rossi, E., Koutis, I., 
+          Stuckenschmidt, H., Rabbany, R., and Rabusseau, G.
+          <i>TGB 2.0: A Benchmark for Learning on Temporal Knowledge Graphs and Heterogeneous Graphs</i> (preprint)
+          <br>
+          <a href="https://arxiv.org/abs/2406.09639v1"><img src="https://img.shields.io/badge/arXiv-pdf-yellowgreen"></a> 
+          <a href="https://github.com/JuliaGast/TGB2"><img src="https://img.shields.io/badge/Github-link-lightgrey"></a>
+          <a href="https://github.com/shenyangHuang/TGB"><img src="https://img.shields.io/badge/Github-link-lightgrey"></a>
+        </li>
+
+
+
+
+        <li> Petrović., K., <b><u>Huang, S.</u></b>, Poursafaei, F., and Veličković, P.
+          <i>Temporal Graph Rewiring with Expander Graphs</i> (ICML 2024 Workshop on Geometry-grounded Representation Learning and Generative Modeling)
+          <br>
+          <a href="https://arxiv.org/abs/2406.02362"><img src="https://img.shields.io/badge/arXiv-pdf-yellowgreen"></a> 
+          <a href="https://github.com/kpetrovicc/TGR"><img src="https://img.shields.io/badge/Github-link-lightgrey"></a>
+        </li>
+
+        <li> Kläser, K., Banaszewski, B., Maddrell-Mander, S., McLean, C., Müller, L., Parviz, A., <b><u>Huang, S.</u></b> and Fitzgibbon, A.
+          <i>MiniMol: A Parameter-Efficient Foundation Model for Molecular Learning</i> (Spotlight Poster at ICML 2024 Workshop on Efficient and Accessible Foundation Models for Biological Discovery)
+          <br>
+          <a href="https://arxiv.org/pdf/2404.14986"><img src="https://img.shields.io/badge/arXiv-pdf-yellowgreen"></a>
+        </li>
+
+        <li> Shirzadkhani, R., <b><u>Huang, S.</u></b>, Leung, A. and Rabbany, R.
+          <i>Static graph approximations of dynamic contact networks for epidemic forecasting</i> (Scientific Reports)
+          <br>
+          <a href="https://www.nature.com/articles/s41598-024-62271-0"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
+          <a href="https://github.com/rshirzadkhani/EpidemyForecast"><img src="https://img.shields.io/badge/Github-link-lightgrey"></a>
+        </li>
+
+        <li> Shamsi, K., Poursafaei, F., <b><u>Huang, S.,</u></b> Ngo, B., Coskunuzer, B. and Akcora, C.
+          <i>Graphpulse: Topological representations for temporal graph property prediction</i> (ICLR 2024)
+          <br>
+          <a href="https://openreview.net/forum?id=DZqic2sPTY"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
+          <a href="https://github.com/kiarashamsi/GraphPulse"><img src="https://img.shields.io/badge/Github-link-lightgrey"></a>
+        </li>
+
+        <li> Beaini, D., <b><u>Huang, S.,</u></b> Cunha, J.A., Li, Z., Moisescu-Pareja, G., Dymov, O., Maddrell-Mander, S., McLean, C., Wenkel, F., Müller, L., Mohamud, J., Parviz, A., Craig, M., Koziarski, M., Lu, J., Zhu, Z., Gabellini, C., Klaser, K., Dean, J., Wognum, C., Sypetkowski, M., Rabusseau, G., Rabbany, R., Tang, J., Morris, C., Koutis, I., Ravanelli, M., Wolf, G., Tossou, P., Mary, H., Bois, T., Fitzgibbon, A., Banaszewski, B., Martin, C., and Masters, D.
+          <i>Towards Foundational Models For Molecular Learning on Large-scale Multi-task Datasets</i> (ICLR 2024)
+          <br>
+          <a href="https://openreview.net/forum?id=Zc2aIcucwc"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
+          <a href="https://arxiv.org/abs/2310.04292"><img src="https://img.shields.io/badge/arXiv-pdf-yellowgreen"></a>
+          <a href="https://graphium-docs.datamol.io/stable/"><img src="https://img.shields.io/badge/website-blue"></a>
+          <a href="https://github.com/datamol-io/graphium"><img src="https://img.shields.io/badge/Github-link-lightgrey"></a>
+          <a href="https://zenodo.org/record/8372621"><img src="https://img.shields.io/badge/datasets-green"></a>
+          <a href="https://zenodo.org/record/8427533"><img src="https://img.shields.io/badge/datasets-green"></a>
+        </li>
+
+        <li> Shirzadkhani, R., <b><u>Huang, S.,</u></b>, Kooshafar, E., Rabbany, R., and Poursafaei, F. 
+          <i>Temporal Graph Analysis with TGX</i> (WSDM 2024 Demo Track)
+          <br>
+          <a href="https://arxiv.org/abs/2402.03651"><img src="https://img.shields.io/badge/arXiv-pdf-yellowgreen"></a>
+          <a href="https://github.com/ComplexData-MILA/TGX"><img src="https://img.shields.io/badge/Github-link-lightgrey"></a>
+          <a href="https://pypi.org/project/py-tgx/"><img src="https://img.shields.io/pypi/v/py-tgx.svg?color=brightgreen"></a>
+        </li>
+        
+        <br>
+
+
+        <h4> 2023 </h4>
+
+        <li> <b><u>Huang, S.*,</u></b>, Poursafaei, F.*, Danovitch, J.,  Fey, M., Hu, W., Rossi, E., Leskovec, J., Bronstein, M., Rabusseau G. and Rabbany R. 
+          <i>Temporal Graph Benchmark for Machine Learning on Temporal Graphs</i> (NeurIPS 2023 Datasets and Benchmarks Track) 
+          <br>
+          <a href="https://youtu.be/QmYZOT_so9U"><img src="https://img.shields.io/badge/Youtube-Recording-orange"></a>
+          <a href="https://openreview.net/forum?id=qG7IkQ7IBO"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
+          <a href="https://arxiv.org/abs/2307.01026"><img src="https://img.shields.io/badge/arXiv-pdf-yellowgreen"></a>
+          <a href="https://pypi.org/project/py-tgb/"><img src="https://img.shields.io/pypi/v/py-tgb.svg?color=brightgreen"></a>
+          <a href="https://tgb.complexdatalab.com/"><img src="https://img.shields.io/badge/website-blue"></a>
+          <a href="https://docs.tgb.complexdatalab.com/"><img src="https://img.shields.io/badge/docs-orange"></a>
+          <a href="https://github.com/shenyangHuang/TGB"><img src="https://img.shields.io/badge/Github-link-lightgrey"></a>
+          <a href="https://drive.google.com/file/d/1wr7ZS0U_jAuFKciPJsO93U-yRHx1Wysg/view?usp=sharing"><img src="https://img.shields.io/badge/Talk%20-Slides-blue"></a>
+          <a href="https://towardsdatascience.com/temporal-graph-benchmark-bb5cc26fcf11"><img src="https://img.shields.io/badge/TDS-Blog-blue"></a>
+        </li>
+        
+        <li> <b><u>Huang, S.,</u></b>, Danovitch, J., Rabusseau G., Rabbany R. 
+          <i>Fast and Attributed Change Detection on Dynamic Graphs with Density of States</i> (PAKDD 2023) 
+          <br> 
+          <a href="https://arxiv.org/abs/2305.08750"><img src="https://img.shields.io/badge/arXiv-pdf-yellowgreen"></a>
+          <a href="https://link.springer.com/chapter/10.1007/978-3-031-33374-3_2"><img src="https://img.shields.io/badge/Paper-link-important"></a>
+          <a href="https://youtu.be/20zusjJZNdo"><img src="https://img.shields.io/badge/Youtube-Recording-orange"></a>
+          <a href="https://link.springer.com/book/10.1007/978-3-031-33374-3"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
+          <a href="https://github.com/shenyangHuang/SCPD"><img src="https://img.shields.io/badge/Github-link-lightgrey"></a>
+        </li>
+
+        <li><b><u>Huang, S.,</u></b> Coulombe, S., Hitti, Y., Rabbany, R., Rabusseau, G. <i>Laplacian Change Point Detection for Single and Multi-view Dynamic Graphs</i> (ACM Transactions on Knowledge Discovery from Data, TKDD) 
+          <br> <a href="https://dl.acm.org/doi/10.1145/3631609"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
+          <a href="https://github.com/shenyangHuang/multiLAD"><img src="https://img.shields.io/badge/Github-link-lightgrey"></a> 
+          </li>
+        
+        <li> Masters, D., Dean, J. Klaser, K., Li, Z., Mander, S., Sanders, A., Helal, H., Beker, D., Fitzgibbon, A., <b><u>Huang, S.,</u></b> Rampášek, L., Beaini, D.
+          <i>GPS++: Reviving the Art of Message Passing for Molecular Property Prediction</i> (TMLR)
+          <br> 
+          <a href="https://openreview.net/pdf?id=moVEUgJaHO"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
+          <a href="https://openreview.net/forum?id=moVEUgJaHO"><img src="https://img.shields.io/badge/TMLR-OpenReview-red"></a> 
+          <a href="https://arxiv.org/abs/2302.02947"><img src="https://img.shields.io/badge/arXiv-pdf-yellowgreen"></a> 
+          <a href="https://github.com/graphcore/ogb-lsc-pcqm4mv2"><img src="https://img.shields.io/badge/Github-link-lightgrey"></a> 
+          </li>
+        </li>
+
+        <li> Pupneja, Y., Zou, J., Lévy, S. <b><u>Huang, S.,</u></b> 
+          <i>Understanding Opinions Towards Climate Change on Social Media</i> (NeurIPS 2023 Workshop: Tackling Climate Change with Machine Learning)
+          <br> 
+          <a href="https://www.climatechange.ai/papers/neurips2023/27"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
+          <a href="https://arxiv.org/abs/2312.01217"><img src="https://img.shields.io/badge/arXiv-pdf-yellowgreen"></a>
+          <a href="https://docs.google.com/presentation/d/1IgGHXLh-9senvS4kujEA2E3jA5IQlmFMYV0mV4ib79g/edit?usp=sharing"><img src="https://img.shields.io/badge/Talk%20-Slides-blue"></a>
+          <a href="https://docs.google.com/presentation/d/1J2IyxnvXmN6-jYSjDQ6JHXXsvAHFlpZJ/edit?usp=sharing&ouid=112810493482971405237&rtpof=true&sd=true"><img src="https://img.shields.io/badge/NeurIPS-poster-brightgreen"></a> 
+          </li>
+        </li>
+
+
+        <li>  Jiang, L., Zhang, C., Poursafaei, F., <b><u>Huang, S.,</u></b>
+          <i>Towards Temporal Edge Regression: A Case Study on Agriculture Trade Between Nations</i> (preprint)
+          <br>
+          <a href="https://arxiv.org/abs/2308.07883"><img src="https://img.shields.io/badge/arXiv-pdf-yellowgreen"></a>
+          <a href="https://github.com/scylj1/GNN_Edge_Regression"><img src="https://img.shields.io/badge/Github-link-lightgrey"></a>
+        </li>
+        
+        <br>
+
+
+        <h4> 2022 </h4>
+        <li> Poursafaei, F.*, <b><u>Huang, S.*,</u></b> Pelrine, K., Rabbany, R. <i>Towards Better Evaluation for Dynamic Link Prediction</i> (NeurIPS 2022 Datasets and Benchmarks Track)
+          <br> <a href="https://openreview.net/forum?id=1GVpwr2Tfdg"><img src="https://img.shields.io/badge/NeurIPS-OpenReview-red"></a>
+          <a href="https://arxiv.org/abs/2207.10128"><img src="https://img.shields.io/badge/arXiv-pdf-yellowgreen"></a>
+          <a href="https://pypi.org/project/dgb/"><img src="https://img.shields.io/pypi/v/dgb.svg?color=brightgreen"></a> 
+          <a href="https://github.com/fpour/dgb"><img src="https://img.shields.io/badge/Github-link-lightgrey"></a> 
+          <a href="https://medium.com/@shenyanghuang1996/towards-better-link-prediction-in-dynamic-graphs-cdb8bb1e24e9"><img src="https://img.shields.io/badge/Medium-Blog-brightgreen"></a>
+          <a href="https://youtu.be/nGBP_JjKGQI"><img src="https://img.shields.io/badge/Video-link-green"></a> 
+          <a href="https://zenodo.org/records/7213796#.Y8QicOzMJB2"><img src="https://img.shields.io/badge/datasets-green"></a>
+        </li>
+        <br>
+
+        <h4> 2021 </h4>
+        <li><b><u>Huang, S.</u></b>, Wang, K.,  Rabusseau, G., & Makhzani, A. <i>Few Shot Image Generation via Implicit Autoencoding of Support Sets</i> 5th Workshop on Meta-Learning at NeurIPS 2021 
+        <br> <a href="https://openreview.net/forum?id=fem00ckyS8t"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
+        <a href="https://neurips.cc/virtual/2021/workshop/21867"><img src="https://img.shields.io/badge/Video-link-green"></a> 
+        <a href="https://drive.google.com/file/d/13uKeMMwN1nWjY130x0hYj2baZI5mjTox/view?usp=sharing"><img src="https://img.shields.io/badge/NeurIPS-poster-brightgreen"></a> 
+        <a href="https://github.com/mengyu-yang/ISSA"><img src="https://img.shields.io/badge/Github-link-lightgrey"></a></li>
+
+        <li><b><u>Huang, S.</u></b>, Rabusseau, G. & Rabbany, R. <i>Scalable Change Point Detection for Dynamic Graphs</i> 6th Outlier Detection and Description Workshop at KDD 2021 
+        <br> <a href="https://oddworkshop.github.io/assets/papers/9.pdf"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
+        <a href="https://drive.google.com/file/d/1XqYvNGIf7iciCoFn8ARpuJi0dIobvmDS/view?usp=sharing"><img src="https://img.shields.io/badge/Video-link-green"></a> </li>
+
+        <li><b><u>Huang, S.</u></b>, François-Lavet, V., & Rabusseau, G. <i>Understanding Capacity Saturation in Incremental Learning</i>. Canadian Conference on Artificial Intelligence 2021  
+        <br> <a href="https://caiac.pubpub.org/pub/hddynxn4/release/1"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
+        <a href="https://github.com/shenyangHuang/CapacitySaturation"><img src="https://img.shields.io/badge/Github-link-lightgrey"></a> </li>
+
+        <li>Ding, X., <b><u>Huang, S.,</u></b> Leung, A., Rabbany, R. <i>Incorporating dynamic flight network in SEIR to model mobility between populations</i>. Applied Network Science, Special issue on Epidemics Dynamics & Control on Networks 
+        <br> <a href="https://appliednetsci.springeropen.com/articles/10.1007/s41109-021-00378-3"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
+        <a href="https://mila.quebec/en/article/flight-seir-incorporating-flight-data-to-improve-epidemiological-modelling-and-disease-outbreak-prevention/"><img src="https://img.shields.io/badge/blog-post-blueviolet"></a> 
+        <a href="https://www.quebecscience.qc.ca/metamorphose/modelisation-plus-fine-pandemie-grace-donnees-trafic-aerien/"><img src="https://img.shields.io/badge/Media-Coverage-brightgreen"></a></li>
+        <br>
+
+        <h4> 2020 </h4>
+		    <li><b><u>Huang, S.</u></b>, Hitti, Y., Rabusseau, G. & Rabbany, R. <i>Laplacian Change Point Detection for Dynamic Graphs</i>. (KDD 2020) 
+        <br> <a href="https://dl.acm.org/doi/10.1145/3394486.3403077"><img src="https://img.shields.io/badge/KDD-2020-red"></a> 
+        <a href="https://arxiv.org/abs/2007.01229"><img src="https://img.shields.io/badge/arXiv-pdf-yellowgreen"></a> 
+        <a href="https://github.com/shenyangHuang/LAD"><img src="https://img.shields.io/badge/Github-link-lightgrey"></a> 
+        <a href="https://complexdatalabmcgill.github.io/papers/post-andy-kdd2020paper/"><img src="https://img.shields.io/badge/blog-post-blueviolet"></a> 
+        <a href="https://drive.google.com/file/d/1jBgNwCrKdOiuAwH28qlH6amtpYXzog9F/view?usp=sharing"><img src="https://img.shields.io/badge/slides-pdf-blue"></a> </li>
+
+        <li>Leung, A., Ding, X., <b><u>Huang, S.,</u></b> Rabbany, R. <i>Contact Graph Epidemic Modelling of COVID-19 for Transmission and Intervention Strategies</i>. 
+        <br> <a href="https://arxiv.org/abs/2010.03081"><img src="https://img.shields.io/badge/arXiv-pdf-yellowgreen"></a></li>
+
+        <li> Alletto, S., <b><u>Huang, S.</u></b>, François-Lavet, V., Nakata, Y., & Rabusseau, G. <i>RandomNet: Towards Fully Automatic Neural Architecture Design for Multimodal Learning.</i> AAAI 2020 Meta-Eval Workshop 
+        <br> <a href="http://eval.how/aaai-2020/REAIS19_p9.pdf"><img src="https://img.shields.io/badge/Paper-link-important"></a></li>
+        <br>
+
+        <h4> 2019 </h4>
+        <li><b><u>Huang, S.</u></b>, François-Lavet, V., & Rabusseau, G. <i>Neural Architecture Search for Class-incremental Learning</i> 
+        <br> <a href="https://arxiv.org/abs/1909.06686"><img src="https://img.shields.io/badge/arXiv-pdf-yellowgreen"></a> (previous version of "Understanding Capacity Saturation in Incremental Learning") </li>
+        <br>
+
+        <h4> 2018 </h4>
+        <li><b><u>Huang, S.</u></b>, François-Lavet, V., Rabusseau, G. & Pineau, J. <i>Exploring Continual Learning Using Incremental Architecture Search</i> NeuIPS Continual Learning Workshop 2018. 
+        <br> <a href="https://marcpickett.com/cl2018/CL-2018_paper_34.pdf"><img src="https://img.shields.io/badge/Paper-link-important"></a> <a href="https://github.com/shenyangHuang/IAS"><img src="https://img.shields.io/badge/Github-link-lightgrey"></a> </li>
+        <br>
+
+	  </div>
+	</div>
+	<!-- <div class="col-sm-2"></div>
+      </div>
+    </div>
+  </div> -->
+</section>
+
+
+<section id="blog" class="some-section">
+  <div class="container">
+    <div class="row">
+	<div class="col-sm-2"></div>
+	<div class="col-sm-8">
+	<div class="listing" style="clear:both;">
+	  <div class="left">
+      <!-- use APA -->
+	    <h3 style="text-align:center"> Blogs </h3>
+
+
+      <div class="list-group">
+        <a href="https://towardsdatascience.com/temporal-graph-learning-in-2024-feaa9371b8e2" class="list-group-item list-group-item-action"> Temporal Graph Learning in 2024</a>
+        <a href="https://towardsdatascience.com/temporal-graph-benchmark-bb5cc26fcf11" class="list-group-item list-group-item-action"> Temporal Graph Benchmark </a> 
+        <a href="https://towardsdatascience.com/temporal-graph-learning-in-2023-d28d1640dbf2" class="list-group-item list-group-item-action"> Temporal Graph Learning in 2023 </a>
+        <a href="https://medium.com/p/cdb8bb1e24e9" class="list-group-item list-group-item-action">Towards Better Link Prediction in Dynamic Graphs </a>
+        <a href="https://mila.quebec/en/article/flight-seir-incorporating-flight-data-to-improve-epidemiological-modelling-and-disease-outbreak-prevention/" class="list-group-item list-group-item-action">Flight-SEIR, Flight Data for Epidemiological Modelling </a>
+        <a href="https://complexdatalabmcgill.github.io/papers/post-andy-kdd2020paper/" class="list-group-item list-group-item-action">Laplacian Change Point Detection for Dynamic Graphs</a>
+      </div>
+
+      </div>
+    </div>
+
+  </section>
+<!-- 
+<br>
+ -->
+
+<section id="teaching" class="some-section">
+  <div class="container">
+    <div class="row">
+  <div class="col-sm-2"></div>
+  <div class="col-sm-8">
+  <div class="listing" style="clear:both;">
+    <div class="left">
+      <!-- use APA -->
+      <h3 style="text-align:center"> Teaching </h3>
+        <li>Winter 2024, Mentor <a href="https://www.cl.cam.ac.uk/teaching/2324/L65/">Geometric Deep Learning L65</a>, University of Cambridge </li>
+        <li>Winter 2023, Mentor, <a href="https://www.cl.cam.ac.uk/teaching/2122/L45/">Representation Learning on Graphs and Networks L45</a>, University of Cambridge</li>
+        <li>Fall 2022, Guest Lecturer, <a href="https://docs.google.com/presentation/d/1v9SZ9dYAHAapD-C7YVpsQqf76av2UygFkXpfICpPI9U/edit?usp=sharing">Anomaly Detection for Dynamic Graphs (updated slides)</a>, <a href="http://www.reirab.com/Teaching/NS22/index.html">COMP 599 Network Science</a>, McGill University</li>
+        <li>Fall 2021, Guest Lecturer, <a href="https://docs.google.com/presentation/d/1ukJscH3GOhffgdlSyl9RDpvnbYtrxqS71n9JdOpNMZ8/edit?usp=sharing">Anomaly Detection for Dynamic Graphs</a>, <a href="http://www.reirab.com/Teaching/NS21/index.html">COMP 599 Network Science</a>, McGill University</li>
+        <li>Fall 2021, TA, <a href="http://www.reirab.com/Teaching/NS21/index.html">COMP 599 Network Science</a>, McGill University</li>
+        <li>Winter 2020, TA, COMP 250, Introduction to Computer Science, McGill University</li>
+        <li>Fall 2019, TA, COMP 202, Introduction to Programming, McGill University</li>
+
+      <br>
+      <h3 style="text-align:center"> Services </h3>
+        <li>Organizer of the weekly <a href="https://www.cs.mcgill.ca/~shuang43/rg.html"> Temporal Graph Reading Group</a> </li>
+        <li>Organizer of the Temporal Graph Learning Community Slack, see <a href="https://www.cs.mcgill.ca/~shuang43/rg.html">here</a> to join </li>
+        <li>Scientific Reports Reviewer 2024, 2 papers</li>
+        <li>Organization Chair for <a href="https://sites.google.com/view/tglworkshop-2023/home">Temporal Graph Learning Workshop@NeurIPS 2023</a> </li>
+        <li>Organization Chair for <a href="https://sites.google.com/view/tglworkshop2022/home">Temporal Graph Learning Workshop@NeurIPS 2022</a> </li>
+        <li>NeurIPS 2023 Datasets and Benchmarks Track Reviewer</li>
+        <li>NeurIPS 2022 Datasets and Benchmarks Track Reviewer</li>
+        <li>Reviewer for Transactions on Machine Learning Research (TMLR) journal  2023</li>
+        <li>KDD 2021 External Reviewer</li>
+        <li>IEEE Transactions on Neural Networks and Learning Systems Reviewer 2021</li>
+        <li>ECML PKDD 2020 Program Committee Member</li>
+
+      <h3 style="text-align:center"> Awards and Scholarships </h3>
+        <li><a href="https://www.nserc-crsng.gc.ca/nserc-crsng/fundingdecisions-decisionsfinancement/scholarshipsandfellowships-concoursdebourses/index_eng.asp"> NSERC Postgraduate Scholarships-Doctoral (PGS D) Award</a>, 2022-2025</li>
+        <li> <a href="https://frq.gouv.qc.ca/en/2022-2023-competition-results/">Fonds de recherche du Québec – Nature et Technologies (FRQNT) Doctoral Award</a>, 2022-2026</li>
+        <li> Scientist in Residence Program, Valence Labs and Mila, 2023</li>
+        <li> McGill Graduate Research Enhancement and Travel Awards (GREAT awards), 2023 </li>
+        <li> Mitacs Accelerate Award, 2022</li>
+        <li><a href="https://www.nserc-crsng.gc.ca/students-etudiants/ug-pc/usra-brpc_eng.asp">NSERC Undergraduate Student Research Awards</a>, 2018</li>
+        <li>McGill Undergraduate Computer Science Research Award, 2nd Place Winner, 2018</li>
+        <li>McGill Physics Hackathon, 2nd Place Winner, 2017</li>
+        <li><a href="https://www.nserc-crsng.gc.ca/students-etudiants/ug-pc/usra-brpc_eng.asp">NSERC Undergraduate Student Research Awards</a>, 2016</li>
+        <!-- <li> <a href="https://frq.gouv.qc.ca/en/2022-2023-competition-results/">Fonds de recherche du Québec – Nature et Technologies (FRQNT) Doctoral Award</a>(amount: 84,000 CAD over 4 years), 2022-2026</li>
+        <li><a href="https://www.nserc-crsng.gc.ca/students-etudiants/ug-pc/usra-brpc_eng.asp">NSERC Undergraduate Student Research Awards</a>(amount: 6500 CAD), 2018</li>
+        <li>McGill Undergraduate Computer Science Research Award, 2nd place winner, (amount: 300 CAD), 2018</li>
+        <li>McGill Physics Hackathon, 2nd place winner, (amount: 100 CAD), 2017</li>
+        <li><a href="https://www.nserc-crsng.gc.ca/students-etudiants/ug-pc/usra-brpc_eng.asp">NSERC Undergraduate Student Research Awards</a>(amount: 5600 CAD), 2016</li> -->
+
+
+      <h3 style="text-align:center"> Mentorship </h3>
+        <li> 2024 April-May, Research Intern, <a href="https://de.linkedin.com/in/julia-gastinger-a6ab0b177">Julia Gastinger</a>, TGB 2.0 </li>
+        <li> 2024, Research Assistant, <a href="https://www.linkedin.com/in/razieh-shirzadkhani/">Razieh Shirzadkhani</a> </li>
+        <li> 2024, Project Mentor, Qianyi Liu and <a href="https://www.linkedin.com/in/zak-buzzard-bb21811b9/">Zak Buzzard</a>, Better time encoding models in temporal GNNs.</li>
+        <li> 2024, Project Mentor, Dobromir Marinov and Lauren R. Wilkes, Adversarial Attacks on continuous-time financial networks</li>
+        <li> 2024, Project Mentor, Kiril Bikov and Riccardo Conci, Looking into the past: exploring time dependencies beyond exponential decay</li>
+        <li> 2023-2024, Research Intern, <a href="https://www.linkedin.com/in/shahrad-m-88970b212/?originalSubdomain=ca"></a>Shahrad Mohammadzadeh, better temporal graph learning methods.</li>
+        <li> 2022-2023, Research Assistant, <a href="https://www.linkedin.com/in/razieh-shirzadkhani/">Razieh Shirzadkhani</a>, Disease Modeling with Dynamic Graphs & TGX package </li>
+        <li> 2023, Project Mentor, Lekang Jiang and Caiqi Zhang, <a href="https://arxiv.org/abs/2308.07883">Towards Temporal Edge Regression: A Case Study on Agriculture Trade Between Nations</a></li>
+        <li> 2023, Project Mentor, Xiangjian Jiang and Yanyi Pu, <a href="https://nips.cc/media/neurips-2023/Slides/76330.pdf">Exploring Time Granularity on Temporal Graphs for Dynamic Link Prediction in Real-world Networks</a></li>
+        <li> 2022, Research Assistant, Abu bakar Daud, <a href="https://pypi.org/project/dgb/"> pypi package </a>for Towards better dynamic link prediction </li>
+    </div>
+  </div>
+  <!-- <div class="col-sm-2"></div>
+      </div>
+    </div>
+  </div> -->
+</section>
+
+<br>
+<br>
+
+
+<!-- <section id="teaching" class="some-section">
+  <div class="container">
+    <div class="row">
+	<div class="col-sm-2"></div>
+	<div class="col-sm-8">
+	<div class="listing" style="clear:both;">
+	  <div class="left">
+	      <h3>Teaching</h3>
+        COMP 767-002: <a href="./COMP767/index.html"> Probabilistic Graphical Models </a> (Fall 2019) <br/>
+	      <font color="gray">CPSC 532R <i>(at UBC) </i>: <a href="./532R/index.html"> Advanced Topics in AI: Graphical Models</a> (Winter 2018)</font> <br/>
+	  </div>
+	</div>
+	<div class="col-sm-2"></div>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Scrolling Nav JavaScript -->
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/scrolling-nav.js"></script>
+</body>
+
+
+</html>
