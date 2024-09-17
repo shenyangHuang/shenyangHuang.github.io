@@ -143,30 +143,49 @@
           </div>
         </li>
 
-        <!-- <h4>[September 26th, 2024]</h4>
+        <h4>[September 26th, 2024]</h4>
         <li>
           <b>
-              <a href="https://arxiv.org/abs/2406.04897"> From Link Prediction to Forecasting: Information Loss in Batch-based Temporal Graph Learning </a> 
+              <a href="https://arxiv.org/abs/2310.15978"> Graph Deep Learning for Time Series Forecasting  </a> 
           </b>
-          <br> Presenter: <u>Moritz Lampert</u> Julius-Maximilians-Universiät Würzburg, DE
-          <a class="btn btn-info btn-xs" data-toggle="collapse" href="#24sept19bio" role="button" aria-expanded="false" aria-controls="collapseExample">
+          <br> Presenter: <u>Andrea Cini</u> The Swiss AI Lab IDSIA USI-SUPSI & Universit`a della Svizzera italiana, Switzerland.
+          <a class="btn btn-info btn-xs" data-toggle="collapse" href="#24sept26bio" role="button" aria-expanded="false" aria-controls="collapseExample">
             Speaker Bio
           </a>
-          <div class="collapse" id="24sept19bio">
+          <div class="collapse" id="24sept26bio">
             <div class="card card-body">
-              <u>Moritz Lampert</u> is a PhD student at the Chair of Machine Learning for Complex Networks, Center for Artificial Intelligence and Data Science (CAIDAS), Julius-Maximilians-Universität Würzburg, under the supervision of Prof. Ingo Scholtes. His research interests include different aspects of graph representation learning with a current focus on temporal graphs and applications in single-cell biology. Prior to his PhD studies, he completed his master's degree at the same institution.
+              TBD
             </div>
           </div>
           <br> 
-          <a href="https://arxiv.org/abs/2406.04897"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
-          <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#24sept19" role="button" aria-expanded="false" aria-controls="collapseExample">
+          <a href="https://arxiv.org/abs/2310.15978"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
+          <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#24sept26" role="button" aria-expanded="false" aria-controls="collapseExample">
               Abstract
             </a>
-        <div class="collapse" id="24sept19">
+        <div class="collapse" id="24sept26">
         <div class="card card-body">
-          Dynamic link prediction is an important problem considered by many recent works proposing various approaches for learning temporal edge patterns. To assess their efficacy, models are evaluated on publicly available benchmark datasets involving continuous-time and discrete-time temporal graphs. However, as we show in this work, the suitability of common batch-oriented evaluation depends on the datasets' characteristics, which can cause two issues: First, for continuous-time temporal graphs, fixed-size batches create time windows with different durations, resulting in an inconsistent dynamic link prediction task. Second, for discrete-time temporal graphs, the sequence of batches can additionally introduce temporal dependencies that are not present in the data. In this work, we empirically show that this common evaluation approach leads to skewed model performance and hinders the fair comparison of methods. We mitigate this problem by reformulating dynamic link prediction as a link forecasting task that better accounts for temporal information present in the data. We provide implementations of our new evaluation method for commonly used graph learning frameworks.
+          Graph-based deep learning methods have become popular tools to process collections
+          of correlated time series. Differently from traditional multivariate forecasting methods,
+          neural graph-based predictors take advantage of pairwise relationships by conditioning
+          forecasts on a (possibly dynamic) graph spanning the time series collection. The
+          conditioning can take the form of an architectural inductive bias on the neural forecasting
+          architecture, resulting in a family of deep learning models called spatiotemporal graph
+          neural networks. Such relational inductive biases enable the training of global forecasting
+          models on large time-series collections, while at the same time localizing predictions
+          w.r.t. each element in the set (i.e., graph nodes) by accounting for local correlations
+          among them (i.e., graph edges). Indeed, recent theoretical and practical advances in
+          graph neural networks and deep learning for time series forecasting make the adoption
+          of such processing frameworks appealing and timely. However, most of the studies in
+          the literature focus on proposing variations of existing neural architectures by taking
+          advantage of modern deep learning practices, while foundational and methodological
+          aspects have not been subject to systematic investigations. To fill the gap, this paper aims
+          to introduce a comprehensive methodological framework that formalizes the forecasting
+          problem and provides design principles for graph-based predictive models and methods
+          to assess their performance. At the same time, together with an overview of the field, we
+          provide design guidelines, recommendations, and best practices, as well as an in-depth
+          discussion of open challenges and future research directions.
         </div>
-      </li> -->
+      </li>
 
 
         <h4>[October 10th, 2024]</h4>
