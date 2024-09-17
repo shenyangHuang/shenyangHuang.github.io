@@ -278,6 +278,72 @@
       </li>
 
 
+      <h4>[November 7th, 2024]</h4>
+        <li>
+          <b>
+              <a href="https://dl.acm.org/doi/pdf/10.1145/3637528.3671825"> Making Temporal Betweenness Computation Faster and Restless (KDD 2024) </a> 
+          </b>
+          <br> Presenter: <u>Filippo Brunelli</u> European Commission — JRC
+          <a class="btn btn-info btn-xs" data-toggle="collapse" href="#24nov7bio" role="button" aria-expanded="false" aria-controls="collapseExample">
+            Speaker Bio
+          </a>
+          <div class="collapse" id="24nov7bio">
+            <div class="card card-body">
+              TBD
+            </div>
+          </div>
+          <br> 
+          <a href="https://dl.acm.org/doi/pdf/10.1145/3637528.3671825"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
+          <a href="https://github.com/piluc/TWBC"><img src="https://img.shields.io/badge/Github-link-lightgrey"></a>
+          <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#24nov7" role="button" aria-expanded="false" aria-controls="collapseExample">
+              Abstract
+            </a>
+        <div class="collapse" id="24nov7">
+        <div class="card card-body">
+          Buß et al [KDD 2020] recently proved that the problem of computing the betweenness of all nodes of a temporal graph is computationally hard in the case of foremost and fastest paths, while it is solvable in time 𝑂 (𝑛^3 𝑇^2) in the case of shortest and shortest cforemost paths, where 𝑛 is the number of nodes and 𝑇 is the number of distinct time steps. A new algorithm for temporal betweenness computation is introduced in this paper. In the case of shortest and shortest foremost paths, it requires 𝑂 (𝑛 +𝑀) space and runs in time 𝑂 (𝑛𝑀) = 𝑂 (𝑛^3𝑇 ), where 𝑀 is the number of temporal edges, thus significantly improving the algorithm of Buß et al in terms of time complexity (note that 𝑇 is usually large). Experimental evidence is provided that our algorithm performs between twice and almost 250 times better than the algorithm of Buß et al. Moreover, we were able to compute the exact temporal betweenness values of several large temporal graphs with over a million of temporal edges. For such size, only approximate computation was possible by usingthe algorithm of Santoro and Sarpe [WWW 2022]. Maybe more importantly, our algorithm extends to the case of restless walks (that is, walks with waiting constraints in each node), thus providing a polynomial-time algorithm (with complexity 𝑂 (𝑛𝑀)) for computing the temporal betweenness in the case of several different optimality criteria. Such restless computation was known only for the shortest criterion (Rymar et al [JGAA 2023]), with complexity 𝑂 (𝑛^2𝑀𝑇^2). We performed an extensive experimental validation by comparing different waiting constraints and different optimisation criteria. Moreover, as a case study, we investigate six public transit networks including Berlin, Rome, and Paris. Overall we find a general consistency between the different variants of betweenness centrality. However, we do measure a sensible influence of waiting constraints, and note some cases of low correlation for certain pairs of criteria in some networks
+        </div>
+      </li>
+
+
+      <h4>[November 28th, 2024]</h4>
+        <li>
+          <b>
+              <a href="https://arxiv.org/pdf/2408.09918"> Expressive Power of Temporal Message Passing </a> 
+          </b>
+          <br> Presenter: <u>Przemysław Andrzej Wałega</u> University of Oxford, Queen Mary University of London, UK
+          <a class="btn btn-info btn-xs" data-toggle="collapse" href="#24nov28bio" role="button" aria-expanded="false" aria-controls="collapseExample">
+            Speaker Bio
+          </a>
+          <div class="collapse" id="24nov28bio">
+            <div class="card card-body">
+              TBD
+            </div>
+          </div>
+          <br> 
+          <a href="https://arxiv.org/pdf/2408.09918"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
+          <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#24nov28" role="button" aria-expanded="false" aria-controls="collapseExample">
+              Abstract
+            </a>
+        <div class="collapse" id="24nov28">
+        <div class="card card-body">
+          Graph neural networks (GNNs) have recently been adapted to
+          temporal settings, often employing temporal versions of the
+          message-passing mechanism known from GNNs. We divide
+          temporal message passing mechanisms from literature into
+          two main types: global and local, and establish WeisfeilerLeman characterisations for both. This allows us to formally
+          analyse expressive power of temporal message-passing models. We show that global and local temporal message-passing
+          mechanisms have incomparable expressive power when applied to arbitrary temporal graphs. However, the local mechanism is strictly more expressive than the global mechanism
+          when applied to colour-persistent temporal graphs, whose
+          node colours are initially the same in all time points. Our
+          theoretical findings are supported by experimental evidence,
+          underlining practical implications of our analysis.
+        </div>
+      </li>
+
+
+
+
+
     </div>
   </div>
 </section>
