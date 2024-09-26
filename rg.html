@@ -40,6 +40,10 @@
         <a class="page-scroll" href="#schedule"> Upcoming Talks </a>
       </li>
 
+      <li></li>
+        <a class="page-scroll" href="#fall2024"> Fall 2024 </a>
+      </li>
+
       <li>
         <a class="page-scroll" href="#winter2024"> Winter 2024 </a>
       </li>
@@ -118,31 +122,6 @@
 
         <!-- <h4> Summer break, have a nice summer everyone, we will restart in Fall 2024 </h4> -->
 
-        <h4>[September 19th, 2024]</h4>
-          <li>
-            <b>
-                <a href="https://arxiv.org/abs/2406.04897"> From Link Prediction to Forecasting: Information Loss in Batch-based Temporal Graph Learning </a> 
-            </b>
-            <br> Presenter: <u>Moritz Lampert</u> Julius-Maximilians-Universiät Würzburg, DE
-            <a class="btn btn-info btn-xs" data-toggle="collapse" href="#24sept19bio" role="button" aria-expanded="false" aria-controls="collapseExample">
-              Speaker Bio
-            </a>
-            <div class="collapse" id="24sept19bio">
-              <div class="card card-body">
-                <u>Moritz Lampert</u> is a PhD student at the Chair of Machine Learning for Complex Networks, Center for Artificial Intelligence and Data Science (CAIDAS), Julius-Maximilians-Universität Würzburg, under the supervision of Prof. Ingo Scholtes. His research interests include different aspects of graph representation learning with a current focus on temporal graphs and applications in single-cell biology. Prior to his PhD studies, he completed his master's degree at the same institution.
-              </div>
-            </div>
-            <br> 
-            <a href="https://arxiv.org/abs/2406.04897"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
-            <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#24sept19" role="button" aria-expanded="false" aria-controls="collapseExample">
-                Abstract
-              </a>
-          <div class="collapse" id="24sept19">
-          <div class="card card-body">
-            Dynamic link prediction is an important problem considered by many recent works proposing various approaches for learning temporal edge patterns. To assess their efficacy, models are evaluated on publicly available benchmark datasets involving continuous-time and discrete-time temporal graphs. However, as we show in this work, the suitability of common batch-oriented evaluation depends on the datasets' characteristics, which can cause two issues: First, for continuous-time temporal graphs, fixed-size batches create time windows with different durations, resulting in an inconsistent dynamic link prediction task. Second, for discrete-time temporal graphs, the sequence of batches can additionally introduce temporal dependencies that are not present in the data. In this work, we empirically show that this common evaluation approach leads to skewed model performance and hinders the fair comparison of methods. We mitigate this problem by reformulating dynamic link prediction as a link forecasting task that better accounts for temporal information present in the data. We provide implementations of our new evaluation method for commonly used graph learning frameworks.
-          </div>
-        </li>
-
         <h4>[September 26th, 2024]</h4>
         <li>
           <b>
@@ -200,11 +179,12 @@
         </a>
         <div class="collapse" id="24oct3bio">
           <div class="card card-body">
-            TBD
+            <u>Dr. Xia Lianghao</u> is currently a postdoctoral researcher at the Data Intelligence Laboratory of the University of Hong Kong, collaborating with Professor Huang Chao. Lianghao's research mainly focuses on the field of data science, with particular attention to foundational models, graph learning, information retrieval, and spatio-temporal modeling. He has published 14 first-author papers in top conferences in related fields. His work has received multiple awards, including the Most Influential Paper Award at WWW'2023, SIGIR'2023, 2022, as well as the Best Paper Nomination and Spotlight Paper Award at the WWW'2023. In addition, he was selected by Stanford University as the world's top 2% scientists in 2024.
           </div>
         </div>
         <br> 
         <a href="https://www.arxiv.org/abs/2408.10700"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
+        <a href="https://github.com/HKUDS/AnyGraph"><img src="https://img.shields.io/badge/Github-link-lightgrey"></a>
         <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#24oct3" role="button" aria-expanded="false" aria-controls="collapseExample">
             Abstract
           </a>
@@ -397,6 +377,49 @@
     </div>
   </div>
 </section>
+
+
+<section id="fall2024" class="some-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-2"></div>
+      <div class="col-sm-8">
+        <div class="listing" style="clear:both;">
+        <div class="left">
+      
+        <h3 style="text-align:center">Past Talks, Fall 2024</h3>
+
+        <h4>[September 19th, 2024]</h4>
+          <li>
+            <b>
+                <a href="https://arxiv.org/abs/2406.04897"> From Link Prediction to Forecasting: Information Loss in Batch-based Temporal Graph Learning </a> 
+            </b>
+            <br> Presenter: <u>Moritz Lampert</u> Julius-Maximilians-Universiät Würzburg, DE
+            <a class="btn btn-info btn-xs" data-toggle="collapse" href="#24sept19bio" role="button" aria-expanded="false" aria-controls="collapseExample">
+              Speaker Bio
+            </a>
+            <div class="collapse" id="24sept19bio">
+              <div class="card card-body">
+                <u>Moritz Lampert</u> is a PhD student at the Chair of Machine Learning for Complex Networks, Center for Artificial Intelligence and Data Science (CAIDAS), Julius-Maximilians-Universität Würzburg, under the supervision of Prof. Ingo Scholtes. His research interests include different aspects of graph representation learning with a current focus on temporal graphs and applications in single-cell biology. Prior to his PhD studies, he completed his master's degree at the same institution.
+              </div>
+            </div>
+            <br> 
+            <a href="https://arxiv.org/abs/2406.04897"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
+            <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#24sept19" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Abstract
+              </a>
+          <div class="collapse" id="24sept19">
+          <div class="card card-body">
+            Dynamic link prediction is an important problem considered by many recent works proposing various approaches for learning temporal edge patterns. To assess their efficacy, models are evaluated on publicly available benchmark datasets involving continuous-time and discrete-time temporal graphs. However, as we show in this work, the suitability of common batch-oriented evaluation depends on the datasets' characteristics, which can cause two issues: First, for continuous-time temporal graphs, fixed-size batches create time windows with different durations, resulting in an inconsistent dynamic link prediction task. Second, for discrete-time temporal graphs, the sequence of batches can additionally introduce temporal dependencies that are not present in the data. In this work, we empirically show that this common evaluation approach leads to skewed model performance and hinders the fair comparison of methods. We mitigate this problem by reformulating dynamic link prediction as a link forecasting task that better accounts for temporal information present in the data. We provide implementations of our new evaluation method for commonly used graph learning frameworks.
+          </div>
+        </li>
+
+      </div>
+    </div>
+  </section>
+
+
+
 
 
 <section id="winter2024" class="some-section">
