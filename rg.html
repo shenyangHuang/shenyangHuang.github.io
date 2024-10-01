@@ -335,7 +335,7 @@
           </a>
           <div class="collapse" id="24nov7bio">
             <div class="card card-body">
-              TBD
+              <u>Filippo Brunelli</u> is a scientific officer at the Joint Research Centre of the European Commission. His current work revolves around quantitative and qualitative analysis of multimodal transport networks to support European transport policies aiming at enhancing accessibility and reducing externalities. He obtained his PhD degree from Inria, while being hosted at IRIF (Paris), under the supervision of Laurent Viennot and Pierluigi Crescenzi. The focus of the thesis was on temporal graphs, specifically exploring models and algorithms with potential uses in transport networks, where efficient routing algorithms are crucial. Previously, he obtained a bachelor's and master's degree in mathematics, respectively, at the University of Trento and the University of Pisa (Italy).
             </div>
           </div>
           <br> 
@@ -347,6 +347,46 @@
         <div class="collapse" id="24nov7">
         <div class="card card-body">
           Buß et al [KDD 2020] recently proved that the problem of computing the betweenness of all nodes of a temporal graph is computationally hard in the case of foremost and fastest paths, while it is solvable in time 𝑂 (𝑛^3 𝑇^2) in the case of shortest and shortest cforemost paths, where 𝑛 is the number of nodes and 𝑇 is the number of distinct time steps. A new algorithm for temporal betweenness computation is introduced in this paper. In the case of shortest and shortest foremost paths, it requires 𝑂 (𝑛 +𝑀) space and runs in time 𝑂 (𝑛𝑀) = 𝑂 (𝑛^3𝑇 ), where 𝑀 is the number of temporal edges, thus significantly improving the algorithm of Buß et al in terms of time complexity (note that 𝑇 is usually large). Experimental evidence is provided that our algorithm performs between twice and almost 250 times better than the algorithm of Buß et al. Moreover, we were able to compute the exact temporal betweenness values of several large temporal graphs with over a million of temporal edges. For such size, only approximate computation was possible by usingthe algorithm of Santoro and Sarpe [WWW 2022]. Maybe more importantly, our algorithm extends to the case of restless walks (that is, walks with waiting constraints in each node), thus providing a polynomial-time algorithm (with complexity 𝑂 (𝑛𝑀)) for computing the temporal betweenness in the case of several different optimality criteria. Such restless computation was known only for the shortest criterion (Rymar et al [JGAA 2023]), with complexity 𝑂 (𝑛^2𝑀𝑇^2). We performed an extensive experimental validation by comparing different waiting constraints and different optimisation criteria. Moreover, as a case study, we investigate six public transit networks including Berlin, Rome, and Paris. Overall we find a general consistency between the different variants of betweenness centrality. However, we do measure a sensible influence of waiting constraints, and note some cases of low correlation for certain pairs of criteria in some networks
+        </div>
+      </li>
+
+
+      <h4>[November 14th, 2024]</h4>
+        <li>
+          <b>
+              <a href="https://arxiv.org/pdf/2407.20060"> RELBENCH: A Benchmark for Deep Learning on Relational Databases (NeurIPS 2024 Datasets and Benchmarks Track) </a> 
+          </b>
+          <br> Presenter: <u>Rishabh Ranjan</u> Stanford University
+          <a class="btn btn-info btn-xs" data-toggle="collapse" href="#24nov14bio" role="button" aria-expanded="false" aria-controls="collapseExample">
+            Speaker Bio
+          </a>
+          <div class="collapse" id="24nov14bio">
+            <div class="card card-body">
+              TBD
+            </div>
+          </div>
+          <br> 
+          <a href="https://arxiv.org/pdf/2407.20060"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
+          <a href="https://github.com/snap-stanford/relbench"><img src="https://img.shields.io/badge/Github-link-lightgrey"></a>
+          <a href="https://relbench.stanford.edu/"><img src="https://img.shields.io/badge/website-blue"></a>
+          <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#24nov14" role="button" aria-expanded="false" aria-controls="collapseExample">
+              Abstract
+            </a>
+        <div class="collapse" id="24nov14">
+        <div class="card card-body">
+          We present RELBENCH, a public benchmark for solving predictive tasks over relational databases with graph neural networks. RELBENCH provides databases
+          and tasks spanning diverse domains and scales, and is intended to be a foundational infrastructure for future research. We use RELBENCH to conduct the first
+          comprehensive study of Relational Deep Learning (RDL) (Fey et al., 2024), which
+          combines graph neural network predictive models with (deep) tabular models that
+          extract initial entity-level representations from raw tables. End-to-end learned RDL
+          models fully exploit the predictive signal encoded in primary-foreign key links,
+          marking a significant shift away from the dominant paradigm of manual feature
+          engineering combined with tabular models. To thoroughly evaluate RDL against
+          this prior gold-standard, we conduct an in-depth user study where an experienced
+          data scientist manually engineers features for each task. In this study, RDL learns
+          better models whilst reducing human work needed by more than an order of magnitude. This demonstrates the power of deep learning for solving predictive tasks
+          over relational databases, opening up many new research opportunities enabled by
+          RELBENCH.
         </div>
       </li>
 
