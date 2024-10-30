@@ -122,61 +122,6 @@
       <div class="left">
         <h3 style="text-align:center">Upcoming Talks</h3>
 
-
-      <h4>[October 17th, 2024]</h4>
-        <li>
-          <b>
-              <a href="https://dl.acm.org/doi/pdf/10.1145/3637528.3671831"> Unifying Evolution, Explanation, and Discernment: A Generative Approach for Dynamic Graph Counterfactuals (KDD 2024) </a> 
-          </b>
-          <br> Presenter: <u>Bardh Prenkaj</u> Technical University of Munich
-          <a class="btn btn-info btn-xs" data-toggle="collapse" href="#24oct17bio" role="button" aria-expanded="false" aria-controls="collapseExample">
-            Speaker Bio
-          </a>
-          <div class="collapse" id="24oct17bio">
-            <div class="card card-body">
-              Dr. <u>Bardh Prenkaj</u> is a postdoc in AI at the Technical University of Munich trying to understand What Makes us (or not) Human and What Actually is Machine Intelligence with Gjergji Kasneci. From 10/2022 to 10/2024, he was a postdoc at the Sapienza University of Rome in Anomaly Detection and Explainability. He received his PhD in Computer Science in 2022 and his MSc in 2018. In Rome, he worked in the AIIM - formerly IIM - group advised by Paola Velardi and Giovanni Stilo. He then worked as a senior researcher at the CS Department in Sapienza in anomaly detection for social isolation disorders. He made BetterScholar with Antonio Norelli, an alternative to Google Scholar profiles. 
-            </div>
-          </div>
-          <br> 
-          <a href="https://dl.acm.org/doi/pdf/10.1145/3637528.3671831"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
-          <a href="https://github.com/bardhprenkaj/HANSEL"><img src="https://img.shields.io/badge/Github-link-lightgrey"></a>
-          <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#24oct17" role="button" aria-expanded="false" aria-controls="collapseExample">
-              Abstract
-            </a>
-        <div class="collapse" id="24oct17">
-        <div class="card card-body">
-          We present GRACIE (Graph Recalibration and Adaptive Counterfactual Inspection and Explanation), a novel approach for generative classification and counterfactual explanations of dynamically changing graph data. We study graph classification problems through the lens of generative classifiers. We propose a dynamic, self-supervised latent variable model that updates by identifying plausible counterfactuals for input graphs and recalibrating decision boundaries through contrastive optimization. Unlike prior work, we do not rely on linear separability between the learned graph representations to find plausible counterfactuals. Moreover, GRACIE eliminates the need for stochastic sampling in latent spaces and graph-matching heuristics. Our work distills the implicit link between generative classification and loss functions in the latent space, a key insight to understanding recent successes with this architecture. We further observe the inherent trade-off between validity and pulling explainee instances towards the central region of the latent space, empirically demonstrating our theoretical findings. In extensive experiments on synthetic and real-world graph data, we attain considerable improvements, reaching ∼99% validity when sampling sets of counterfactuals even in the challenging setting of dynamic data landscapes.
-        </div>
-      </li>
-      
-
-      <h4>[October 24th, 2024]</h4>
-        <li>
-          <b>
-              <a href="https://openreview.net/forum?id=gVg8V9isul"> Long Range Propagation on Continuous-Time Dynamic Graphs (ICML 2024) </a> 
-          </b>
-          <br> Presenter: <u>Alessio Gravina</u> Department of Computer Science, University of Pisa
-          <a class="btn btn-info btn-xs" data-toggle="collapse" href="#24oct24bio" role="button" aria-expanded="false" aria-controls="collapseExample">
-            Speaker Bio
-          </a>
-          <div class="collapse" id="24oct24bio">
-            <div class="card card-body">
-              <u>Alessio Gravina</u> is a postdoctoral researcher at the University of Pisa, Italy. He received his Ph.D. from the University of Pisa in 2024 with a thesis on graph deep learning methods inspired by dynamical systems and neural differential equations. He holds MSc (2020) and BSc (2018) degrees in computer science from University of Pisa, Italy. He has been a visiting researcher at Huawei Research Center, Munich in 2023, at Swiss AI Lab IDSIA in 2022, and at Stanford University in 2019, while he won the Fujitsu AI-NLP Challenge in 2018. Alessio's interests are in the area of deep learning and machine learning for graphs, with a special focus on differential equation-based graph neural networks.
-            </div>
-          </div>
-          <br> 
-          <a href="https://openreview.net/pdf?id=gVg8V9isul"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
-          <a href="https://github.com/gravins/non-dissipative-propagation-CTDGs"><img src="https://img.shields.io/badge/Github-link-lightgrey"></a>
-          <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#24oct24" role="button" aria-expanded="false" aria-controls="collapseExample">
-              Abstract
-            </a>
-        <div class="collapse" id="24oct24">
-        <div class="card card-body">
-          Learning Continuous-Time Dynamic Graphs (C-TDGs) requires accurately modeling spatio-temporal information on streams of irregularly sampled events. While many methods have been proposed recently, we find that most message passing-, recurrent- or self-attention-based methods perform poorly on long-range tasks. These tasks require correlating information that occurred "far" away from the current event, either spatially (higher-order node information) or along the time dimension (events occurred in the past). To address long-range dependencies, we introduce Continuous-Time Graph Anti-Symmetric Network (CTAN). Grounded within the ordinary differential equations framework, our method is designed for efficient propagation of information. In this paper, we show how CTAN's (i) long-range modeling capabilities are substantiated by theoretical findings and how (ii) its empirical performance on synthetic long-range benchmarks and real-world benchmarks is superior to other methods. Our results motivate CTAN's ability to propagate long-range information in C-TDGs as well as the inclusion of long-range tasks as part of temporal graph models evaluation.
-        </div>
-      </li>
-
-
       <h4>[November 7th, 2024]</h4>
         <li>
           <b>
@@ -457,6 +402,61 @@
           source code are available at https://github.com/zjs123/DTGB.
         </div>
       </li>
+
+      <h4>[October 17th, 2024]</h4>
+        <li>
+          <b>
+              <a href="https://dl.acm.org/doi/pdf/10.1145/3637528.3671831"> Unifying Evolution, Explanation, and Discernment: A Generative Approach for Dynamic Graph Counterfactuals (KDD 2024) </a> 
+          </b>
+          <br> Presenter: <u>Bardh Prenkaj</u> Technical University of Munich
+          <a class="btn btn-info btn-xs" data-toggle="collapse" href="#24oct17bio" role="button" aria-expanded="false" aria-controls="collapseExample">
+            Speaker Bio
+          </a>
+          <div class="collapse" id="24oct17bio">
+            <div class="card card-body">
+              Dr. <u>Bardh Prenkaj</u> is a postdoc in AI at the Technical University of Munich trying to understand What Makes us (or not) Human and What Actually is Machine Intelligence with Gjergji Kasneci. From 10/2022 to 10/2024, he was a postdoc at the Sapienza University of Rome in Anomaly Detection and Explainability. He received his PhD in Computer Science in 2022 and his MSc in 2018. In Rome, he worked in the AIIM - formerly IIM - group advised by Paola Velardi and Giovanni Stilo. He then worked as a senior researcher at the CS Department in Sapienza in anomaly detection for social isolation disorders. He made BetterScholar with Antonio Norelli, an alternative to Google Scholar profiles. 
+            </div>
+          </div>
+          <br> 
+          <a href="https://youtu.be/LZ47oqbfYJU"><img src="https://img.shields.io/badge/Youtube-Recording-orange"></a> 
+          <a href="https://dl.acm.org/doi/pdf/10.1145/3637528.3671831"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
+          <a href="https://github.com/bardhprenkaj/HANSEL"><img src="https://img.shields.io/badge/Github-link-lightgrey"></a>
+          <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#24oct17" role="button" aria-expanded="false" aria-controls="collapseExample">
+              Abstract
+            </a>
+        <div class="collapse" id="24oct17">
+        <div class="card card-body">
+          We present GRACIE (Graph Recalibration and Adaptive Counterfactual Inspection and Explanation), a novel approach for generative classification and counterfactual explanations of dynamically changing graph data. We study graph classification problems through the lens of generative classifiers. We propose a dynamic, self-supervised latent variable model that updates by identifying plausible counterfactuals for input graphs and recalibrating decision boundaries through contrastive optimization. Unlike prior work, we do not rely on linear separability between the learned graph representations to find plausible counterfactuals. Moreover, GRACIE eliminates the need for stochastic sampling in latent spaces and graph-matching heuristics. Our work distills the implicit link between generative classification and loss functions in the latent space, a key insight to understanding recent successes with this architecture. We further observe the inherent trade-off between validity and pulling explainee instances towards the central region of the latent space, empirically demonstrating our theoretical findings. In extensive experiments on synthetic and real-world graph data, we attain considerable improvements, reaching ∼99% validity when sampling sets of counterfactuals even in the challenging setting of dynamic data landscapes.
+        </div>
+      </li>
+      
+
+      <h4>[October 24th, 2024]</h4>
+        <li>
+          <b>
+              <a href="https://openreview.net/forum?id=gVg8V9isul"> Long Range Propagation on Continuous-Time Dynamic Graphs (ICML 2024) </a> 
+          </b>
+          <br> Presenter: <u>Alessio Gravina</u> Department of Computer Science, University of Pisa
+          <a class="btn btn-info btn-xs" data-toggle="collapse" href="#24oct24bio" role="button" aria-expanded="false" aria-controls="collapseExample">
+            Speaker Bio
+          </a>
+          <div class="collapse" id="24oct24bio">
+            <div class="card card-body">
+              <u>Alessio Gravina</u> is a postdoctoral researcher at the University of Pisa, Italy. He received his Ph.D. from the University of Pisa in 2024 with a thesis on graph deep learning methods inspired by dynamical systems and neural differential equations. He holds MSc (2020) and BSc (2018) degrees in computer science from University of Pisa, Italy. He has been a visiting researcher at Huawei Research Center, Munich in 2023, at Swiss AI Lab IDSIA in 2022, and at Stanford University in 2019, while he won the Fujitsu AI-NLP Challenge in 2018. Alessio's interests are in the area of deep learning and machine learning for graphs, with a special focus on differential equation-based graph neural networks.
+            </div>
+          </div>
+          <br> 
+          <a href="https://openreview.net/pdf?id=gVg8V9isul"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
+          <a href="https://github.com/gravins/non-dissipative-propagation-CTDGs"><img src="https://img.shields.io/badge/Github-link-lightgrey"></a>
+          <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#24oct24" role="button" aria-expanded="false" aria-controls="collapseExample">
+              Abstract
+            </a>
+        <div class="collapse" id="24oct24">
+        <div class="card card-body">
+          Learning Continuous-Time Dynamic Graphs (C-TDGs) requires accurately modeling spatio-temporal information on streams of irregularly sampled events. While many methods have been proposed recently, we find that most message passing-, recurrent- or self-attention-based methods perform poorly on long-range tasks. These tasks require correlating information that occurred "far" away from the current event, either spatially (higher-order node information) or along the time dimension (events occurred in the past). To address long-range dependencies, we introduce Continuous-Time Graph Anti-Symmetric Network (CTAN). Grounded within the ordinary differential equations framework, our method is designed for efficient propagation of information. In this paper, we show how CTAN's (i) long-range modeling capabilities are substantiated by theoretical findings and how (ii) its empirical performance on synthetic long-range benchmarks and real-world benchmarks is superior to other methods. Our results motivate CTAN's ability to propagate long-range information in C-TDGs as well as the inclusion of long-range tasks as part of temporal graph models evaluation.
+        </div>
+      </li>
+
 
 
       </div>
