@@ -208,11 +208,12 @@
           </a>
           <div class="collapse" id="24nov21bio">
             <div class="card card-body">
-              TBD
+              <u>Rishabh</u> is a second year PhD student at Stanford University. He is advised by Prof. Jure Leskovec and also works with Prof. Carlos Guestrin.  He completed his undergrad in Computer Science and Engineering at IIT Delhi, where he was the President’s Gold Medalist for the class of 2022 and also received the Suresh Chandra Memorial Trust Award for the best undergrad thesis in CS. Prior to the PhD, he spent a year at Carnegie Mellon University as a visiting research scholar hosted by Prof. Zachary Lipton. His interests lie at the intersection of relational deep learning and foundation models, with the research goal of extending the success of foundation models like LLMs to structured data such as tables, time series and relational databases. Website: https://rishabh-ranjan.github.io
             </div>
           </div>
           <br> 
           <a href="https://arxiv.org/pdf/2407.20060"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
+          <a href="https://proceedings.mlr.press/v235/fey24a.html"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
           <a href="https://github.com/snap-stanford/relbench"><img src="https://img.shields.io/badge/Github-link-lightgrey"></a>
           <a href="https://relbench.stanford.edu/"><img src="https://img.shields.io/badge/website-blue"></a>
           <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#24nov21" role="button" aria-expanded="false" aria-controls="collapseExample">
@@ -220,19 +221,7 @@
             </a>
         <div class="collapse" id="24nov21">
         <div class="card card-body">
-          We present RELBENCH, a public benchmark for solving predictive tasks over relational databases with graph neural networks. RELBENCH provides databases
-          and tasks spanning diverse domains and scales, and is intended to be a foundational infrastructure for future research. We use RELBENCH to conduct the first
-          comprehensive study of Relational Deep Learning (RDL) (Fey et al., 2024), which
-          combines graph neural network predictive models with (deep) tabular models that
-          extract initial entity-level representations from raw tables. End-to-end learned RDL
-          models fully exploit the predictive signal encoded in primary-foreign key links,
-          marking a significant shift away from the dominant paradigm of manual feature
-          engineering combined with tabular models. To thoroughly evaluate RDL against
-          this prior gold-standard, we conduct an in-depth user study where an experienced
-          data scientist manually engineers features for each task. In this study, RDL learns
-          better models whilst reducing human work needed by more than an order of magnitude. This demonstrates the power of deep learning for solving predictive tasks
-          over relational databases, opening up many new research opportunities enabled by
-          RELBENCH.
+          Much of the world's most valued data is stored in relational databases and data warehouses, where the data is organized into many tables connected by primary-foreign key relations. However, building machine learning models using this data is both challenging and time consuming. The core problem is that no machine learning method is capable of learning on multiple tables interconnected by primary-foreign key relations. Current methods can only learn from a single table, so the data must first be manually joined and aggregated into a single training table, the process known as feature engineering. Feature engineering is slow, error prone and leads to suboptimal models. Here we introduce an end-to-end deep representation learning approach to directly learn on data laid out across multiple tables. We name our approach Relational Deep Learning (RDL). The core idea is to view relational databases as a temporal, heterogeneous graph, with a node for each row in each table, and edges specified by primary-foreign key links. Message Passing Graph Neural Networks can then automatically learn across the graph to extract representations that leverage all input data, without any manual feature engineering. Relational Deep Learning leads to more accurate models that can be built much faster. To facilitate research in this area, we develop RelBench, a set of benchmark datasets and an implementation of Relational Deep Learning. The data covers a wide spectrum, from discussions on Stack Exchange to book reviews on the Amazon Product Catalog. Overall, we define a new research area that generalizes graph machine learning and broadens its applicability to a wide set of AI use cases.
         </div>
       </li>
 
