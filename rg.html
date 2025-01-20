@@ -123,7 +123,7 @@
       <div class="left">
         <h3 style="text-align:center">Upcoming Talks</h3>
 
-      <h3>Reading group will resume in Winter 2025, have a great holiday season everyone! See upcoming talks here</h3>
+      <h3>No reading group on January 23rd, 2025</h3>
       
 
       <h4>[January 16th, 2025]</h4>
@@ -284,9 +284,37 @@
         <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#25feb13" role="button" aria-expanded="false" aria-controls="collapseExample">
             Abstract
           </a>
-      <div class="collapse" id="25feb6">
+      <div class="collapse" id="25feb13">
       <div class="card card-body">
         Graph Neural Tangent Kernel (GNTK) fuses graph neural networks and graph kernels, simplifies the process of graph representation learning, interprets the training dynamics of graph neural networks, and serves various applications like protein identification, image segmentation, and social network analysis. In practice, graph data carries complex information among entities that inevitably evolves over time, and previous static graph neural tangent kernel methods may be stuck in the sub-optimal solution in terms of both effectiveness and efficiency. As a result, extending the advantage of GNTK to temporal graphs becomes a critical problem. To this end, we propose the temporal graph neural tangent kernel, which not only extends the simplicity and interpretation ability of GNTK to the temporal setting but also leads to rigorous temporal graph classification error bounds. Furthermore, we prove that when the input temporal graph grows over time in the number of nodes, our temporal graph neural tangent kernel will converge in the limit to the graphon NTK value, which implies the transferability and robustness of the proposed kernel method, named Temporal Graph Neural Tangent Kernel with Graphon-Guaranteed or Temp-GNTK. In addition to the theoretical analysis, we also perform extensive experiments, not only demonstrating the superiority of Temp-GNTK in the temporal graph classification task, but also showing that Temp-G^3NTK can achieve very competitive performance in node-level tasks like node classification compared with various SOTA graph kernel and representation learning baselines. Our code is available at https://github.com/kthrn22/TempGNTK.
+      </div>
+    </li>
+
+
+    <h4>[Feb 20th, 2025]</h4>
+      <li>
+        <b>
+            <a href="https://openreview.net/forum?id=9M2XqvH2SB"> Reproducibility study of: “Explaining Temporal Graph Models Through an Explorer-Navigator Framework </a> (TMLR and NeurIPS Journal Track)  
+        </b>
+        <br> Presenter: <u>Andreas Berentzen</u> and <u>Jesse Wonnink</u> University of Amsterdam
+        <a class="btn btn-info btn-xs" data-toggle="collapse" href="#25feb20bio" role="button" aria-expanded="false" aria-controls="collapseExample">
+          Speaker Bio
+        </a>
+        <div class="collapse" id="25feb20bio">
+          <div class="card card-body">
+            <u>Andreas Berentzen</u> began his journey in artificial intelligence in 2017, studying AI at the University of Amsterdam. He completed his bachelor's degree in 2021 with a thesis on aggregation functions for hypergraph neural networks. After 2.5 years as a machine learning consultant and developer, he returned to the University of Amsterdam to pursue a master’s degree in AI, driven by a desire to deepen his understanding of contemporary neural networks. During his master’s, Andreas presented graph ML projects at ICML 2024 and NeurIPS 2024. He is currently working on his thesis at TNO, exploring graph-based unsupervised anomaly detection for operational technology. Ever since his bachelor’s, he has been passionate about graph modeling and graph machine learning and hopes to continue in this field for many years.
+            Andreas is always open to connecting with others interested in graph-related topics! Twitter handle: https://x.com/AndyTheGuttler             
+          </div>
+        </div>
+        <br> 
+        <a href="https://openreview.net/forum?id=9M2XqvH2SB"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
+        <a href="https://github.com/cisaic/tgnnexplainer"><img src="https://img.shields.io/badge/Github-link-lightgrey"></a>
+        <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#25feb20" role="button" aria-expanded="false" aria-controls="collapseExample">
+            Abstract
+          </a>
+      <div class="collapse" id="25feb20">
+      <div class="card card-body">
+        This paper seeks to reproduce and extend the results of the paper “Explaining Temporal Graph Models Through an Explorer-Navigator Framework” by (Xia et al., 2023). The main contribution of the original authors is a novel explainer for temporal graph networks, the Temporal GNN Explainer (T-GNNExplainer), which finds a subset of preceding events that “explain” a prediction made by a temporal graph model. The explorer is tested on two temporal graph models that are trained on two real-world and two synthetic datasets. The explorer is evaluated using a newly proposed metric for explanatory graph models. The authors compare the performance of their explorer to three baseline explainer methods, either adapted from a GNN explainer or developed by the authors. The authors claim that T-GNNExplainer achieves superior performance compared to the baselines when evaluated with their proposed metric. This work reproduces the original experiments by using the code (with minor adjustments), model specifications, and hyperparameters provided by the original authors. To evaluate the robustness of these claims, the method was extended to one new dataset (MOOC). Results show that the T-GNNexplainer performs best on some, but not all metrics as reported in the original findings. We conclude that the main lines of this paper hold up even though all results are less pronounced than claimed. Results show that the T-GNNExplainer does not perform similarly across different T-GNN models, precise dataset specifications are needed to obtain high performance, and there are simpler, less computationally costly explainer methods (like PBONE) that could offer competitive results.
       </div>
     </li>
 
