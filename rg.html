@@ -122,48 +122,7 @@
     <div class="listing" style="clear:both;">
       <div class="left">
         <h3 style="text-align:center">Upcoming Talks</h3>
-
-      <h3>No reading group on January 23rd, 2025</h3>
       
-
-      <h4>[January 16th, 2025]</h4>
-        <li>
-          <b>
-              <a href="https://arxiv.org/pdf/2410.13469"> Interpreting Temporal Graph Neural Networks with Koopman Theory </a> 
-          </b>
-          <br> Presenter: <u>Michele Guerra</u> UiT The Arctic University of Norway, Department of Mathematics and Statistics, Norway
-          <a class="btn btn-info btn-xs" data-toggle="collapse" href="#25jan16bio" role="button" aria-expanded="false" aria-controls="collapseExample">
-            Speaker Bio
-          </a>
-          <div class="collapse" id="25jan16bio">
-            <div class="card card-body">
-              <u>Michele Guerra</u> is a Ph.D. student in the Department of Mathematics and Statistics at UiT The Arctic University of Norway. He received his MSc (2019) and BSc (2016) degrees in Physics from University of Padua, Italy. Michele’s research spans from uncertainty quantification to interpretability for randomised and trainable models on time series and graphs.
-            </div>
-          </div>
-          <br> 
-          <a href="https://youtu.be/GWFtIffcE0M"><img src="https://img.shields.io/badge/Youtube-Recording-orange"></a>
-          <a href="https://arxiv.org/pdf/2410.13469"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
-          <a href="https://github.com/NGMLGroup/Koopman-TGNN-Interpretability"><img src="https://img.shields.io/badge/Github-link-lightgrey"></a>
-
-          <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#25jan16" role="button" aria-expanded="false" aria-controls="collapseExample">
-              Abstract
-            </a>
-        <div class="collapse" id="25jan16">
-        <div class="card card-body">
-          Spatiotemporal graph neural networks (STGNNs)
-          have shown promising results in many domains, from
-          forecasting to epidemiology. However, understanding the dynamics learned by these models and explaining their behaviour is significantly more complex than for models dealing with static data. Inspired by Koopman theory, which allows a simpler
-          description of intricate, nonlinear dynamical systems, we introduce an explainability approach for
-          temporal graphs. We present two methods to interpret the STGNN’s decision process and identify
-          the most relevant spatial and temporal patterns in
-          the input for the task at hand. The first relies on
-          dynamic mode decomposition (DMD), a Koopmaninspired dimensionality reduction method. The second relies on sparse identification of nonlinear dynamics (SINDy), a popular method for discovering
-          governing equations, which we use for the first time
-          as a general tool for explainability. We show how
-          our methods can correctly identify interpretable features such as infection times and infected nodes in
-          the context of dissemination processes.
-        </div>
-      </li>
 
       <!-- <h4>[January 23rd, 2025]</h4>
       <li>
@@ -320,6 +279,72 @@
     </li>
 
 
+    <h4>[Feb 20th, 2025]</h4>
+      <li>
+        <b>
+            <a href="https://openreview.net/forum?id=9M2XqvH2SB"> Reproducibility study of: “Explaining Temporal Graph Models Through an Explorer-Navigator Framework </a> (TMLR and NeurIPS Journal Track)  
+        </b>
+        <br> Presenter: <u>Andreas Berentzen</u> and <u>Jesse Wonnink</u> University of Amsterdam
+        <a class="btn btn-info btn-xs" data-toggle="collapse" href="#25feb20bio" role="button" aria-expanded="false" aria-controls="collapseExample">
+          Speaker Bio
+        </a>
+        <div class="collapse" id="25feb20bio">
+          <div class="card card-body">
+            <u>Andreas Berentzen</u> began his journey in artificial intelligence in 2017, studying AI at the University of Amsterdam. He completed his bachelor's degree in 2021 with a thesis on aggregation functions for hypergraph neural networks. After 2.5 years as a machine learning consultant and developer, he returned to the University of Amsterdam to pursue a master’s degree in AI, driven by a desire to deepen his understanding of contemporary neural networks. During his master’s, Andreas presented graph ML projects at ICML 2024 and NeurIPS 2024. He is currently working on his thesis at TNO, exploring graph-based unsupervised anomaly detection for operational technology. Ever since his bachelor’s, he has been passionate about graph modeling and graph machine learning and hopes to continue in this field for many years.
+            Andreas is always open to connecting with others interested in graph-related topics! Twitter handle: https://x.com/AndyTheGuttler             
+          </div>
+        </div>
+        <br> 
+        <a href="https://openreview.net/forum?id=9M2XqvH2SB"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
+        <a href="https://github.com/cisaic/tgnnexplainer"><img src="https://img.shields.io/badge/Github-link-lightgrey"></a>
+        <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#25feb20" role="button" aria-expanded="false" aria-controls="collapseExample">
+            Abstract
+          </a>
+      <div class="collapse" id="25feb20">
+      <div class="card card-body">
+        This paper seeks to reproduce and extend the results of the paper “Explaining Temporal Graph Models Through an Explorer-Navigator Framework” by (Xia et al., 2023). The main contribution of the original authors is a novel explainer for temporal graph networks, the Temporal GNN Explainer (T-GNNExplainer), which finds a subset of preceding events that “explain” a prediction made by a temporal graph model. The explorer is tested on two temporal graph models that are trained on two real-world and two synthetic datasets. The explorer is evaluated using a newly proposed metric for explanatory graph models. The authors compare the performance of their explorer to three baseline explainer methods, either adapted from a GNN explainer or developed by the authors. The authors claim that T-GNNExplainer achieves superior performance compared to the baselines when evaluated with their proposed metric. This work reproduces the original experiments by using the code (with minor adjustments), model specifications, and hyperparameters provided by the original authors. To evaluate the robustness of these claims, the method was extended to one new dataset (MOOC). Results show that the T-GNNexplainer performs best on some, but not all metrics as reported in the original findings. We conclude that the main lines of this paper hold up even though all results are less pronounced than claimed. Results show that the T-GNNExplainer does not perform similarly across different T-GNN models, precise dataset specifications are needed to obtain high performance, and there are simpler, less computationally costly explainer methods (like PBONE) that could offer competitive results.
+      </div>
+    </li>
+
+    <h4>[March 6th, 2025]</h4>
+      <li>
+        <b>
+            <a href="https://arxiv.org/abs/2310.15865"> Using Time-Aware Graph Neural Networks to Predict Temporal Centralities in Dynamic Graphs </a> (NeurIPS 2024)  
+        </b>
+        <br> Presenter: <u>Franziska Heeg</u> and <u>Ingo Scholtes</u> Julius-Maximilans-Universität, Würzburg
+        <a class="btn btn-info btn-xs" data-toggle="collapse" href="#25mar6bio" role="button" aria-expanded="false" aria-controls="collapseExample">
+          Speaker Bio
+        </a>
+        <div class="collapse" id="25mar6bio">
+          <div class="card card-body">
+            TBD
+          </div>
+        </div>
+        <br> 
+        <a href="https://openreview.net/forum?id=6n709MszkP"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
+        <a href="https://zenodo.org/records/10202792"><img src="https://img.shields.io/badge/Github-link-lightgrey"></a>
+        <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#25mar6" role="button" aria-expanded="false" aria-controls="collapseExample">
+            Abstract
+          </a>
+      <div class="collapse" id="25mar6">
+      <div class="card card-body">
+        Node centralities play a pivotal role in network science, social network analysis,
+        and recommender systems. In temporal data, static path-based centralities like
+        closeness or betweenness can give misleading results about the true importance
+        of nodes in a temporal graph. To address this issue, temporal generalizations
+        of betweenness and closeness have been defined that are based on the shortest
+        time-respecting paths between pairs of nodes. However, a major issue of those
+        generalizations is that the calculation of such paths is computationally expensive.
+        Addressing this issue, we study the application of De Bruijn Graph Neural Networks
+        (DBGNN), a time-aware graph neural network architecture, to predict temporal
+        path-based centralities in time series data. We experimentally evaluate our approach in 13 temporal graphs from biological and social systems and show that
+        it considerably improves the prediction of betweenness and closeness centrality
+        compared to (i) a static Graph Convolutional Neural Network, (ii) an efficient
+        sampling-based approximation technique for temporal betweenness, and (iii) two
+        state-of-the-art time-aware graph learning techniques for dynamic graphs.
+      </div>
+    </li>
+
 
 
 
@@ -331,6 +356,63 @@
     </div>
   </div>
 </section>
+
+
+
+<section id="winter 2025" class="some-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-2"></div>
+      <div class="col-sm-8">
+        <div class="listing" style="clear:both;">
+        <div class="left">
+      
+        <h3 style="text-align:center">Past Talks, Winter 2025</h3>
+
+
+
+        <h4>[January 16th, 2025]</h4>
+            <li>
+              <b>
+                  <a href="https://arxiv.org/pdf/2410.13469"> Interpreting Temporal Graph Neural Networks with Koopman Theory </a> 
+              </b>
+              <br> Presenter: <u>Michele Guerra</u> UiT The Arctic University of Norway, Department of Mathematics and Statistics, Norway
+              <a class="btn btn-info btn-xs" data-toggle="collapse" href="#25jan16bio" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Speaker Bio
+              </a>
+              <div class="collapse" id="25jan16bio">
+                <div class="card card-body">
+                  <u>Michele Guerra</u> is a Ph.D. student in the Department of Mathematics and Statistics at UiT The Arctic University of Norway. He received his MSc (2019) and BSc (2016) degrees in Physics from University of Padua, Italy. Michele’s research spans from uncertainty quantification to interpretability for randomised and trainable models on time series and graphs.
+                </div>
+              </div>
+              <br> 
+              <a href="https://youtu.be/GWFtIffcE0M"><img src="https://img.shields.io/badge/Youtube-Recording-orange"></a>
+              <a href="https://arxiv.org/pdf/2410.13469"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
+              <a href="https://github.com/NGMLGroup/Koopman-TGNN-Interpretability"><img src="https://img.shields.io/badge/Github-link-lightgrey"></a>
+
+              <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#25jan16" role="button" aria-expanded="false" aria-controls="collapseExample">
+                  Abstract
+                </a>
+            <div class="collapse" id="25jan16">
+            <div class="card card-body">
+              Spatiotemporal graph neural networks (STGNNs)
+              have shown promising results in many domains, from
+              forecasting to epidemiology. However, understanding the dynamics learned by these models and explaining their behaviour is significantly more complex than for models dealing with static data. Inspired by Koopman theory, which allows a simpler
+              description of intricate, nonlinear dynamical systems, we introduce an explainability approach for
+              temporal graphs. We present two methods to interpret the STGNN’s decision process and identify
+              the most relevant spatial and temporal patterns in
+              the input for the task at hand. The first relies on
+              dynamic mode decomposition (DMD), a Koopmaninspired dimensionality reduction method. The second relies on sparse identification of nonlinear dynamics (SINDy), a popular method for discovering
+              governing equations, which we use for the first time
+              as a general tool for explainability. We show how
+              our methods can correctly identify interpretable features such as infection times and infected nodes in
+              the context of dissemination processes.
+            </div>
+          </li>
+
+        </div>
+      </div>
+    </section>
 
 
 <section id="fall2024" class="some-section">
