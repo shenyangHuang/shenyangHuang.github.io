@@ -151,48 +151,6 @@
       </div>
     </li> -->
 
-    <h4>[January 30th, 2025]</h4>
-        <li>
-          <b>
-              <a href="https://openreview.net/forum?id=8imVCizVEw"> Learning-Based Link Anomaly Detection in Continuous-Time Dynamic Graphs </a> (TMLR) 
-          </b>
-          <br> Presenter: <u>Tim Poštuvan</u> EPFL
-          <a class="btn btn-info btn-xs" data-toggle="collapse" href="#25jan30bio" role="button" aria-expanded="false" aria-controls="collapseExample">
-            Speaker Bio
-          </a>
-          <div class="collapse" id="25jan30bio">
-            <div class="card card-body">
-              <u>Tim Poštuvan</u> is a Research Scientist at DeepL, specializing in natural language processing. He holds a master’s degree in Data Science from the École Polytechnique Fédérale de Lausanne (EPFL). His current research focuses on enhancing large language models (LLMs) through reinforcement learning from human feedback.
-            </div>
-          </div>
-          <br> 
-          <a href="https://openreview.net/forum?id=8imVCizVEw"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
-          <a href="https://github.com/timpostuvan/CTDG-link-anomaly-detection?tab=readme-ov-file"><img src="https://img.shields.io/badge/Github-link-lightgrey"></a>
-          <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#25jan30" role="button" aria-expanded="false" aria-controls="collapseExample">
-              Abstract
-            </a>
-        <div class="collapse" id="25jan30">
-        <div class="card card-body">
-          Anomaly detection in continuous-time dynamic graphs is an emerging field yet underexplored in the context of learning algorithms. In this paper, we pioneer structured analyses of link-level anomalies and graph representation learning for identifying categorically
-          anomalous graph links. First, we introduce a fine-grained taxonomy for edge-level anomalies
-          leveraging structural, temporal, and contextual graph properties. Based on these properties,
-          we introduce a method for generating and injecting typed anomalies into graphs. Next, we
-          introduce a novel method to generate continuous-time dynamic graphs featuring consistencies across either or combinations of time, structure, and context. To enable temporal graph
-          learning methods to detect specific types of anomalous links rather than the bare existence
-          of a link, we extend the generic link prediction setting by: (1) conditioning link existence
-          on contextual edge attributes; and (2) refining the training regime to accommodate diverse
-          perturbations in the negative edge sampler. Comprehensive benchmarks on synthetic and
-          real-world datasets – featuring synthetic and labeled organic anomalies and employing six
-          state-of-the-art link prediction methods – validate our taxonomy and generation processes
-          for anomalies and benign graphs, as well as our approach to adapting methods for anomaly
-          detection. Our results reveal that different learning methods excel in capturing different
-          aspects of graph normality and detecting different types of anomalies. We conclude with
-          a comprehensive list of findings highlighting opportunities for future research. The code is
-          available at https://github.com/timpostuvan/CTDG-link-anomaly-detection.
-        </div>
-      </li>
-
-
     <h4>[Feb 6th, 2025]</h4>
       <li>
         <b>
@@ -229,13 +187,13 @@
         <b>
             <a href="https://openreview.net/forum?id=266nH7kLSV&noteId=vhZ9sXPFfc"> Temporal Graph Neural Tangent Kernel with Graphon-Guaranteed </a> (NeurIPS 2024)  
         </b>
-        <br> Presenter: <u>Dongqi Fu</u> Meta AI
+        <br> Presenter: <u>Katherine Tieu</u>  University of Illinois at Urbana-Champaign
         <a class="btn btn-info btn-xs" data-toggle="collapse" href="#25feb13bio" role="button" aria-expanded="false" aria-controls="collapseExample">
           Speaker Bio
         </a>
         <div class="collapse" id="25feb13bio">
           <div class="card card-body">
-            <u>Dongqi Fu</u> is a Research Scientist at Meta AI. He obtained his Ph.D. degree from University of Illinois Urbana-Champaign. He was awarded 2023 Rising Star in Data Science by UChicago and UC San Diego and 2022 NeurIPS Top 8% Reviewer. His research interests include graph deep learning, sequential modeling, and probabilistic graphical model.
+            <u>Katherine Tieu</u> is a senior undergraduate student at University of Illinois Urbana-Champaign. Her research interests include Graph Representation Learning, and Trustworthy Machine Learning.
           </div>
         </div>
         <br> 
@@ -292,6 +250,8 @@
           <div class="card card-body">
             <u>Andreas Berentzen</u> began his journey in artificial intelligence in 2017, studying AI at the University of Amsterdam. He completed his bachelor's degree in 2021 with a thesis on aggregation functions for hypergraph neural networks. After 2.5 years as a machine learning consultant and developer, he returned to the University of Amsterdam to pursue a master’s degree in AI, driven by a desire to deepen his understanding of contemporary neural networks. During his master’s, Andreas presented graph ML projects at ICML 2024 and NeurIPS 2024. He is currently working on his thesis at TNO, exploring graph-based unsupervised anomaly detection for operational technology. Ever since his bachelor’s, he has been passionate about graph modeling and graph machine learning and hopes to continue in this field for many years.
             Andreas is always open to connecting with others interested in graph-related topics! Twitter handle: https://x.com/AndyTheGuttler             
+            <br>
+            <u>Jesse Wonnink</u> is a 2nd year Msc at University of Amsterdam. He comes from a background in Psychological research methods and statistics with an angle on statistical graph models, and is now specializing in Information retrieval, recommender systems and RAG systems, again with a graph angle.
           </div>
         </div>
         <br> 
@@ -305,6 +265,36 @@
         This paper seeks to reproduce and extend the results of the paper “Explaining Temporal Graph Models Through an Explorer-Navigator Framework” by (Xia et al., 2023). The main contribution of the original authors is a novel explainer for temporal graph networks, the Temporal GNN Explainer (T-GNNExplainer), which finds a subset of preceding events that “explain” a prediction made by a temporal graph model. The explorer is tested on two temporal graph models that are trained on two real-world and two synthetic datasets. The explorer is evaluated using a newly proposed metric for explanatory graph models. The authors compare the performance of their explorer to three baseline explainer methods, either adapted from a GNN explainer or developed by the authors. The authors claim that T-GNNExplainer achieves superior performance compared to the baselines when evaluated with their proposed metric. This work reproduces the original experiments by using the code (with minor adjustments), model specifications, and hyperparameters provided by the original authors. To evaluate the robustness of these claims, the method was extended to one new dataset (MOOC). Results show that the T-GNNexplainer performs best on some, but not all metrics as reported in the original findings. We conclude that the main lines of this paper hold up even though all results are less pronounced than claimed. Results show that the T-GNNExplainer does not perform similarly across different T-GNN models, precise dataset specifications are needed to obtain high performance, and there are simpler, less computationally costly explainer methods (like PBONE) that could offer competitive results.
       </div>
     </li>
+
+    <h4>[Feb 27th, 2025]</h4>
+      <li>
+        <b>
+            <a href="https://openreview.net/forum?id=ZKHV6Cpsxg"> UTG: Towards a Unified View of Snapshot and Event Based Models for Temporal Graphs </a> (LOG 2024)  
+        </b>
+        <br> Presenter: <u>Shenyang Huang</u> McGill University, Mila
+        <a class="btn btn-info btn-xs" data-toggle="collapse" href="#25feb27bio" role="button" aria-expanded="false" aria-controls="collapseExample">
+          Speaker Bio
+        </a>
+        <div class="collapse" id="25feb27bio">
+          <div class="card card-body">
+            <u>Shenyang Huang</u>(he/him) is a PhD student at McGill University and Mila, focusing on temporal graph learning (supervised by Prof. Reihaneh Rabbany and Prof. Guillaume Rabusseau). He is interested in representation learning on temporal graphs, anomaly detection and graph representation learning. He was the Organization Chair for the Temporal Graph Learning Workshop @ NeurIPS 2022. His previous research includes change point detection on temporal graphs, COVID-19 disease modeling with temporal contact graphs and link prediction on temporal graphs. He also enjoys writing medium blog posts about temporal graph learning.
+          </div>
+        </div>
+        <br> 
+        <a href="https://openreview.net/forum?id=ZKHV6Cpsxg"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
+        <a href="https://github.com/shenyangHuang/UTG"><img src="https://img.shields.io/badge/Github-link-lightgrey"></a>
+        <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#25feb27" role="button" aria-expanded="false" aria-controls="collapseExample">
+            Abstract
+          </a>
+      <div class="collapse" id="25feb27">
+      <div class="card card-body">
+        Many real world graphs are inherently dynamic, constantly evolving with node and edge additions. These graphs can be represented by temporal graphs, either through a stream of edge events or a sequence of graph snapshots. Until now, the development of machine learning methods for both types has occurred largely in isolation, resulting in limited experimental comparison and theoretical cross- pollination between the two. In this paper, we introduce Unified Temporal Graph (UTG), a framework that unifies snapshot-based and event-based machine learning models under a single umbrella, enabling models developed for one representation to be applied effectively to datasets of the other. We also propose a novel UTG training procedure to boost the performance of snapshot-based models in the streaming setting. We comprehensively evaluate both snapshot and event-based models across both types of temporal graphs on the temporal link prediction task. Our main findings are threefold: first, when combined with UTG training, snapshot-based models can perform competitively with event- based models such as TGN and GraphMixer even on event datasets. Second, snapshot-based models are at least an order of magnitude faster than most event- based models during inference. Third, while event-based methods such as NAT and DyGFormer outperforms snapshot-based methods on both types of temporal graphs, this is because they leverage joint neighborhood structural features thus emphasizing the potential to incorporate these features into snapshot-based models as well. These findings highlight the importance of comparing model architectures independent of the data format and suggest the potential of combining the efficiency of snapshot-based models with the performance of event-based models in the future.
+      </div>
+    </li>
+
+
+
+
 
     <h4>[March 6th, 2025]</h4>
       <li>
@@ -342,6 +332,32 @@
         compared to (i) a static Graph Convolutional Neural Network, (ii) an efficient
         sampling-based approximation technique for temporal betweenness, and (iii) two
         state-of-the-art time-aware graph learning techniques for dynamic graphs.
+      </div>
+    </li>
+
+
+    <h4>[March 13th, 2025]</h4>
+      <li>
+        <b>
+            <a href="https://arxiv.org/abs/2408.04713"> DyGMamba: Efficiently Modeling Long-Term Temporal Dependency on Continuous-Time Dynamic Graphs with State Space Models </a> (NeurIPS 2024)  
+        </b>
+        <br> Presenter: <u>Zifeng Ding</u> University of Cambridge
+        <a class="btn btn-info btn-xs" data-toggle="collapse" href="#25mar13bio" role="button" aria-expanded="false" aria-controls="collapseExample">
+          Speaker Bio
+        </a>
+        <div class="collapse" id="25mar13bio">
+          <div class="card card-body">
+            TBD
+          </div>
+        </div>
+        <br> 
+        <a href="https://arxiv.org/abs/2408.04713"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
+        <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#25mar13" role="button" aria-expanded="false" aria-controls="collapseExample">
+            Abstract
+          </a>
+      <div class="collapse" id="25mar13">
+      <div class="card card-body">
+        Learning useful representations for continuous-time dynamic graphs (CTDGs) is challenging, due to the concurrent need to span long node interaction histories and grasp nuanced temporal details. In particular, two problems emerge: (1) Encoding longer histories requires more computational resources, making it crucial for CTDG models to maintain low computational complexity to ensure efficiency; (2) Meanwhile, more powerful models are needed to identify and select the most critical temporal information within the extended context provided by longer histories. To address these problems, we propose a CTDG representation learning model named DyGMamba, originating from the popular Mamba state space model (SSM). DyGMamba first leverages a node-level SSM to encode the sequence of historical node interactions. Another time-level SSM is then employed to exploit the temporal patterns hidden in the historical graph, where its output is used to dynamically select the critical information from the interaction history. We validate DyGMamba experimentally on the dynamic link prediction task. The results show that our model achieves state-of-the-art in most cases. DyGMamba also maintains high efficiency in terms of computational resources, making it possible to capture long temporal dependencies with a limited computation budget.
       </div>
     </li>
 
@@ -409,6 +425,48 @@
               the context of dissemination processes.
             </div>
           </li>
+
+
+        <h4>[January 30th, 2025]</h4>
+        <li>
+          <b>
+              <a href="https://openreview.net/forum?id=8imVCizVEw"> Learning-Based Link Anomaly Detection in Continuous-Time Dynamic Graphs </a> (TMLR) 
+          </b>
+          <br> Presenter: <u>Tim Poštuvan</u> EPFL
+          <a class="btn btn-info btn-xs" data-toggle="collapse" href="#25jan30bio" role="button" aria-expanded="false" aria-controls="collapseExample">
+            Speaker Bio
+          </a>
+          <div class="collapse" id="25jan30bio">
+            <div class="card card-body">
+              <u>Tim Poštuvan</u> is a Research Scientist at DeepL, specializing in natural language processing. He holds a master’s degree in Data Science from the École Polytechnique Fédérale de Lausanne (EPFL). His current research focuses on enhancing large language models (LLMs) through reinforcement learning from human feedback.
+            </div>
+          </div>
+          <br> 
+          <a href="https://openreview.net/forum?id=8imVCizVEw"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
+          <a href="https://github.com/timpostuvan/CTDG-link-anomaly-detection?tab=readme-ov-file"><img src="https://img.shields.io/badge/Github-link-lightgrey"></a>
+          <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#25jan30" role="button" aria-expanded="false" aria-controls="collapseExample">
+              Abstract
+            </a>
+        <div class="collapse" id="25jan30">
+        <div class="card card-body">
+          Anomaly detection in continuous-time dynamic graphs is an emerging field yet underexplored in the context of learning algorithms. In this paper, we pioneer structured analyses of link-level anomalies and graph representation learning for identifying categorically
+          anomalous graph links. First, we introduce a fine-grained taxonomy for edge-level anomalies
+          leveraging structural, temporal, and contextual graph properties. Based on these properties,
+          we introduce a method for generating and injecting typed anomalies into graphs. Next, we
+          introduce a novel method to generate continuous-time dynamic graphs featuring consistencies across either or combinations of time, structure, and context. To enable temporal graph
+          learning methods to detect specific types of anomalous links rather than the bare existence
+          of a link, we extend the generic link prediction setting by: (1) conditioning link existence
+          on contextual edge attributes; and (2) refining the training regime to accommodate diverse
+          perturbations in the negative edge sampler. Comprehensive benchmarks on synthetic and
+          real-world datasets – featuring synthetic and labeled organic anomalies and employing six
+          state-of-the-art link prediction methods – validate our taxonomy and generation processes
+          for anomalies and benign graphs, as well as our approach to adapting methods for anomaly
+          detection. Our results reveal that different learning methods excel in capturing different
+          aspects of graph normality and detecting different types of anomalies. We conclude with
+          a comprehensive list of findings highlighting opportunities for future research. The code is
+          available at https://github.com/timpostuvan/CTDG-link-anomaly-detection.
+        </div>
+      </li>
 
         </div>
       </div>
