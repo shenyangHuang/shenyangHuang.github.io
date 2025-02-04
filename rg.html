@@ -339,7 +339,7 @@
     <h4>[March 13th, 2025]</h4>
       <li>
         <b>
-            <a href="https://arxiv.org/abs/2408.04713"> DyGMamba: Efficiently Modeling Long-Term Temporal Dependency on Continuous-Time Dynamic Graphs with State Space Models </a> (NeurIPS 2024)  
+            <a href="https://arxiv.org/pdf/2408.04713v3"> DyGMamba: Efficiently Modeling Long-Term Temporal Dependency on Continuous-Time Dynamic Graphs with State Space Models </a> (NeurIPS 2024)  
         </b>
         <br> Presenter: <u>Zifeng Ding</u> University of Cambridge
         <a class="btn btn-info btn-xs" data-toggle="collapse" href="#25mar13bio" role="button" aria-expanded="false" aria-controls="collapseExample">
@@ -347,11 +347,11 @@
         </a>
         <div class="collapse" id="25mar13bio">
           <div class="card card-body">
-            TBD
+            <u>Zifeng Ding</u> is a Research Associate (Postdoctoral Researcher) at the University of Cambridge. Currently, he is working with Prof. Andreas Vlachos in the Cambridge NLIP Group. His research interests include temporal reasoning with LLMs, multimodal fact-checking, LLM hallucination detection and mitigation, synthetic data generation for LLMs, and representation learning on structured knowledge (e.g., knowledge graphs) as well as temporal/dynamic graphs.
           </div>
         </div>
         <br> 
-        <a href="https://arxiv.org/abs/2408.04713"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
+        <a href="https://arxiv.org/pdf/2408.04713v3"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
         <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#25mar13" role="button" aria-expanded="false" aria-controls="collapseExample">
             Abstract
           </a>
@@ -360,6 +360,38 @@
         Learning useful representations for continuous-time dynamic graphs (CTDGs) is challenging, due to the concurrent need to span long node interaction histories and grasp nuanced temporal details. In particular, two problems emerge: (1) Encoding longer histories requires more computational resources, making it crucial for CTDG models to maintain low computational complexity to ensure efficiency; (2) Meanwhile, more powerful models are needed to identify and select the most critical temporal information within the extended context provided by longer histories. To address these problems, we propose a CTDG representation learning model named DyGMamba, originating from the popular Mamba state space model (SSM). DyGMamba first leverages a node-level SSM to encode the sequence of historical node interactions. Another time-level SSM is then employed to exploit the temporal patterns hidden in the historical graph, where its output is used to dynamically select the critical information from the interaction history. We validate DyGMamba experimentally on the dynamic link prediction task. The results show that our model achieves state-of-the-art in most cases. DyGMamba also maintains high efficiency in terms of computational resources, making it possible to capture long temporal dependencies with a limited computation budget.
       </div>
     </li>
+
+
+    <h4>[March 20th, 2025]</h4>
+      <li>
+        <b>
+            <a href="https://arxiv.org/abs/2407.09618"> The Heterophilic Graph Learning Handbook: Benchmarks, Models, Theoretical Analysis, Applications and Challenges </a>  
+        </b>
+        <br> Presenter: <u>Sitao Luan</u> Mila, McGill University
+        <a class="btn btn-info btn-xs" data-toggle="collapse" href="#25mar20bio" role="button" aria-expanded="false" aria-controls="collapseExample">
+          Speaker Bio
+        </a>
+        <div class="collapse" id="25mar20bio">
+          <div class="card card-body">
+            <u>Sitao Luan</u>  is an incoming postdoctoral fellow at Mila. He obtained his Ph.D. degree in computer science at McGill University in 2024, under the supervision of Professor Xiao-Wen Chang and Doina Precup. His research interests are graph representation learning and graph neural networks, focusing on addressing the heterophily problem. He will introduce the recent progress of heterophilic graph learning and discuss how it can be developed for temporal graph learning.
+          </div>
+        </div>
+        <br> 
+        <a href="https://arxiv.org/abs/2407.09618"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
+        <a href="https://www.arxiv.org/abs/2412.16435"><img src="https://img.shields.io/badge/Paper-link-important"></a>
+        <a href="https://sites.google.com/mila.quebec/heterophilic-graph-learning/home"><img src="https://img.shields.io/badge/website-blue"></a>
+        <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#25mar20" role="button" aria-expanded="false" aria-controls="collapseExample">
+            Abstract
+          </a>
+      <div class="collapse" id="25mar20">
+      <div class="card card-body">
+        Homophily principle, i.e. nodes with the same labels or similar attributes are more likely to be connected, has been commonly believed to be the main reason for the superiority of Graph Neural Networks (GNNs) over traditional Neural Networks (NNs) on graph-structured data, especially on node-level tasks. However, recent work has identified a non-trivial set of datasets where GNN's performance compared to the NN's is not satisfactory. Heterophily, i.e. low homophily, has been considered the main cause of this empirical observation. People have begun to revisit and re-evaluate most existing graph models, including graph transformer and its variants, in the heterophily scenario across various kinds of graphs, e.g. heterogeneous graphs, temporal graphs and hypergraphs. Moreover, numerous graph-related applications are found to be closely related to the heterophily problem. In the past few years, considerable effort has been devoted to studying and addressing the heterophily issue.
+In this survey, we provide a comprehensive review of the latest progress on heterophilic graph learning, including an extensive summary of benchmark datasets and evaluation of homophily metrics on synthetic graphs, meticulous classification of the most updated supervised and unsupervised learning methods, thorough digestion of the theoretical analysis on homophily/heterophily, and broad exploration of the heterophily-related applications. Notably, through detailed experiments, we are the first to categorize benchmark heterophilic datasets into three sub-categories: malignant, benign and ambiguous heterophily. Malignant and ambiguous datasets are identified as the real challenging datasets to test the effectiveness of new models on the heterophily challenge. Finally, we propose several challenges and future directions for heterophilic graph representation learning.
+      </div>
+    </li>
+
+
+
 
 
 
