@@ -192,7 +192,8 @@
         </a>
         <div class="collapse" id="25mar6bio">
           <div class="card card-body">
-            TBD
+            <u>Ingo Scholtes</u> is a Full Professor for Machine Learning in Complex Networks at the Center for Artificial Intelligence and Data Science of Julius-Maximilians-Universität Würzburg, Germany as well as SNSF Professor for Data Analytics at the Department of Computer Science at the University of Zürich, Switzerland. He has a background in computer science and mathematics and obtained his doctorate degree from the University of Trier, Germany. At CERN, he developed a large-scale data distribution system, which is currently used to monitor particle collision data from the ATLAS detector. After finishing his doctorate degree, he was a postdoctoral researcher at the interdisciplinary Chair of Systems Design at ETH Zürich from 2011 till 2016. In 2016 he held an interim professorship for Applied Computer Science at the Karlsruhe Institute of Technology, Germany. In 2017 he returned to ETH Zürich as a senior assistant and lecturer.  In 2019 he was appointed Full Professor at the University of Wuppertal. Since 2021 he holds the Chair of Computer Science XV - Machine Learning for Complex Networks at Julius-Maximilians-Universität Würzburg, Germany. 
+
           </div>
         </div>
         <br> 
@@ -224,7 +225,7 @@
     <h4>[March 13th, 2025]</h4>
       <li>
         <b>
-            <a href="https://arxiv.org/pdf/2408.04713v3"> DyGMamba: Efficiently Modeling Long-Term Temporal Dependency on Continuous-Time Dynamic Graphs with State Space Models </a> (NeurIPS 2024)  
+            <a href="https://arxiv.org/pdf/2408.04713v3"> DyGMamba: Efficiently Modeling Long-Term Temporal Dependency on Continuous-Time Dynamic Graphs with State Space Models </a>  
         </b>
         <br> Presenter: <u>Zifeng Ding</u> University of Cambridge
         <a class="btn btn-info btn-xs" data-toggle="collapse" href="#25mar13bio" role="button" aria-expanded="false" aria-controls="collapseExample">
@@ -305,6 +306,64 @@ In this survey, we provide a comprehensive review of the latest progress on hete
         Temporal knowledge graphs (TKGs) are valuable resources for capturing evolving relationships among entities, yet they are often plagued by noise, necessitating robust anomaly detection mechanisms. Existing dynamic graph anomaly detection approaches struggle to capture the rich semantics introduced by node and edge categories within TKGs, while TKG embedding methods lack interpretability, undermining the credibility of anomaly detection. Moreover, these methods falter in adapting to pattern changes and semantic drifts resulting from knowledge updates. To tackle these challenges, we introduce AnoT, an efficient TKG summarization method tailored for interpretable online anomaly detection in TKGs. AnoT begins by summarizing a TKG into a novel rule graph, enabling flexible inference of complex patterns in TKGs. When new knowledge emerges, AnoT maps it onto a node in the rule graph and traverses the rule graph recursively to derive the anomaly score of the knowledge. The traversal yields reachable nodes that furnish interpretable evidence for the validity or the anomalous of the new knowledge. Overall, AnoT embodies a detector-updater-monitor architecture, encompassing a detector for offline TKG summarization and online scoring, an updater for real-time rule graph updates based on emerging knowledge, and a monitor for estimating the approximation error of the rule graph. Experimental results on four real-world datasets demonstrate that AnoT surpasses existing methods significantly in terms of accuracy and interoperability. All of the raw datasets and the implementation of AnoT are provided
       </div>
     </li>
+
+
+    <h4>[April 10th, 2025]</h4>
+      <li>
+        <b>
+            Boosting Relational Deep Learning with Pretrained Tabular Models
+        </b>
+        <br> Presenter: <u>Veronica Lachi </u> Mobile and Social Computing Lab at Bruno Kessler Foundation
+        <a class="btn btn-info btn-xs" data-toggle="collapse" href="#25apr10bio" role="button" aria-expanded="false" aria-controls="collapseExample">
+          Speaker Bio
+        </a>
+        <div class="collapse" id="25apr10bio">
+          <div class="card card-body">
+            <u>Veronica Lachi </u>is a researcher in the Mobile and Social Computing Lab at Bruno Kessler Foundation in Trento. Her research interests focus on the theoretical properties of Graph Neural Networks, particularly their expressiveness, hierarchical pooling, and temporal GNNs. She obtained a PhD in Artificial Intelligence from the University of Siena under the supervision of Prof. Monica Bianchini. During her PhD, she was a Visiting Researcher at UiT The Arctic University of Tromsø. 
+          </div>
+        </div>
+        <br> 
+        <!-- <a href="https://arxiv.org/pdf/2408.00872"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
+        <a href="https://github.com/zjs123/ANoT"><img src="https://img.shields.io/badge/Github-link-lightgrey"></a> -->
+        <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#25apr10" role="button" aria-expanded="false" aria-controls="collapseExample">
+            Abstract
+          </a>
+      <div class="collapse" id="25apr10">
+      <div class="card card-body">
+        Relational databases, organized into tables connected by primary-foreign key relationships, are a common format for organizing data. Making predictions on relational data often involves transforming them into a flat tabular format through table joins and feature engineering, which serve as inputs to tabular methods. However, designing features that fully capture complex relational patterns remains challenging. Graph Neural Networks (GNNs) offer a compelling alternative by inherently modeling these relationships, but their time overhead during inference limits their applicability for real-time scenarios. In this work, we aim to bridge this gap by leveraging existing feature engineering efforts to enhance the efficiency of GNNs in relational databases. Specifically, we use GNNs to capture complex relationships within relational databases—patterns that are difficult to featurize, while employing engineered features to encode temporal information, avoiding the need to retain the entire historical graph and enabling the use of smaller, more efficient graphs. Our LIGHTRDL approach not only enhances efficiency but also outperforms existing models. Experimental results on the RelBench benchmark demonstrate that our framework achieves up to 33% performance improvement and a 526× inference speedup compared to GNNs, making it highly suitable for real-time inference
+      </div>
+    </li>
+
+
+    
+    <h4>[April 17th, 2025]</h4>
+      <li>
+        <b>
+          <a href="https://openreview.net/forum?id=tj5xJInWty"> Temporal Heterogeneous Graph Generation with Privacy, Utility, and Efficiency</a>
+        </b> (ICLR 2025 Spotlight)
+        <br> Presenter: <u>Xinyu He</u> University of Illinois Urbana-Champaign
+        <a class="btn btn-info btn-xs" data-toggle="collapse" href="#25apr17bio" role="button" aria-expanded="false" aria-controls="collapseExample">
+          Speaker Bio
+        </a>
+        <div class="collapse" id="25apr17bio">
+          <div class="card card-body">
+            <u>Xinyu He</u> is a PhD student at University of Illinois at Urbana-Champaign, advised by Prof. Hanghang Tong in the IDEA-ISAIL joint lab. She earned her bachelor's degree in Tsinghua University. Her research generally focuses on data mining and machine learning, especially graph mining. Her research interest includes different aspects of Trustworthy ML and recommender systems, with a current interest of intersection of the two areas. Her research also extends to complex graph modeling and large language model in recommender systems.
+          </div>
+        </div>
+        <br> 
+        <a href="https://openreview.net/forum?id=tj5xJInWty"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
+        <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#25apr17" role="button" aria-expanded="false" aria-controls="collapseExample">
+            Abstract
+          </a>
+      <div class="collapse" id="25apr17">
+      <div class="card card-body">
+        Nowadays, temporal heterogeneous graphs attract much research and industrial attention for building the next-generation Relational Deep Learning models and applications, due to their informative structures and features. While providing timely and precise services like personalized recommendations and question answering, this rich information also introduces extra exposure risk for each node in the graph. The distinctive local topology, the abundant heterogeneous features, and the time dimension of the graph data are more prone to expose sensitive information and narrow down the scope of victim candidates, which calls for well-defined protection techniques on graphs. To this end, we propose a Temporal Heterogeneous Graph Generator balancing Privacy, Utility, and Efficiency, named THePUff. More specifically, we first propose a differential privacy algorithm to perturb the input temporal heterogeneous graph for protecting privacy, and then utilize both the perturbed graph and the original one in a generative adversarial setting for THePUff to learn and generate privacy-guaranteed and utility-preserved graph data in an efficient manner. We further propose 6 new metrics in the temporal setting to measure heterogeneous graph utility and privacy. Finally, based on temporal heterogeneous graph datasets with up to 1 million nodes and 20 million edges, the experiments show that THePUff generates utilizable temporal heterogeneous graphs with privacy protected, compared with state-of-the-art baselines.
+      </div>
+    </li>
+
+
+
+
 
 
 
