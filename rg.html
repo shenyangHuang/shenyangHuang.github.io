@@ -154,72 +154,6 @@
 
     <h4>[Time zone shift, we are now in Eastern Daylight Saving Time]</h4>
 
-    <h4>[March 6th, 2025]</h4>
-      <li>
-        <b>
-            <a href="https://arxiv.org/abs/2310.15865"> Using Time-Aware Graph Neural Networks to Predict Temporal Centralities in Dynamic Graphs </a> (NeurIPS 2024)  
-        </b>
-        <br> Presenter: <u>Franziska Heeg</u> Julius-Maximilans-Universität, Würzburg
-        <a class="btn btn-info btn-xs" data-toggle="collapse" href="#25mar6bio" role="button" aria-expanded="false" aria-controls="collapseExample">
-          Speaker Bio
-        </a>
-        <div class="collapse" id="25mar6bio">
-          <div class="card card-body">
-            <u>Franziska Heeg</u> completed her Master's degree in Mathematics at the University of Würzburg. Since 2022, she has been a PhD student at the Chair for Machine Learning for Complex Networks at the Center for AI and Data Science (CAIDAS) at the University of Würzburg. Her research focuses on using higher-order network models for temporal graph learning
-          </div>
-        </div>
-        <br> 
-        <a href="https://openreview.net/forum?id=6n709MszkP"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
-        <a href="https://zenodo.org/records/10202792"><img src="https://img.shields.io/badge/Github-link-lightgrey"></a>
-        <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#25mar6" role="button" aria-expanded="false" aria-controls="collapseExample">
-            Abstract
-          </a>
-      <div class="collapse" id="25mar6">
-      <div class="card card-body">
-        Node centralities play a pivotal role in network science, social network analysis,
-        and recommender systems. In temporal data, static path-based centralities like
-        closeness or betweenness can give misleading results about the true importance
-        of nodes in a temporal graph. To address this issue, temporal generalizations
-        of betweenness and closeness have been defined that are based on the shortest
-        time-respecting paths between pairs of nodes. However, a major issue of those
-        generalizations is that the calculation of such paths is computationally expensive.
-        Addressing this issue, we study the application of De Bruijn Graph Neural Networks
-        (DBGNN), a time-aware graph neural network architecture, to predict temporal
-        path-based centralities in time series data. We experimentally evaluate our approach in 13 temporal graphs from biological and social systems and show that
-        it considerably improves the prediction of betweenness and closeness centrality
-        compared to (i) a static Graph Convolutional Neural Network, (ii) an efficient
-        sampling-based approximation technique for temporal betweenness, and (iii) two
-        state-of-the-art time-aware graph learning techniques for dynamic graphs.
-      </div>
-    </li>
-
-
-    <h4>[March 13th, 2025]</h4>
-      <li>
-        <b>
-            <a href="https://arxiv.org/pdf/2408.04713v3"> DyGMamba: Efficiently Modeling Long-Term Temporal Dependency on Continuous-Time Dynamic Graphs with State Space Models </a>  
-        </b>
-        <br> Presenter: <u>Zifeng Ding</u> University of Cambridge
-        <a class="btn btn-info btn-xs" data-toggle="collapse" href="#25mar13bio" role="button" aria-expanded="false" aria-controls="collapseExample">
-          Speaker Bio
-        </a>
-        <div class="collapse" id="25mar13bio">
-          <div class="card card-body">
-            <u>Zifeng Ding</u> is a Research Associate (Postdoctoral Researcher) at the University of Cambridge. Currently, he is working with Prof. Andreas Vlachos in the Cambridge NLIP Group. His research interests include temporal reasoning with LLMs, multimodal fact-checking, LLM hallucination detection and mitigation, synthetic data generation for LLMs, and representation learning on structured knowledge (e.g., knowledge graphs) as well as temporal/dynamic graphs.
-          </div>
-        </div>
-        <br> 
-        <a href="https://arxiv.org/pdf/2408.04713v3"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
-        <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#25mar13" role="button" aria-expanded="false" aria-controls="collapseExample">
-            Abstract
-          </a>
-      <div class="collapse" id="25mar13">
-      <div class="card card-body">
-        Learning useful representations for continuous-time dynamic graphs (CTDGs) is challenging, due to the concurrent need to span long node interaction histories and grasp nuanced temporal details. In particular, two problems emerge: (1) Encoding longer histories requires more computational resources, making it crucial for CTDG models to maintain low computational complexity to ensure efficiency; (2) Meanwhile, more powerful models are needed to identify and select the most critical temporal information within the extended context provided by longer histories. To address these problems, we propose a CTDG representation learning model named DyGMamba, originating from the popular Mamba state space model (SSM). DyGMamba first leverages a node-level SSM to encode the sequence of historical node interactions. Another time-level SSM is then employed to exploit the temporal patterns hidden in the historical graph, where its output is used to dynamically select the critical information from the interaction history. We validate DyGMamba experimentally on the dynamic link prediction task. The results show that our model achieves state-of-the-art in most cases. DyGMamba also maintains high efficiency in terms of computational resources, making it possible to capture long temporal dependencies with a limited computation budget.
-      </div>
-    </li>
-
-
     <h4>[March 20th, 2025]</h4>
       <li>
         <b>
@@ -564,6 +498,74 @@ In this survey, we provide a comprehensive review of the latest progress on hete
         Many real world graphs are inherently dynamic, constantly evolving with node and edge additions. These graphs can be represented by temporal graphs, either through a stream of edge events or a sequence of graph snapshots. Until now, the development of machine learning methods for both types has occurred largely in isolation, resulting in limited experimental comparison and theoretical cross- pollination between the two. In this paper, we introduce Unified Temporal Graph (UTG), a framework that unifies snapshot-based and event-based machine learning models under a single umbrella, enabling models developed for one representation to be applied effectively to datasets of the other. We also propose a novel UTG training procedure to boost the performance of snapshot-based models in the streaming setting. We comprehensively evaluate both snapshot and event-based models across both types of temporal graphs on the temporal link prediction task. Our main findings are threefold: first, when combined with UTG training, snapshot-based models can perform competitively with event- based models such as TGN and GraphMixer even on event datasets. Second, snapshot-based models are at least an order of magnitude faster than most event- based models during inference. Third, while event-based methods such as NAT and DyGFormer outperforms snapshot-based methods on both types of temporal graphs, this is because they leverage joint neighborhood structural features thus emphasizing the potential to incorporate these features into snapshot-based models as well. These findings highlight the importance of comparing model architectures independent of the data format and suggest the potential of combining the efficiency of snapshot-based models with the performance of event-based models in the future.
       </div>
     </li>
+
+
+    <h4>[March 6th, 2025]</h4>
+      <li>
+        <b>
+            <a href="https://arxiv.org/abs/2310.15865"> Using Time-Aware Graph Neural Networks to Predict Temporal Centralities in Dynamic Graphs </a> (NeurIPS 2024)  
+        </b>
+        <br> Presenter: <u>Franziska Heeg</u> Julius-Maximilans-Universität, Würzburg
+        <a class="btn btn-info btn-xs" data-toggle="collapse" href="#25mar6bio" role="button" aria-expanded="false" aria-controls="collapseExample">
+          Speaker Bio
+        </a>
+        <div class="collapse" id="25mar6bio">
+          <div class="card card-body">
+            <u>Franziska Heeg</u> completed her Master's degree in Mathematics at the University of Würzburg. Since 2022, she has been a PhD student at the Chair for Machine Learning for Complex Networks at the Center for AI and Data Science (CAIDAS) at the University of Würzburg. Her research focuses on using higher-order network models for temporal graph learning
+          </div>
+        </div>
+        <br> 
+        <a href="https://openreview.net/forum?id=6n709MszkP"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
+        <a href="https://zenodo.org/records/10202792"><img src="https://img.shields.io/badge/Github-link-lightgrey"></a>
+        <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#25mar6" role="button" aria-expanded="false" aria-controls="collapseExample">
+            Abstract
+          </a>
+      <div class="collapse" id="25mar6">
+      <div class="card card-body">
+        Node centralities play a pivotal role in network science, social network analysis,
+        and recommender systems. In temporal data, static path-based centralities like
+        closeness or betweenness can give misleading results about the true importance
+        of nodes in a temporal graph. To address this issue, temporal generalizations
+        of betweenness and closeness have been defined that are based on the shortest
+        time-respecting paths between pairs of nodes. However, a major issue of those
+        generalizations is that the calculation of such paths is computationally expensive.
+        Addressing this issue, we study the application of De Bruijn Graph Neural Networks
+        (DBGNN), a time-aware graph neural network architecture, to predict temporal
+        path-based centralities in time series data. We experimentally evaluate our approach in 13 temporal graphs from biological and social systems and show that
+        it considerably improves the prediction of betweenness and closeness centrality
+        compared to (i) a static Graph Convolutional Neural Network, (ii) an efficient
+        sampling-based approximation technique for temporal betweenness, and (iii) two
+        state-of-the-art time-aware graph learning techniques for dynamic graphs.
+      </div>
+    </li>
+
+
+    <h4>[March 13th, 2025]</h4>
+      <li>
+        <b>
+            <a href="https://arxiv.org/pdf/2408.04713v3"> DyGMamba: Efficiently Modeling Long-Term Temporal Dependency on Continuous-Time Dynamic Graphs with State Space Models </a>  
+        </b>
+        <br> Presenter: <u>Zifeng Ding</u> University of Cambridge
+        <a class="btn btn-info btn-xs" data-toggle="collapse" href="#25mar13bio" role="button" aria-expanded="false" aria-controls="collapseExample">
+          Speaker Bio
+        </a>
+        <div class="collapse" id="25mar13bio">
+          <div class="card card-body">
+            <u>Zifeng Ding</u> is a Research Associate (Postdoctoral Researcher) at the University of Cambridge. Currently, he is working with Prof. Andreas Vlachos in the Cambridge NLIP Group. His research interests include temporal reasoning with LLMs, multimodal fact-checking, LLM hallucination detection and mitigation, synthetic data generation for LLMs, and representation learning on structured knowledge (e.g., knowledge graphs) as well as temporal/dynamic graphs.
+          </div>
+        </div>
+        <br> 
+        <a href="https://youtu.be/CT3qw3IElzo"><img src="https://img.shields.io/badge/Youtube-Recording-orange"></a>
+        <a href="https://arxiv.org/pdf/2408.04713v3"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
+        <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#25mar13" role="button" aria-expanded="false" aria-controls="collapseExample">
+            Abstract
+          </a>
+      <div class="collapse" id="25mar13">
+      <div class="card card-body">
+        Learning useful representations for continuous-time dynamic graphs (CTDGs) is challenging, due to the concurrent need to span long node interaction histories and grasp nuanced temporal details. In particular, two problems emerge: (1) Encoding longer histories requires more computational resources, making it crucial for CTDG models to maintain low computational complexity to ensure efficiency; (2) Meanwhile, more powerful models are needed to identify and select the most critical temporal information within the extended context provided by longer histories. To address these problems, we propose a CTDG representation learning model named DyGMamba, originating from the popular Mamba state space model (SSM). DyGMamba first leverages a node-level SSM to encode the sequence of historical node interactions. Another time-level SSM is then employed to exploit the temporal patterns hidden in the historical graph, where its output is used to dynamically select the critical information from the interaction history. We validate DyGMamba experimentally on the dynamic link prediction task. The results show that our model achieves state-of-the-art in most cases. DyGMamba also maintains high efficiency in terms of computational resources, making it possible to capture long temporal dependencies with a limited computation budget.
+      </div>
+    </li>
+
 
 
         </div>
