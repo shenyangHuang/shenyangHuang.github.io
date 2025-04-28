@@ -152,65 +152,8 @@
     </li> -->
 
 
-    <h4>[Time zone shift, we are now in Eastern Daylight Saving Time]</h4>
-
-
-    
-    <h4>[April 17th, 2025]</h4>
-      <li>
-        <b>
-          <a href="https://openreview.net/forum?id=tj5xJInWty"> Temporal Heterogeneous Graph Generation with Privacy, Utility, and Efficiency</a>
-        </b> (ICLR 2025 Spotlight)
-        <br> Presenter: <u>Xinyu He</u> University of Illinois Urbana-Champaign
-        <a class="btn btn-info btn-xs" data-toggle="collapse" href="#25apr17bio" role="button" aria-expanded="false" aria-controls="collapseExample">
-          Speaker Bio
-        </a>
-        <div class="collapse" id="25apr17bio">
-          <div class="card card-body">
-            <u>Xinyu He</u> is a PhD student at University of Illinois at Urbana-Champaign, advised by Prof. Hanghang Tong in the IDEA-ISAIL joint lab. She earned her bachelor's degree in Tsinghua University. Her research generally focuses on data mining and machine learning, especially graph mining. Her research interest includes different aspects of Trustworthy ML and recommender systems, with a current interest of intersection of the two areas. Her research also extends to complex graph modeling and large language model in recommender systems.
-          </div>
-        </div>
-        <br> 
-        <a href="https://openreview.net/forum?id=tj5xJInWty"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
-        <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#25apr17" role="button" aria-expanded="false" aria-controls="collapseExample">
-            Abstract
-          </a>
-      <div class="collapse" id="25apr17">
-      <div class="card card-body">
-        Nowadays, temporal heterogeneous graphs attract much research and industrial attention for building the next-generation Relational Deep Learning models and applications, due to their informative structures and features. While providing timely and precise services like personalized recommendations and question answering, this rich information also introduces extra exposure risk for each node in the graph. The distinctive local topology, the abundant heterogeneous features, and the time dimension of the graph data are more prone to expose sensitive information and narrow down the scope of victim candidates, which calls for well-defined protection techniques on graphs. To this end, we propose a Temporal Heterogeneous Graph Generator balancing Privacy, Utility, and Efficiency, named THePUff. More specifically, we first propose a differential privacy algorithm to perturb the input temporal heterogeneous graph for protecting privacy, and then utilize both the perturbed graph and the original one in a generative adversarial setting for THePUff to learn and generate privacy-guaranteed and utility-preserved graph data in an efficient manner. We further propose 6 new metrics in the temporal setting to measure heterogeneous graph utility and privacy. Finally, based on temporal heterogeneous graph datasets with up to 1 million nodes and 20 million edges, the experiments show that THePUff generates utilizable temporal heterogeneous graphs with privacy protected, compared with state-of-the-art baselines.
-      </div>
-    </li>
-
-    
-    <h4>[April 24th, 2025]</h4>
-    <li>
-      <b>
-        <a href="https://openreview.net/forum?id=8e2LirwiJT"> TGB-Seq Benchmark: Challenging Temporal GNNs with Complex Sequential Dynamics</a>
-      </b> (ICLR 2025)
-      <br> Presenter: <u>Lu Yi</u> ALGO Lab, Renmin University of China
-      <a class="btn btn-info btn-xs" data-toggle="collapse" href="#25apr24bio" role="button" aria-expanded="false" aria-controls="collapseExample">
-        Speaker Bio
-      </a>
-      <div class="collapse" id="25apr24bio">
-        <div class="card card-body">
-          <u>Lu Yi</u> is a Ph.D. candidate at the ALGO Lab, Renmin University of China, supervised by Prof. Zhewei wei. She received her B.Sc. degree in Computer Science and Technology at Beijing University of Posts and Telecommunications in 2022. Her research insterests include dynamic graph learning, graph unlearning, and efficient graph algorithms
-        </div>
-      </div>
-      <br> 
-      <a href="https://openreview.net/forum?id=8e2LirwiJT"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
-      <a href="https://arxiv.org/abs/2408.09212"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
-      <a href="https://tgb-seq.github.io/"><img src="https://img.shields.io/badge/website-blue"></a>
-      <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#25apr24" role="button" aria-expanded="false" aria-controls="collapseExample">
-          Abstract
-        </a>
-    <div class="collapse" id="25apr24">
-    <div class="card card-body">
-      Lu Yi will present her recent ICLR2025 accepted paper, "TGB-Seq Benchmark: Challenging Temporal GNNs with Complex Sequential Dynamics". Below is the abstract of the paper:
-  Future link prediction is a fundamental challenge in various real-world dynamic systems. To address this, numerous temporal graph neural networks (temporal GNNs) and benchmark datasets have been developed. However, these datasets often feature excessive repeated edges and lack complex sequential dynamics, a key characteristic inherent in many real-world applications such as recommender systems and "Who-To-Follow" on social networks. This oversight has led existing methods to inadvertently downplay the importance of learning sequential dynamics, focusing primarily on predicting repeated edges.
-  In this study, we demonstrate that existing methods, such as GraphMixer and DyGFormer, are inherently incapable of learning simple sequential dynamics, such as "a user who has followed OpenAI and Anthropic is more likely to follow AI at Meta next." Motivated by this issue, we introduce the Temporal Graph Benchmark with Sequential Dynamics (TGB-Seq), a new benchmark carefully curated to minimize repeated edges, challenging models to learn sequential dynamics and generalize to unseen edges. TGB-Seq comprises large real-world datasets spanning diverse domains, including e-commerce interactions, movie ratings, business reviews, social networks, citation networks and web link networks. Benchmarking experiments reveal that current methods usually suffer significant performance degradation and incur substantial training costs on TGB-Seq, posing new challenges and opportunities for future research.
-    </div>
-  </li>
-
+    <!-- <h4>[Time zone shift, we are now in Eastern Daylight Saving Time]</h4> -->
+  
     <h4>[May 1st, 2025]</h4>
     <li>
       <b>
@@ -647,6 +590,61 @@ In this survey, we provide a comprehensive review of the latest progress on hete
         Relational databases, organized into tables connected by primary-foreign key relationships, are a common format for organizing data. Making predictions on relational data often involves transforming them into a flat tabular format through table joins and feature engineering, which serve as inputs to tabular methods. However, designing features that fully capture complex relational patterns remains challenging. Graph Neural Networks (GNNs) offer a compelling alternative by inherently modeling these relationships, but their time overhead during inference limits their applicability for real-time scenarios. In this work, we aim to bridge this gap by leveraging existing feature engineering efforts to enhance the efficiency of GNNs in relational databases. Specifically, we use GNNs to capture complex relationships within relational databases—patterns that are difficult to featurize, while employing engineered features to encode temporal information, avoiding the need to retain the entire historical graph and enabling the use of smaller, more efficient graphs. Our LIGHTRDL approach not only enhances efficiency but also outperforms existing models. Experimental results on the RelBench benchmark demonstrate that our framework achieves up to 33% performance improvement and a 526× inference speedup compared to GNNs, making it highly suitable for real-time inference
       </div>
     </li>
+
+    <h4>[April 17th, 2025]</h4>
+    <li>
+      <b>
+        <a href="https://openreview.net/forum?id=tj5xJInWty"> Temporal Heterogeneous Graph Generation with Privacy, Utility, and Efficiency</a>
+      </b> (ICLR 2025 Spotlight)
+      <br> Presenter: <u>Xinyu He</u> University of Illinois Urbana-Champaign
+      <a class="btn btn-info btn-xs" data-toggle="collapse" href="#25apr17bio" role="button" aria-expanded="false" aria-controls="collapseExample">
+        Speaker Bio
+      </a>
+      <div class="collapse" id="25apr17bio">
+        <div class="card card-body">
+          <u>Xinyu He</u> is a PhD student at University of Illinois at Urbana-Champaign, advised by Prof. Hanghang Tong in the IDEA-ISAIL joint lab. She earned her bachelor's degree in Tsinghua University. Her research generally focuses on data mining and machine learning, especially graph mining. Her research interest includes different aspects of Trustworthy ML and recommender systems, with a current interest of intersection of the two areas. Her research also extends to complex graph modeling and large language model in recommender systems.
+        </div>
+      </div>
+      <br> 
+      <a href="https://openreview.net/forum?id=tj5xJInWty"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
+      <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#25apr17" role="button" aria-expanded="false" aria-controls="collapseExample">
+          Abstract
+        </a>
+    <div class="collapse" id="25apr17">
+    <div class="card card-body">
+      Nowadays, temporal heterogeneous graphs attract much research and industrial attention for building the next-generation Relational Deep Learning models and applications, due to their informative structures and features. While providing timely and precise services like personalized recommendations and question answering, this rich information also introduces extra exposure risk for each node in the graph. The distinctive local topology, the abundant heterogeneous features, and the time dimension of the graph data are more prone to expose sensitive information and narrow down the scope of victim candidates, which calls for well-defined protection techniques on graphs. To this end, we propose a Temporal Heterogeneous Graph Generator balancing Privacy, Utility, and Efficiency, named THePUff. More specifically, we first propose a differential privacy algorithm to perturb the input temporal heterogeneous graph for protecting privacy, and then utilize both the perturbed graph and the original one in a generative adversarial setting for THePUff to learn and generate privacy-guaranteed and utility-preserved graph data in an efficient manner. We further propose 6 new metrics in the temporal setting to measure heterogeneous graph utility and privacy. Finally, based on temporal heterogeneous graph datasets with up to 1 million nodes and 20 million edges, the experiments show that THePUff generates utilizable temporal heterogeneous graphs with privacy protected, compared with state-of-the-art baselines.
+    </div>
+  </li>
+
+  <h4>[April 24th, 2025]</h4>
+  <li>
+    <b>
+      <a href="https://openreview.net/forum?id=8e2LirwiJT"> TGB-Seq Benchmark: Challenging Temporal GNNs with Complex Sequential Dynamics</a>
+    </b> (ICLR 2025)
+    <br> Presenter: <u>Lu Yi</u> ALGO Lab, Renmin University of China
+    <a class="btn btn-info btn-xs" data-toggle="collapse" href="#25apr24bio" role="button" aria-expanded="false" aria-controls="collapseExample">
+      Speaker Bio
+    </a>
+    <div class="collapse" id="25apr24bio">
+      <div class="card card-body">
+        <u>Lu Yi</u> is a Ph.D. candidate at the ALGO Lab, Renmin University of China, supervised by Prof. Zhewei wei. She received her B.Sc. degree in Computer Science and Technology at Beijing University of Posts and Telecommunications in 2022. Her research insterests include dynamic graph learning, graph unlearning, and efficient graph algorithms
+      </div>
+    </div>
+    <br> 
+    <a href="https://openreview.net/forum?id=8e2LirwiJT"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
+    <a href="https://arxiv.org/abs/2408.09212"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
+    <a href="https://tgb-seq.github.io/"><img src="https://img.shields.io/badge/website-blue"></a>
+    <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#25apr24" role="button" aria-expanded="false" aria-controls="collapseExample">
+        Abstract
+      </a>
+  <div class="collapse" id="25apr24">
+  <div class="card card-body">
+    Lu Yi will present her recent ICLR2025 accepted paper, "TGB-Seq Benchmark: Challenging Temporal GNNs with Complex Sequential Dynamics". Below is the abstract of the paper:
+  Future link prediction is a fundamental challenge in various real-world dynamic systems. To address this, numerous temporal graph neural networks (temporal GNNs) and benchmark datasets have been developed. However, these datasets often feature excessive repeated edges and lack complex sequential dynamics, a key characteristic inherent in many real-world applications such as recommender systems and "Who-To-Follow" on social networks. This oversight has led existing methods to inadvertently downplay the importance of learning sequential dynamics, focusing primarily on predicting repeated edges.
+  In this study, we demonstrate that existing methods, such as GraphMixer and DyGFormer, are inherently incapable of learning simple sequential dynamics, such as "a user who has followed OpenAI and Anthropic is more likely to follow AI at Meta next." Motivated by this issue, we introduce the Temporal Graph Benchmark with Sequential Dynamics (TGB-Seq), a new benchmark carefully curated to minimize repeated edges, challenging models to learn sequential dynamics and generalize to unseen edges. TGB-Seq comprises large real-world datasets spanning diverse domains, including e-commerce interactions, movie ratings, business reviews, social networks, citation networks and web link networks. Benchmarking experiments reveal that current methods usually suffer significant performance degradation and incur substantial training costs on TGB-Seq, posing new challenges and opportunities for future research.
+    </div>
+  </li>
+
 
 
 
