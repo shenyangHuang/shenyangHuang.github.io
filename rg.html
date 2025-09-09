@@ -133,6 +133,31 @@
 
       <!-- <h3>[Summer Reading Group Session begins on July 24th]</h4> -->
 
+        <h4>[September 11th, 2025]</h4>
+        <li>
+          <b>
+              <a href="https://www.nature.com/articles/s42003-025-07764-y"> A large-scale benchmark for network inference from single-cell perturbation data </a> 
+          </b>
+          <br> Presenter: <u>Mathieu Chevalley</u> ETH Zurich and GSK.ai
+          <a class="btn btn-info btn-xs" data-toggle="collapse" href="#25sept11bio" role="button" aria-expanded="false" aria-controls="collapseExample">
+            Speaker Bio
+          </a>
+          <div class="collapse" id="25sept11bio">
+            <div class="card card-body">
+              <u>Mathieu Chevalley</u> is a PhD candidate at ETH Zurich and GSK.ai (supervisors: Prof. Nicolai Meinshausen, Dr. Patrick Schwab), developing scalable machine-learning methods for causal discovery from large-scale biological data
+            </div>
+          </div>
+          <br> 
+          <a href="https://www.nature.com/articles/s42003-025-07764-y"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
+          <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#25sept11" role="button" aria-expanded="false" aria-controls="collapseExample">
+              Abstract
+            </a>
+        <div class="collapse" id="25sept11">
+        <div class="card card-body">
+          Mapping biological mechanisms in cellular systems is a fundamental step in early-stage drug discovery that serves to generate hypotheses on what disease-relevant molecular targets may effectively be modulated by pharmacological interventions. With the advent of high-throughput methods for measuring single-cell gene expression under genetic perturbations, we now have effective means for generating evidence for causal gene-gene interactions at scale. However, evaluating the performance of network inference methods in real-world environments is challenging due to the lack of ground-truth knowledge. Moreover, traditional evaluations conducted on synthetic datasets do not reflect the performance in real-world systems. We thus introduce CausalBench, a benchmark suite revolutionizing network inference evaluation with real-world, large-scale single-cell perturbation data. CausalBench, distinct from existing benchmarks, offers biologically-motivated metrics and distribution-based interventional measures, providing a more realistic evaluation of network inference methods. An initial systematic evaluation of state-of-the-art causal inference methods using our CausalBench suite highlights how poor scalability of existing methods limits performance. Moreover, methods that use interventional information do not outperform those that only use observational data, contrary to what is observed on synthetic benchmarks. CausalBench subsequently enables the development of numerous promising methods through a community challenge, thus demonstrating its potential as a transformative tool in the field of computational biology, bridging the gap between theoretical innovation and practical application in drug discovery and disease understanding. Thus, CausalBench opens new avenues for method developers in causal network inference research, and provides to practitioners a principled and reliable way to track progress in network methods for real-world interventional data.
+        </div>
+      </li>
+
 
         <h4>[September 18th, 2025]</h4>
           <li>
@@ -184,6 +209,88 @@
             Future link prediction on temporal graphs is a fundamental task with wide applicability in real-world dynamic systems. These scenarios often involve both recurring (seen) and novel (unseen) interactions, requiring models to generalize effectively across both types of edges. However, existing methods typically rely on complex memory and aggregation modules, yet struggle to handle unseen edges. In this paper, we revisit the architecture of existing temporal graph models and identify two essential but overlooked modeling requirements for future link prediction: representing nodes with unique identifiers and performing target-aware matching between source and destination nodes. To this end, we propose Cross-Attention based Future Link Predictor on Temporal Graphs (CRAFT), a simple yet effective architecture that discards memory and aggregation modules and instead builds on two components: learnable node embeddings and cross-attention between the destination and the source's recent interactions. This design provides strong expressive power and enables target-aware modeling of the compatibility between candidate destinations and the source's interaction patterns. Extensive experiments on diverse datasets demonstrate that CRAFT consistently achieves superior performance with high efficiency, making it well-suited for large-scale real-world applications. 
           </div>
         </li>
+
+        <h4>[October 9th, 2025]</h4>
+          <li>
+            <b>
+                <a href="https://arxiv.org/abs/2509.00975"> Self-Exploring Language Models for Explainable Link Forecasting on Temporal Graphs via Reinforcement Learning </a> 
+            </b>
+            <br> Presenter: <u>Zifeng Ding</u> University of Cambridge
+            <a class="btn btn-info btn-xs" data-toggle="collapse" href="#25oct9bio" role="button" aria-expanded="false" aria-controls="collapseExample">
+              Speaker Bio
+            </a>
+            <div class="collapse" id="25oct9bio">
+              <div class="card card-body">
+                TBD
+              </div>
+            </div>
+            <br> 
+            <a href="https://arxiv.org/abs/2509.00975"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
+            <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#25oct9" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Abstract
+              </a>
+          <div class="collapse" id="25oct9">
+          <div class="card card-body">
+            Forecasting future links is a central task in temporal graph (TG) reasoning, requiring models to leverage historical interactions to predict upcoming ones. Traditional neural approaches, such as temporal graph neural networks, achieve strong performance but lack explainability and cannot be applied to unseen graphs without retraining. Recent studies have begun to explore using large language models (LLMs) for graph reasoning, but most of them are constrained to static graphs or small synthetic TGs and lack the evaluation of the quality of reasoning traces generated by LLMs. In this work, we present Reasoning-Enhanced Learning for Temporal Graphs (ReaL-TG), a reinforcement learning framework that fine-tunes LLMs to perform explainable link forecasting on real-world TGs. ReaL-TG uses outcome-based reward to encourage models to self-explore reasoning strategies from graph structure and to produce explanations that directly justify their predictions. To enable evaluation on LLM-generated reasoning traces, we propose a new evaluation protocol combining ranking metrics with an LLM-as-a-Judge system that assesses both the quality of reasoning and the impact of hallucinations. Experiments with ReaL-TG-4B, obtained by fine-tuning Qwen3-4B under our framework, show that it outperforms much larger frontier LLMs, including GPT-5 mini, on ranking metrics, while producing high-quality explanations confirmed by both the LLM judge and human evaluation.
+          </div>
+        </li>
+
+
+        <h4>[October 16th, 2025]</h4>
+          <li>
+            <b>
+                <a href="https://www.esann.org/sites/default/files/proceedings/2025/ES2025-87.pdf"> Tensor Decomposition for Temporal Knowledge Graph Reasoning: From Completion to Forecasting </a> 
+            </b>
+            <br> Presenter: <u>Manuel Dileo </u> University of Milan
+            <a class="btn btn-info btn-xs" data-toggle="collapse" href="#25oct16bio" role="button" aria-expanded="false" aria-controls="collapseExample">
+              Speaker Bio
+            </a>
+            <div class="collapse" id="25oct16bio">
+              <div class="card card-body">
+                <u>Manuel Dileo</u> is a Ph.D. candidate at the University of Milan, working in the Connets Lab. His research focuses on the intersection between network science and graph machine learning, with a particular emphasis on temporal and heterogeneous graph reasoning. He has been a visiting researcher at the University of Edinburgh where he worked on temporal knowledge graph reasoning. His homepage is manuel-dileo.github.io.
+              </div>
+            </div>
+            <br> 
+            <a href="https://www.esann.org/sites/default/files/proceedings/2025/ES2025-87.pdf"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
+            <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#25oct16" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Abstract
+              </a>
+          <div class="collapse" id="25oct16">
+          <div class="card card-body">
+            Temporal knowledge graphs (TKGs) are an expressive framework for representing dynamic relational data. In this talk, I will present two lines of work on tensor-decomposition models for TKG reasoning. First, I will discuss how temporal regularization can enhance neural link predictors for knowledge base completion, showing that properly tuned and regularized TNTComplEx can rival more recent state-of-the-art methods. Second, I will present recent results on knowledge graph forecasting, where carefully tuned tensor-based models achieve comparable or superior performance to graph and recurrent neural network approaches, while being significantly faster. Together, these results highlight that tensor-decomposition methods, despite their simplicity, remain highly competitive for TKG reasoning tasks.
+          </div>
+        </li>
+
+
+        <h4>[October 23rd, 2025]</h4>
+          <li>
+            <b>
+                <a href="https://arxiv.org/abs/2505.18728"> Message-Passing State-Space Models: Improving Graph Learning with Modern Sequence Modeling </a> 
+            </b>
+            <br> Presenter: <u>Andrea Ceni</u> University of Pisa
+            <a class="btn btn-info btn-xs" data-toggle="collapse" href="#25oct23bio" role="button" aria-expanded="false" aria-controls="collapseExample">
+              Speaker Bio
+            </a>
+            <div class="collapse" id="25oct23bio">
+              <div class="card card-body">
+                <u>Andrea Ceni</u> received his Ph.D. in Computer Science from the University of Exeter, UK, in 2021. He subsequently worked as a Postdoctoral Research Associate at CEMPS. He is currently an Assistant Professor in the Department of Computer Science at the University of Pisa, Italy. His research focuses at tthe intersection of machine learning and neuroscience, approached through the lens of dynamical systems theory, with particular emphasis on recurrent neural networks.
+              </div>
+            </div>
+            <br> 
+            <a href="https://arxiv.org/abs/2505.18728"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
+            <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#25oct23" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Abstract
+              </a>
+          <div class="collapse" id="25oct23">
+          <div class="card card-body">
+            The recent success of State-Space Models (SSMs) in sequence modeling has motivated their adaptation to graph learning, giving rise to Graph State-Space Models (GSSMs). However, existing GSSMs operate by applying SSM modules to sequences extracted from graphs, often compromising core properties such as permutation equivariance, message-passing compatibility, and computational efficiency. In this paper, we introduce a new perspective by embedding the key principles of modern SSM computation directly into the Message-Passing Neural Network framework, resulting in a unified methodology for both static and temporal graphs. Our approach, MP-SSM, enables efficient, permutation-equivariant, and long-range information propagation while preserving the architectural simplicity of message passing. Crucially, MP-SSM enables an exact sensitivity analysis, which we use to theoretically characterize information flow and evaluate issues like vanishing gradients and over-squashing in the deep regime. Furthermore, our design choices allow for a highly optimized parallel implementation akin to modern SSMs. We validate MP-SSM across a wide range of tasks, including node classification, graph property prediction, long-range benchmarks, and spatiotemporal forecasting, demonstrating both its versatility and strong empirical performance.
+          </div>
+        </li>
+
+
+
+
+
         
 
 
