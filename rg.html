@@ -133,58 +133,7 @@
 
       <!-- <h3>[Summer Reading Group Session begins on July 24th]</h4> -->
 
-        <h4>[September 11th, 2025]</h4>
-        <li>
-          <b>
-              <a href="https://www.nature.com/articles/s42003-025-07764-y"> A large-scale benchmark for network inference from single-cell perturbation data </a> 
-          </b>
-          <br> Presenter: <u>Mathieu Chevalley</u> ETH Zurich and GSK.ai
-          <a class="btn btn-info btn-xs" data-toggle="collapse" href="#25sept11bio" role="button" aria-expanded="false" aria-controls="collapseExample">
-            Speaker Bio
-          </a>
-          <div class="collapse" id="25sept11bio">
-            <div class="card card-body">
-              <u>Mathieu Chevalley</u> is a PhD candidate at ETH Zurich and GSK.ai (supervisors: Prof. Nicolai Meinshausen, Dr. Patrick Schwab), developing scalable machine-learning methods for causal discovery from large-scale biological data
-            </div>
-          </div>
-          <br> 
-          <a href="https://www.nature.com/articles/s42003-025-07764-y"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
-          <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#25sept11" role="button" aria-expanded="false" aria-controls="collapseExample">
-              Abstract
-            </a>
-        <div class="collapse" id="25sept11">
-        <div class="card card-body">
-          Mapping biological mechanisms in cellular systems is a fundamental step in early-stage drug discovery that serves to generate hypotheses on what disease-relevant molecular targets may effectively be modulated by pharmacological interventions. With the advent of high-throughput methods for measuring single-cell gene expression under genetic perturbations, we now have effective means for generating evidence for causal gene-gene interactions at scale. However, evaluating the performance of network inference methods in real-world environments is challenging due to the lack of ground-truth knowledge. Moreover, traditional evaluations conducted on synthetic datasets do not reflect the performance in real-world systems. We thus introduce CausalBench, a benchmark suite revolutionizing network inference evaluation with real-world, large-scale single-cell perturbation data. CausalBench, distinct from existing benchmarks, offers biologically-motivated metrics and distribution-based interventional measures, providing a more realistic evaluation of network inference methods. An initial systematic evaluation of state-of-the-art causal inference methods using our CausalBench suite highlights how poor scalability of existing methods limits performance. Moreover, methods that use interventional information do not outperform those that only use observational data, contrary to what is observed on synthetic benchmarks. CausalBench subsequently enables the development of numerous promising methods through a community challenge, thus demonstrating its potential as a transformative tool in the field of computational biology, bridging the gap between theoretical innovation and practical application in drug discovery and disease understanding. Thus, CausalBench opens new avenues for method developers in causal network inference research, and provides to practitioners a principled and reliable way to track progress in network methods for real-world interventional data.
-        </div>
-      </li>
-
-
-        <h4>[Cancelled, to reschedule] [September 18th, 2025]</h4>
-          <li>
-            <b>
-                <a href="https://arxiv.org/pdf/2503.02859"> Unsupervised Attributed Dynamic Network Embedding with Stability Guarantees </a> 
-            </b>
-            <br> Presenter: <u>Emma Ceccherini</u> University of Bristol
-            <a class="btn btn-info btn-xs" data-toggle="collapse" href="#25sept18bio" role="button" aria-expanded="false" aria-controls="collapseExample">
-              Speaker Bio
-            </a>
-            <div class="collapse" id="25sept18bio">
-              <div class="card card-body">
-                <u>Emma Ceccherini</u> is a PhD student in computational statistics at the University of Bristol, advised by Ian Gallagher and Dan Lawson. Her research focuses on dynamic network embeddings and generative models for networks.
-              </div>
-            </div>
-            <br> 
-            <a href="https://arxiv.org/pdf/2503.02859"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
-            <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#25sept18" role="button" aria-expanded="false" aria-controls="collapseExample">
-                Abstract
-              </a>
-          <div class="collapse" id="25sept18">
-          <div class="card card-body">
-            Stability for dynamic network embeddings ensures that nodes behaving the same at different times receive the same embedding, allowing comparison of nodes in the network across time. We present attributed unfolded adjacency spectral embedding (AUASE), a stable unsupervised representation learning framework for dynamic networks in which nodes are attributed with time-varying covariate information. To establish stability, we prove uniform convergence to an associated latent position model. We quantify the benefits of our dynamic embedding by comparing with state-of-the-art network representation learning methods on four real attributed networks. To the best of our knowledge, AUASE is the only attributed dynamic embedding that satisfies stability guarantees without the need for ground truth labels, which we demonstrate provides significant improvements for link prediction and node classification.
-          </div>
-        </li>
-
-
+        
         <h4>[October 2nd, 2025]</h4>
           <li>
             <b>
@@ -209,6 +158,7 @@
             Future link prediction on temporal graphs is a fundamental task with wide applicability in real-world dynamic systems. These scenarios often involve both recurring (seen) and novel (unseen) interactions, requiring models to generalize effectively across both types of edges. However, existing methods typically rely on complex memory and aggregation modules, yet struggle to handle unseen edges. In this paper, we revisit the architecture of existing temporal graph models and identify two essential but overlooked modeling requirements for future link prediction: representing nodes with unique identifiers and performing target-aware matching between source and destination nodes. To this end, we propose Cross-Attention based Future Link Predictor on Temporal Graphs (CRAFT), a simple yet effective architecture that discards memory and aggregation modules and instead builds on two components: learnable node embeddings and cross-attention between the destination and the source's recent interactions. This design provides strong expressive power and enables target-aware modeling of the compatibility between candidate destinations and the source's interaction patterns. Extensive experiments on diverse datasets demonstrate that CRAFT consistently achieves superior performance with high efficiency, making it well-suited for large-scale real-world applications. 
           </div>
         </li>
+
 
         <h4>[October 9th, 2025]</h4>
           <li>
@@ -286,6 +236,59 @@
             The recent success of State-Space Models (SSMs) in sequence modeling has motivated their adaptation to graph learning, giving rise to Graph State-Space Models (GSSMs). However, existing GSSMs operate by applying SSM modules to sequences extracted from graphs, often compromising core properties such as permutation equivariance, message-passing compatibility, and computational efficiency. In this paper, we introduce a new perspective by embedding the key principles of modern SSM computation directly into the Message-Passing Neural Network framework, resulting in a unified methodology for both static and temporal graphs. Our approach, MP-SSM, enables efficient, permutation-equivariant, and long-range information propagation while preserving the architectural simplicity of message passing. Crucially, MP-SSM enables an exact sensitivity analysis, which we use to theoretically characterize information flow and evaluate issues like vanishing gradients and over-squashing in the deep regime. Furthermore, our design choices allow for a highly optimized parallel implementation akin to modern SSMs. We validate MP-SSM across a wide range of tasks, including node classification, graph property prediction, long-range benchmarks, and spatiotemporal forecasting, demonstrating both its versatility and strong empirical performance.
           </div>
         </li>
+
+
+        <h4>[October 30th, 2025]</h4>
+          <li>
+            <b>
+                <a href="https://arxiv.org/abs/2505.20882"> Fedivertex: a Graph Dataset based on Decentralized Social Networks for Trustworthy Machine Learning </a> 
+            </b>
+            <br> Presenter: <u>Edwige Cyffer</u> Institute of Science and Technology Austria, Klosterneuburg, Austria
+            <a class="btn btn-info btn-xs" data-toggle="collapse" href="#25oct30bio" role="button" aria-expanded="false" aria-controls="collapseExample">
+              Speaker Bio
+            </a>
+            <div class="collapse" id="25oct30bio">
+              <div class="card card-body">
+                <u>Edwige Cyffers</u> is a postdoctoral researcher at ISTA in Vienna and will join CNRS at Université Paris Dauphine in 2026 as a Researcher. Her PhD focused on differential privacy in fully decentralized learning, and she has published at leading venues such as NeurIPS, ICML, and AISTATS. She received the L'Oréal-UNESCO For Women in Science Young Talents Award and is committed to promoting the role of women in science.
+              </div>
+            </div>
+            <br> 
+            <a href="https://arxiv.org/abs/2505.20882"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
+            <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#25oct30" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Abstract
+              </a>
+          <div class="collapse" id="25oct30">
+          <div class="card card-body">
+            Decentralized machine learning - where each client keeps its own data locally and uses its own computational resources to collaboratively train a model by exchanging peer-to-peer messages - is increasingly popular, as it enables better scalability and control over the data. A major challenge in this setting is that learning dynamics depend on the topology of the communication graph, which motivates the use of real graph datasets for benchmarking decentralized algorithms. Unfortunately, existing graph datasets are largely limited to for-profit social networks crawled at a fixed point in time and often collected at the user scale, where links are heavily influenced by the platform and its recommendation algorithms. The Fediverse, which includes several free and open-source decentralized social media platforms such as Mastodon, Misskey, and Lemmy, offers an interesting real-world alternative. We introduce Fedivertex, a new dataset of 182 graphs, covering seven social networks from the Fediverse, crawled weekly over 14 weeks. We release the dataset along with a Python package to facilitate its use, and illustrate its utility on several tasks, including a new defederation task, which captures a process of link deletion observed on these networks.
+          </div>
+        </li>
+
+        <h4>[Nov 6th, 2025]</h4>
+          <li>
+            <b>
+                <a href="https://arxiv.org/pdf/2503.02859"> Unsupervised Attributed Dynamic Network Embedding with Stability Guarantees </a> 
+            </b>
+            <br> Presenter: <u>Emma Ceccherini</u> University of Bristol
+            <a class="btn btn-info btn-xs" data-toggle="collapse" href="#25sept18bio" role="button" aria-expanded="false" aria-controls="collapseExample">
+              Speaker Bio
+            </a>
+            <div class="collapse" id="25sept18bio">
+              <div class="card card-body">
+                <u>Emma Ceccherini</u> is a PhD student in computational statistics at the University of Bristol, advised by Ian Gallagher and Dan Lawson. Her research focuses on dynamic network embeddings and generative models for networks.
+              </div>
+            </div>
+            <br> 
+            <a href="https://arxiv.org/pdf/2503.02859"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
+            <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#25sept18" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Abstract
+              </a>
+          <div class="collapse" id="25sept18">
+          <div class="card card-body">
+            Stability for dynamic network embeddings ensures that nodes behaving the same at different times receive the same embedding, allowing comparison of nodes in the network across time. We present attributed unfolded adjacency spectral embedding (AUASE), a stable unsupervised representation learning framework for dynamic networks in which nodes are attributed with time-varying covariate information. To establish stability, we prove uniform convergence to an associated latent position model. We quantify the benefits of our dynamic embedding by comparing with state-of-the-art network representation learning methods on four real attributed networks. To the best of our knowledge, AUASE is the only attributed dynamic embedding that satisfies stability guarantees without the need for ground truth labels, which we demonstrate provides significant improvements for link prediction and node classification.
+          </div>
+        </li>
+
+
 
 
 
@@ -462,6 +465,36 @@
             Temporal Graph Learning (TGL) has become a robust framework for discovering patterns in dynamic networks and predicting future interactions. While existing research has largely concentrated on learning from individual networks, this study explores the potential of learning from multiple temporal networks and its ability to transfer to unobserved networks. To achieve this, we introduce Temporal Multi-network Training MiNT, a novel pre-training approach that learns from multiple temporal networks. With a novel collection of 84 temporal transaction networks, we pre-train TGL models on up to 64 networks and assess their transferability to 20 unseen networks. Remarkably, MiNT achieves state-of-the-art results in zero-shot inference, surpassing models individually trained on each network. Our findings further demonstrate that increasing the number of pre-training networks significantly improves transfer performance. This work lays the groundwork for developing Temporal Graph Foundation Models, highlighting the significant potential of multi-network pre-training in TGL.          
           </div>
         </li>
+
+        <h4>[September 11th, 2025]</h4>
+        <li>
+          <b>
+              <a href="https://www.nature.com/articles/s42003-025-07764-y"> A large-scale benchmark for network inference from single-cell perturbation data </a> 
+          </b>
+          <br> Presenter: <u>Mathieu Chevalley</u> ETH Zurich and GSK.ai
+          <a class="btn btn-info btn-xs" data-toggle="collapse" href="#25sept11bio" role="button" aria-expanded="false" aria-controls="collapseExample">
+            Speaker Bio
+          </a>
+          <div class="collapse" id="25sept11bio">
+            <div class="card card-body">
+              <u>Mathieu Chevalley</u> is a PhD candidate at ETH Zurich and GSK.ai (supervisors: Prof. Nicolai Meinshausen, Dr. Patrick Schwab), developing scalable machine-learning methods for causal discovery from large-scale biological data
+            </div>
+          </div>
+          <br> 
+          <a href="https://www.nature.com/articles/s42003-025-07764-y"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
+          <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#25sept11" role="button" aria-expanded="false" aria-controls="collapseExample">
+              Abstract
+            </a>
+        <div class="collapse" id="25sept11">
+        <div class="card card-body">
+          Mapping biological mechanisms in cellular systems is a fundamental step in early-stage drug discovery that serves to generate hypotheses on what disease-relevant molecular targets may effectively be modulated by pharmacological interventions. With the advent of high-throughput methods for measuring single-cell gene expression under genetic perturbations, we now have effective means for generating evidence for causal gene-gene interactions at scale. However, evaluating the performance of network inference methods in real-world environments is challenging due to the lack of ground-truth knowledge. Moreover, traditional evaluations conducted on synthetic datasets do not reflect the performance in real-world systems. We thus introduce CausalBench, a benchmark suite revolutionizing network inference evaluation with real-world, large-scale single-cell perturbation data. CausalBench, distinct from existing benchmarks, offers biologically-motivated metrics and distribution-based interventional measures, providing a more realistic evaluation of network inference methods. An initial systematic evaluation of state-of-the-art causal inference methods using our CausalBench suite highlights how poor scalability of existing methods limits performance. Moreover, methods that use interventional information do not outperform those that only use observational data, contrary to what is observed on synthetic benchmarks. CausalBench subsequently enables the development of numerous promising methods through a community challenge, thus demonstrating its potential as a transformative tool in the field of computational biology, bridging the gap between theoretical innovation and practical application in drug discovery and disease understanding. Thus, CausalBench opens new avenues for method developers in causal network inference research, and provides to practitioners a principled and reliable way to track progress in network methods for real-world interventional data.
+        </div>
+      </li>
+
+
+        
+
+
 
 
 
