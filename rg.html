@@ -133,83 +133,6 @@
 
       <!-- <h3>[Summer Reading Group Session begins on July 24th]</h4> -->
 
-        <h4>[October 23rd, 2025]</h4>
-          <li>
-            <b>
-                <a href="https://arxiv.org/abs/2505.18728"> Message-Passing State-Space Models: Improving Graph Learning with Modern Sequence Modeling </a> 
-            </b>
-            <br> Presenter: <u>Andrea Ceni</u> University of Pisa
-            <a class="btn btn-info btn-xs" data-toggle="collapse" href="#25oct23bio" role="button" aria-expanded="false" aria-controls="collapseExample">
-              Speaker Bio
-            </a>
-            <div class="collapse" id="25oct23bio">
-              <div class="card card-body">
-                <u>Andrea Ceni</u> received his Ph.D. in Computer Science from the University of Exeter, UK, in 2021. He subsequently worked as a Postdoctoral Research Associate at CEMPS. He is currently an Assistant Professor in the Department of Computer Science at the University of Pisa, Italy. His research focuses at tthe intersection of machine learning and neuroscience, approached through the lens of dynamical systems theory, with particular emphasis on recurrent neural networks.
-              </div>
-            </div>
-            <br> 
-            <a href="https://arxiv.org/abs/2505.18728"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
-            <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#25oct23" role="button" aria-expanded="false" aria-controls="collapseExample">
-                Abstract
-              </a>
-          <div class="collapse" id="25oct23">
-          <div class="card card-body">
-            The recent success of State-Space Models (SSMs) in sequence modeling has motivated their adaptation to graph learning, giving rise to Graph State-Space Models (GSSMs). However, existing GSSMs operate by applying SSM modules to sequences extracted from graphs, often compromising core properties such as permutation equivariance, message-passing compatibility, and computational efficiency. In this paper, we introduce a new perspective by embedding the key principles of modern SSM computation directly into the Message-Passing Neural Network framework, resulting in a unified methodology for both static and temporal graphs. Our approach, MP-SSM, enables efficient, permutation-equivariant, and long-range information propagation while preserving the architectural simplicity of message passing. Crucially, MP-SSM enables an exact sensitivity analysis, which we use to theoretically characterize information flow and evaluate issues like vanishing gradients and over-squashing in the deep regime. Furthermore, our design choices allow for a highly optimized parallel implementation akin to modern SSMs. We validate MP-SSM across a wide range of tasks, including node classification, graph property prediction, long-range benchmarks, and spatiotemporal forecasting, demonstrating both its versatility and strong empirical performance.
-          </div>
-        </li>
-
-
-        <h4>[October 30th, 2025]</h4>
-          <li>
-            <b>
-                <a href="https://arxiv.org/abs/2505.20882"> Fedivertex: a Graph Dataset based on Decentralized Social Networks for Trustworthy Machine Learning </a> 
-            </b>
-            <br> Presenter: <u>Edwige Cyffer</u> Institute of Science and Technology Austria, Klosterneuburg, Austria
-            <a class="btn btn-info btn-xs" data-toggle="collapse" href="#25oct30bio" role="button" aria-expanded="false" aria-controls="collapseExample">
-              Speaker Bio
-            </a>
-            <div class="collapse" id="25oct30bio">
-              <div class="card card-body">
-                <u>Edwige Cyffers</u> is a postdoctoral researcher at ISTA in Vienna and will join CNRS at Université Paris Dauphine in 2026 as a Researcher. Her PhD focused on differential privacy in fully decentralized learning, and she has published at leading venues such as NeurIPS, ICML, and AISTATS. She received the L'Oréal-UNESCO For Women in Science Young Talents Award and is committed to promoting the role of women in science.
-              </div>
-            </div>
-            <br> 
-            <a href="https://arxiv.org/abs/2505.20882"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
-            <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#25oct30" role="button" aria-expanded="false" aria-controls="collapseExample">
-                Abstract
-              </a>
-          <div class="collapse" id="25oct30">
-          <div class="card card-body">
-            Decentralized machine learning - where each client keeps its own data locally and uses its own computational resources to collaboratively train a model by exchanging peer-to-peer messages - is increasingly popular, as it enables better scalability and control over the data. A major challenge in this setting is that learning dynamics depend on the topology of the communication graph, which motivates the use of real graph datasets for benchmarking decentralized algorithms. Unfortunately, existing graph datasets are largely limited to for-profit social networks crawled at a fixed point in time and often collected at the user scale, where links are heavily influenced by the platform and its recommendation algorithms. The Fediverse, which includes several free and open-source decentralized social media platforms such as Mastodon, Misskey, and Lemmy, offers an interesting real-world alternative. We introduce Fedivertex, a new dataset of 182 graphs, covering seven social networks from the Fediverse, crawled weekly over 14 weeks. We release the dataset along with a Python package to facilitate its use, and illustrate its utility on several tasks, including a new defederation task, which captures a process of link deletion observed on these networks.
-          </div>
-        </li>
-
-        <h4>[Nov 6th, 2025]</h4>
-          <li>
-            <b>
-                <a href="https://arxiv.org/pdf/2503.02859"> Unsupervised Attributed Dynamic Network Embedding with Stability Guarantees </a> 
-            </b>
-            <br> Presenter: <u>Emma Ceccherini</u> University of Bristol
-            <a class="btn btn-info btn-xs" data-toggle="collapse" href="#25nov6bio" role="button" aria-expanded="false" aria-controls="collapseExample">
-              Speaker Bio
-            </a>
-            <div class="collapse" id="25nov6bio">
-              <div class="card card-body">
-                <u>Emma Ceccherini</u> is a PhD student in computational statistics at the University of Bristol, advised by Ian Gallagher and Dan Lawson. Her research focuses on dynamic network embeddings and generative models for networks.
-              </div>
-            </div>
-            <br> 
-            <a href="https://arxiv.org/pdf/2503.02859"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
-            <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#25nov6" role="button" aria-expanded="false" aria-controls="collapseExample">
-                Abstract
-              </a>
-          <div class="collapse" id="25nov6">
-          <div class="card card-body">
-            Stability for dynamic network embeddings ensures that nodes behaving the same at different times receive the same embedding, allowing comparison of nodes in the network across time. We present attributed unfolded adjacency spectral embedding (AUASE), a stable unsupervised representation learning framework for dynamic networks in which nodes are attributed with time-varying covariate information. To establish stability, we prove uniform convergence to an associated latent position model. We quantify the benefits of our dynamic embedding by comparing with state-of-the-art network representation learning methods on four real attributed networks. To the best of our knowledge, AUASE is the only attributed dynamic embedding that satisfies stability guarantees without the need for ground truth labels, which we demonstrate provides significant improvements for link prediction and node classification.
-          </div>
-        </li>
-
-
         <h4>[Nov 13th, 2025]</h4>
           <li>
             <b>
@@ -571,6 +494,84 @@
           Temporal knowledge graphs (TKGs) are an expressive framework for representing dynamic relational data. In this talk, I will present two lines of work on tensor-decomposition models for TKG reasoning. First, I will discuss how temporal regularization can enhance neural link predictors for knowledge base completion, showing that properly tuned and regularized TNTComplEx can rival more recent state-of-the-art methods. Second, I will present recent results on knowledge graph forecasting, where carefully tuned tensor-based models achieve comparable or superior performance to graph and recurrent neural network approaches, while being significantly faster. Together, these results highlight that tensor-decomposition methods, despite their simplicity, remain highly competitive for TKG reasoning tasks.
         </div>
       </li>
+
+
+      <h4>[October 23rd, 2025]</h4>
+          <li>
+            <b>
+                <a href="https://arxiv.org/abs/2505.18728"> Message-Passing State-Space Models: Improving Graph Learning with Modern Sequence Modeling </a> 
+            </b>
+            <br> Presenter: <u>Andrea Ceni</u> University of Pisa
+            <a class="btn btn-info btn-xs" data-toggle="collapse" href="#25oct23bio" role="button" aria-expanded="false" aria-controls="collapseExample">
+              Speaker Bio
+            </a>
+            <div class="collapse" id="25oct23bio">
+              <div class="card card-body">
+                <u>Andrea Ceni</u> received his Ph.D. in Computer Science from the University of Exeter, UK, in 2021. He subsequently worked as a Postdoctoral Research Associate at CEMPS. He is currently an Assistant Professor in the Department of Computer Science at the University of Pisa, Italy. His research focuses at tthe intersection of machine learning and neuroscience, approached through the lens of dynamical systems theory, with particular emphasis on recurrent neural networks.
+              </div>
+            </div>
+            <br> 
+            <a href="https://arxiv.org/abs/2505.18728"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
+            <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#25oct23" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Abstract
+              </a>
+          <div class="collapse" id="25oct23">
+          <div class="card card-body">
+            The recent success of State-Space Models (SSMs) in sequence modeling has motivated their adaptation to graph learning, giving rise to Graph State-Space Models (GSSMs). However, existing GSSMs operate by applying SSM modules to sequences extracted from graphs, often compromising core properties such as permutation equivariance, message-passing compatibility, and computational efficiency. In this paper, we introduce a new perspective by embedding the key principles of modern SSM computation directly into the Message-Passing Neural Network framework, resulting in a unified methodology for both static and temporal graphs. Our approach, MP-SSM, enables efficient, permutation-equivariant, and long-range information propagation while preserving the architectural simplicity of message passing. Crucially, MP-SSM enables an exact sensitivity analysis, which we use to theoretically characterize information flow and evaluate issues like vanishing gradients and over-squashing in the deep regime. Furthermore, our design choices allow for a highly optimized parallel implementation akin to modern SSMs. We validate MP-SSM across a wide range of tasks, including node classification, graph property prediction, long-range benchmarks, and spatiotemporal forecasting, demonstrating both its versatility and strong empirical performance.
+          </div>
+        </li>
+
+
+        <h4>[October 30th, 2025]</h4>
+          <li>
+            <b>
+                <a href="https://arxiv.org/abs/2505.20882"> Fedivertex: a Graph Dataset based on Decentralized Social Networks for Trustworthy Machine Learning </a> 
+            </b>
+            <br> Presenter: <u>Edwige Cyffer</u> Institute of Science and Technology Austria, Klosterneuburg, Austria
+            <a class="btn btn-info btn-xs" data-toggle="collapse" href="#25oct30bio" role="button" aria-expanded="false" aria-controls="collapseExample">
+              Speaker Bio
+            </a>
+            <div class="collapse" id="25oct30bio">
+              <div class="card card-body">
+                <u>Edwige Cyffers</u> is a postdoctoral researcher at ISTA in Vienna and will join CNRS at Université Paris Dauphine in 2026 as a Researcher. Her PhD focused on differential privacy in fully decentralized learning, and she has published at leading venues such as NeurIPS, ICML, and AISTATS. She received the L'Oréal-UNESCO For Women in Science Young Talents Award and is committed to promoting the role of women in science.
+              </div>
+            </div>
+            <br> 
+            <a href="https://arxiv.org/abs/2505.20882"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
+            <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#25oct30" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Abstract
+              </a>
+          <div class="collapse" id="25oct30">
+          <div class="card card-body">
+            Decentralized machine learning - where each client keeps its own data locally and uses its own computational resources to collaboratively train a model by exchanging peer-to-peer messages - is increasingly popular, as it enables better scalability and control over the data. A major challenge in this setting is that learning dynamics depend on the topology of the communication graph, which motivates the use of real graph datasets for benchmarking decentralized algorithms. Unfortunately, existing graph datasets are largely limited to for-profit social networks crawled at a fixed point in time and often collected at the user scale, where links are heavily influenced by the platform and its recommendation algorithms. The Fediverse, which includes several free and open-source decentralized social media platforms such as Mastodon, Misskey, and Lemmy, offers an interesting real-world alternative. We introduce Fedivertex, a new dataset of 182 graphs, covering seven social networks from the Fediverse, crawled weekly over 14 weeks. We release the dataset along with a Python package to facilitate its use, and illustrate its utility on several tasks, including a new defederation task, which captures a process of link deletion observed on these networks.
+          </div>
+        </li>
+
+        <h4>[Nov 6th, 2025]</h4>
+          <li>
+            <b>
+                <a href="https://arxiv.org/pdf/2503.02859"> Unsupervised Attributed Dynamic Network Embedding with Stability Guarantees </a> 
+            </b>
+            <br> Presenter: <u>Emma Ceccherini</u> University of Bristol
+            <a class="btn btn-info btn-xs" data-toggle="collapse" href="#25nov6bio" role="button" aria-expanded="false" aria-controls="collapseExample">
+              Speaker Bio
+            </a>
+            <div class="collapse" id="25nov6bio">
+              <div class="card card-body">
+                <u>Emma Ceccherini</u> is a PhD student in computational statistics at the University of Bristol, advised by Ian Gallagher and Dan Lawson. Her research focuses on dynamic network embeddings and generative models for networks.
+              </div>
+            </div>
+            <br> 
+            <a href="https://arxiv.org/pdf/2503.02859"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
+            <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#25nov6" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Abstract
+              </a>
+          <div class="collapse" id="25nov6">
+          <div class="card card-body">
+            Stability for dynamic network embeddings ensures that nodes behaving the same at different times receive the same embedding, allowing comparison of nodes in the network across time. We present attributed unfolded adjacency spectral embedding (AUASE), a stable unsupervised representation learning framework for dynamic networks in which nodes are attributed with time-varying covariate information. To establish stability, we prove uniform convergence to an associated latent position model. We quantify the benefits of our dynamic embedding by comparing with state-of-the-art network representation learning methods on four real attributed networks. To the best of our knowledge, AUASE is the only attributed dynamic embedding that satisfies stability guarantees without the need for ground truth labels, which we demonstrate provides significant improvements for link prediction and node classification.
+          </div>
+        </li>
+
 
 
 
