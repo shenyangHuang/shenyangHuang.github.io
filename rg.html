@@ -166,6 +166,104 @@
       </li>
 
 
+
+      <h4>[Feb 12th, 2026]</h4>
+        <li>
+          <b>
+              <a href="https://openreview.net/forum?id=jdKtkiH9ze"> Virtual Nodes Go Temporal(LOG 2025)</a>
+          </b>
+          <br> Presenter: <u>Sofiane Ennadir</u> King AI Lab
+          <a class="btn btn-info btn-xs" data-toggle="collapse" href="#26feb12bio" role="button" aria-expanded="false" aria-controls="collapseExample">
+            Speaker Bio
+          </a>
+          <div class="collapse" id="26feb12bio">
+            <div class="card card-body">
+              TBD
+            </div>
+          </div>
+          <br> 
+          <a href="https://openreview.net/forum?id=jdKtkiH9ze"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
+          <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#26feb12" role="button" aria-expanded="false" aria-controls="collapseExample">
+              Abstract
+            </a>
+        <div class="collapse" id="26feb12">
+        <div class="card card-body">
+          Learning representations of temporally evolving graphs, also known as Continuous-Time Dynamic Graphs (CTDGs), has gained considerable attention due to their ability to model a wide range of real-world phenomena. Recent efforts extend the well-established message-passing paradigm and Graph Neural Network (GNN) models, originally designed for static graphs, to account for the temporal dimension of dynamic graphs. Although these methods have shown promising results, they often inherit limitations from their static counterparts, particularly regarding the capture of long-range interactions. In static settings, adding Virtual Nodes (VNs) has proven effective in overcoming locality constraints and boosting performance. In this work, we conduct a theoretical analysis of the impact of VNs in CTDG-based models. Specifically, we introduce the concept of information flow, which examines how information propagates through a graph following an event. From this perspective, we highlight inherent limitations of existing CTDG-based approaches and demonstrate how adding VNs can address these constraints. Building on these insights, we propose k-TVNs, a framework that incorporates a set of fully connected VNs, each representing a distinct community within the graph. Through both theoretical investigation and empirical validation, we show that incorporating VNs substantially improves the performance of CTDG models.
+        </div>
+      </li>
+
+
+      <h4>[Feb 19th, 2026]</h4>
+      <li>
+        <b>
+            <a href="https://arxiv.org/abs/2510.06377"> Relational Transformer: Toward Zero-Shot Foundation Models for Relational Data</a> 
+        </b>
+        <br> Presenter: <u>Rishabh Ranjan</u> Stanford University
+        <a class="btn btn-info btn-xs" data-toggle="collapse" href="#26feb19bio" role="button" aria-expanded="false" aria-controls="collapseExample">
+          Speaker Bio
+        </a>
+        <div class="collapse" id="26feb19bio">
+          <div class="card card-body">
+            <u>Rishabh Ranjan</u> is a 3rd year PhD student at Stanford University co-advised by Jure Leskovec and Carlos Guestrin. His primary research interests lie in building foundation models for relational data, which includes databases, tables, graphs and time series data. Notable works include Relational Deep Learning (RDL), RelBench and Relational Transformer (RT). Before Stanford, he was a visiting researcher at CMU hosted by Zachary Lipton, and completed his undergrad at IIT Delhi, where he was awarded the President’s Gold Medal. His website is at:<a href="https://rishabh-ranjan.github.io">https://rishabh-ranjan.github.io</a>
+          </div>
+        </div>
+        <br> 
+        <a href="https://arxiv.org/abs/2510.06377"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
+        <a href="https://github.com/snap-stanford/relational-transformer"><img src="https://img.shields.io/badge/Github-link-lightgrey"></a>
+        <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#25nov20" role="button" aria-expanded="false" aria-controls="collapseExample">
+            Abstract
+          </a>
+      <div class="collapse" id="25nov20">
+      <div class="card card-body">
+        Pretrained transformers readily adapt to new sequence modeling tasks via
+        zero-shot prompting, but relational domains still lack architectures that
+        transfer across datasets and tasks. The core challenge is the diversity of
+        relational data, with varying heterogeneous schemas, graph structures and
+        functional dependencies. In this paper, we present the Relational Transformer
+        (RT) architecture, which can be pretrained on diverse relational databases and
+        directly applied to unseen datasets and tasks without task- or dataset-specific
+        fine-tuning, or retrieval of in-context examples. RT (i) tokenizes cells with
+        table/column metadata, (ii) is pretrained via masked token prediction, and
+        (iii) utilizes a novel Relational Attention mechanism over columns, rows, and
+        primary-foreign key links. Pretrained on RelBench datasets spanning tasks such
+        as churn and sales forecasting, RT attains strong zero-shot performance,
+        averaging 93% of fully supervised AUROC on binary classification tasks with a
+        single forward pass of a 22M parameter model, as opposed to 84% for a 27B LLM.
+        Fine-tuning yields state-of-the-art results with high sample efficiency. Our
+        experiments show that RT's zero-shot transfer harnesses task-table context,
+        relational attention patterns and schema semantics. Overall, RT provides a
+        practical path toward foundation models for relational data.
+      </div>
+    </li>
+
+
+    <h4>[March 12th, 2026]</h4>
+        <li>
+          <b>
+              <a href="https://arxiv.org/abs/2506.24018"> Bridging Theory and Practice in Link Representation with Graph Neural Networks (NeurIPS 2025)</a>
+          </b>
+          <br> Presenter: <u>Veronica Lachi</u> the Arctic University of Norway.
+          <a class="btn btn-info btn-xs" data-toggle="collapse" href="#26mar12bio" role="button" aria-expanded="false" aria-controls="collapseExample">
+            Speaker Bio
+          </a>
+          <div class="collapse" id="26mar12bio">
+            <div class="card card-body">
+              <u>Veronica Lachi</u> is an Associate Professor in the Machine Learning group of UiT, the Arctic University of Norway. Her research focuses on the expressive power of graph neural networks, uncertainty quantification in graph learning, and learning on graphs with missing data.
+            </div>
+          </div>
+          <br> 
+          <a href="https://arxiv.org/abs/2506.24018"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
+          <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#26mar12" role="button" aria-expanded="false" aria-controls="collapseExample">
+              Abstract
+            </a>
+        <div class="collapse" id="26mar12">
+        <div class="card card-body">
+          Graph Neural Networks (GNNs) are widely used to compute representations of node pairs for downstream tasks such as link prediction. Yet, theoretical understanding of their expressive power has focused almost entirely on graph-level representations. In this work, we shift the focus to links and provide the first comprehensive study of GNN expressiveness in link representation. We introduce a unifying framework, the k_\phi- k_rho- m framework, that subsumes existing message-passing link models and enables formal expressiveness comparisons. Using this framework, we derive a hierarchy of state-of-the-art methods and offer theoretical tools to analyze future architectures. To complement our analysis, we propose a synthetic evaluation protocol comprising the first benchmark specifically designed to assess link-level expressiveness. Finally, we ask: does expressiveness matter in practice? We use a graph symmetry metric that quantifies the difficulty of distinguishing links and show that while expressive models may underperform on standard benchmarks, they significantly outperform simpler ones as symmetry increases, highlighting the need for dataset-aware model selection.
+        </div>
+      </li>
+
+
+
       <!-- <h4>[Feb 5th, 2026]</h4>
         <li>
           <b>
