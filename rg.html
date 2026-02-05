@@ -134,7 +134,7 @@
 
       <!-- <h3>[Summer Reading Group Session begins on July 24th]</h4> -->
 
-        <h3>[Reading Group will resume soon in Winter 2026]</h3>
+        <!-- <h3>[Reading Group will resume soon in Winter 2026]</h3> -->
 
 
         <h4>[Feb 5th, 2026]</h4>
@@ -142,7 +142,7 @@
           <b>
               <a href="https://arxiv.org/abs/2506.15507"> Over-squashing in Spatiotemporal Graph Neural Networks (NeurIPS 2025)</a>
           </b>
-          <br> Presenter: <u>Ivan Marisca</u> niversità della Svizzera italiana, ELLIS, GraphSight and <u>Jacob Bamberger</u> University of Oxford
+          <br> Presenter: <u>Ivan Marisca</u> Università della Svizzera italiana, ELLIS, GraphSight and <u>Jacob Bamberger</u> University of Oxford
           <a class="btn btn-info btn-xs" data-toggle="collapse" href="#26feb5bio" role="button" aria-expanded="false" aria-controls="collapseExample">
             Speaker Bio
           </a>
@@ -264,6 +264,74 @@
           Graph Neural Networks (GNNs) are widely used to compute representations of node pairs for downstream tasks such as link prediction. Yet, theoretical understanding of their expressive power has focused almost entirely on graph-level representations. In this work, we shift the focus to links and provide the first comprehensive study of GNN expressiveness in link representation. We introduce a unifying framework, the k_\phi- k_rho- m framework, that subsumes existing message-passing link models and enables formal expressiveness comparisons. Using this framework, we derive a hierarchy of state-of-the-art methods and offer theoretical tools to analyze future architectures. To complement our analysis, we propose a synthetic evaluation protocol comprising the first benchmark specifically designed to assess link-level expressiveness. Finally, we ask: does expressiveness matter in practice? We use a graph symmetry metric that quantifies the difficulty of distinguishing links and show that while expressive models may underperform on standard benchmarks, they significantly outperform simpler ones as symmetry increases, highlighting the need for dataset-aware model selection.
         </div>
       </li>
+
+
+
+      <h4>[March 26th, 2026]</h4>
+        <li>
+          <b>
+              <a href="https://arxiv.org/abs/2510.00457"> UrbanGraph: Physics-Informed Spatio-Temporal Dynamic Heterogeneous Graphs for Urban Microclimate Prediction (ICLR 2026)</a>
+          </b>
+          <br> Presenter: <u>Weilin Xin</u> NUS IDEAS Lab and <u>Chenyu Huang</u> Tongji University
+          <a class="btn btn-info btn-xs" data-toggle="collapse" href="#26mar26bio" role="button" aria-expanded="false" aria-controls="collapseExample">
+            Speaker Bio
+          </a>
+          <div class="collapse" id="26mar26bio">
+            <div class="card card-body">
+              <u>Weilin Xin</u> is an M.Arch student and Research Assistant at the NUS IDEAS Lab, advised by Rudi Stouffs and Adrian Chong. He develops Autonomous Urban Agents by integrating GNN-based spatial perception with LLM reasoning to scale building intelligence toward urban environmental resilience.
+              <br>
+              <u>Chenyu Huang</u> is a Ph.D. candidate in Architecture at Tongji University, advised by Associate Professors Jiawei Yao and Zhi Zhuang. His research lies at the intersection of AI for science and urban complex systems, with a focus on spatio-temporal modeling of physical fields and performance-driven urban design. His doctoral research investigates the scaling laws of urban non-equilibrium thermodynamic systems. He is the recipient of the CAADRIA Young Award for his outstanding contributions to computational design in Asia.
+            </div>
+          </div>
+          <br> 
+          <a href="https://arxiv.org/abs/2510.00457"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
+          <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#26mar26" role="button" aria-expanded="false" aria-controls="collapseExample">
+              Abstract
+            </a>
+        <div class="collapse" id="26mar26">
+        <div class="card card-body">
+          With rapid urbanization, predicting urban microclimates has become critical, as it affects building energy demand and public health risks. However, existing generative and homogeneous graph approaches fall short in capturing physical consistency, spatial dependencies, and temporal variability. To address this, we introduce UrbanGraph, a physics-informed framework integrating heterogeneous and dynamic spatio-temporal graphs. It encodes key physical processes -- vegetation evapotranspiration, shading, and convective diffusion -- while modeling complex spatial dependencies among diverse urban entities and their temporal evolution. We evaluate UrbanGraph on UMC4/12, a physics-based simulation dataset covering diverse urban configurations and climates. Results show that UrbanGraph improves R^2 by up to 10.8% and reduces FLOPs by 17.0% over all baselines, with heterogeneous and dynamic graphs contributing 3.5% and 7.1% gains. Our dataset provides the first high-resolution benchmark for spatio-temporal microclimate modeling, and our method extends to broader urban heterogeneous dynamic computing tasks. 
+        </div>
+      </li>
+
+
+      <h4>[April 2nd, 2026]</h4>
+        <li>
+          <b>
+              <a href="https://arxiv.org/abs/2510.20028"> The Temporal Graph of Bitcoin Transactions (NeurIPS 2025)</a>
+          </b>
+          <br> Presenter: <u>Vahid Jalili</u> 
+          <a class="btn btn-info btn-xs" data-toggle="collapse" href="#26apr2bio" role="button" aria-expanded="false" aria-controls="collapseExample">
+            Speaker Bio
+          </a>
+          <div class="collapse" id="26apr2bio">
+            <div class="card card-body">
+              tbh
+            </div>
+          </div>
+          <br> 
+          <a href="https://arxiv.org/abs/2510.20028"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
+          <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#26apr2" role="button" aria-expanded="false" aria-controls="collapseExample">
+              Abstract
+            </a>
+        <div class="collapse" id="26apr2">
+        <div class="card card-body">
+          Since its 2009 genesis block, the Bitcoin network has processed >1.08 billion
+          (B) transactions representing >8.72B BTC, offering rich potential for machine
+          learning (ML); yet, its pseudonymity and obscured flow of funds inherent in its
+          UTxO-based design, have rendered this data largely inaccessible for ML research.
+          Addressing this gap, we present an ML-compatible graph modeling the Bitcoin’s
+          economic topology by reconstructing the flow of funds. This temporal, heterogeneous graph encompasses complete transaction history up to block 863 000,
+          consisting of >2.4B nodes and >39.72B edges. Additionally, we provide custom
+          sampling methods yielding node and edge feature vectors of sampled communities,
+          tools to load and analyze the Bitcoin graph data within specialized graph databases,
+          and ready-to-use database snapshots. This comprehensive dataset and toolkit empower the ML community to tackle Bitcoin’s intricate ecosystem at scale, driving
+          progress in applications such as anomaly detection, address classification, market
+          analysis, and large-scale graph ML benchmarking. Dataset and code available at
+          github.com/b1aab/eba
+        </div>
+      </li>
+
 
 
 
