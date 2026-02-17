@@ -137,66 +137,6 @@
         <!-- <h3>[Reading Group will resume soon in Winter 2026]</h3> -->
 
 
-        <h4>[Feb 5th, 2026]</h4>
-        <li>
-          <b>
-              <a href="https://arxiv.org/abs/2506.15507"> Over-squashing in Spatiotemporal Graph Neural Networks (NeurIPS 2025)</a>
-          </b>
-          <br> Presenter: <u>Ivan Marisca</u> Università della Svizzera italiana, ELLIS, GraphSight and <u>Jacob Bamberger</u> University of Oxford
-          <a class="btn btn-info btn-xs" data-toggle="collapse" href="#26feb5bio" role="button" aria-expanded="false" aria-controls="collapseExample">
-            Speaker Bio
-          </a>
-          <div class="collapse" id="26feb5bio">
-            <div class="card card-body">
-              <u>Ivan Marisca</u> is an affiliate researcher at the Università della Svizzera italiana (USI), an ELLIS member, and CTO of GraphSight, a Swiss startup delivering AI-powered, graph-based forecasting solutions for renewable energy systems. He recently completed his Ph.D. at IDSIA and USI in Lugano, Switzerland, under the supervision of Prof. Cesare Alippi, as part of the ELLIS Ph.D. Program jointly supervised by Prof. Alippi and Prof. Michael Bronstein. Ivan’s research focuses on graph deep learning for irregular spatiotemporal data, with particular interest in graph-based methods for sensor networks, including imputation, filtering, and prediction of irregularly sampled observations. He is the co-creator of the open-source machine learning libraries Torch Spatiotemporal and Torch Geometric Pool.
-              <br>
-              <u>Jacob Bamberger</u> is a third-year PhD student at University of Oxford working at the intersection of geometry and machine learning, supervised by Prof. Michael Bronstein and Prof. Xiaowen Dong. His research develops geometric methods to understand and design algorithms for learning on structured and high-dimensional data, with a focus on graph machine learning and generative models.
-            </div>
-          </div>
-          <br> 
-          <a href="https://youtu.be/CJCkH7eW0yc"><img src="https://img.shields.io/badge/Youtube-Recording-orange"></a>
-          <a href="https://neurips.cc/virtual/2025/loc/san-diego/poster/119283"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
-          <a href="https://arxiv.org/abs/2506.15507"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
-          <a href="https://github.com/marshka/spatiotemporal-oversquashing"><img src="https://img.shields.io/badge/Github-link-lightgrey"></a>
-          <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#26feb5" role="button" aria-expanded="false" aria-controls="collapseExample">
-              Abstract
-            </a>
-        <div class="collapse" id="26feb5">
-        <div class="card card-body">
-          Graph Neural Networks (GNNs) have achieved remarkable success across various domains. However, recent theoretical advances have identified fundamental limitations in their information propagation capabilities, such as over-squashing, where distant nodes fail to effectively exchange information. While extensively studied in static contexts, this issue remains unexplored in Spatiotemporal GNNs (STGNNs), which process sequences associated with graph nodes. Nonetheless, the temporal dimension amplifies this challenge by increasing the information that must be propagated. In this work, we formalize the spatiotemporal over-squashing problem and demonstrate its distinct characteristics compared to the static case. Our analysis reveals that, counterintuitively, convolutional STGNNs favor information propagation from points temporally distant rather than close in time. Moreover, we prove that architectures that follow either time-and-space or time-then-space processing paradigms are equally affected by this phenomenon, providing theoretical justification for computationally efficient implementations. We validate our findings on synthetic and real-world datasets, providing deeper insights into their operational dynamics and principled guidance for more effective designs.
-        </div>
-      </li>
-
-
-
-      <h4>[Feb 12th, 2026]</h4>
-        <li>
-          <b>
-              <a href="https://openreview.net/forum?id=jdKtkiH9ze"> Virtual Nodes Go Temporal(LOG 2025)</a>
-          </b>
-          <br> Presenter: <u>Sofiane Ennadir</u> King AI Lab
-          <a class="btn btn-info btn-xs" data-toggle="collapse" href="#26feb12bio" role="button" aria-expanded="false" aria-controls="collapseExample">
-            Speaker Bio
-          </a>
-          <div class="collapse" id="26feb12bio">
-            <div class="card card-body">
-              <u>Sofiane Ennadir</u> received his M.Sc. in Data Science from École Polytechnique in France and EMINES-UM6P in Morocco. He then pursued a Ph.D. at KTH Royal Institute of Technology in Sweden, under the supervision of Professor Michalis Vazirgiannis, investigating adversarial robustness in graph neural networks. He is currently an AI researcher at King AI Labs (Microsoft Gaming), where he works on representation learning in continuous-time dynamic graphs and theoretically understanding transformer-based models for different applications. 
-            </div>
-          </div>
-          <br> 
-          <a href="https://openreview.net/forum?id=jdKtkiH9ze"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
-          <a href="https://openreview.net/forum?id=M7Lhr2anjg"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
-          <a href="https://github.com/king/TVNs"><img src="https://img.shields.io/badge/Github-link-lightgrey"></a>
-          <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#26feb12" role="button" aria-expanded="false" aria-controls="collapseExample">
-              Abstract
-            </a>
-        <div class="collapse" id="26feb12">
-        <div class="card card-body">
-          Learning representations of temporally evolving graphs, also known as Continuous-Time Dynamic Graphs (CTDGs), has attracted increasing attention due to their ability to model a wide range of real-world phenomena. Recent works extend the well-established message-passing paradigm and Graph Neural Network (GNN) models, originally designed for static graphs, to account for the temporal dimension of dynamic graphs. In this talk, we propose a novel theoretical framework that analyzes the expressivity of CTDG models through an Information-Flow (IF) perspective, quantifying their ability to propagate and encode both temporal and structural information. Leveraging this framework, we provide a principled way to categorize and better understand existing CTDG methods based on their suitability for different graph types and application scenarios. Using this analysis, we show that although temporal message-passing models achieve strong empirical performance, they often inherit limitations from their static counterparts, particularly in capturing long-range interactions. In static graph settings, Virtual Nodes (VNs) have been shown to effectively mitigate locality constraints and improve performance. Motivated by this observation, we study the extension of VNs to CTDG-based models within the proposed information-flow framework. We demonstrate how incorporating VNs helps overcome these limitations by facilitating global information propagation over time. Building on these insights, we introduce k-Temporal Virtual Nodes (k-TVNs), a framework that incorporates multiple fully connected VNs, each representing a distinct community in the graph. Through theoretical analysis and empirical evaluation, we show that integrating VNs substantially improves the performance of CTDG models.
-        </div>
-      </li>
-
-
       <h4>[Feb 19th, 2026]</h4>
       <li>
         <b>
@@ -214,10 +154,10 @@
         <br> 
         <a href="https://arxiv.org/abs/2510.06377"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
         <a href="https://github.com/snap-stanford/relational-transformer"><img src="https://img.shields.io/badge/Github-link-lightgrey"></a>
-        <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#25nov20" role="button" aria-expanded="false" aria-controls="collapseExample">
+        <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#26feb19" role="button" aria-expanded="false" aria-controls="collapseExample">
             Abstract
           </a>
-      <div class="collapse" id="25nov20">
+      <div class="collapse" id="26feb19">
       <div class="card card-body">
         Pretrained transformers readily adapt to new sequence modeling tasks via
         zero-shot prompting, but relational domains still lack architectures that
@@ -237,6 +177,35 @@
         experiments show that RT's zero-shot transfer harnesses task-table context,
         relational attention patterns and schema semantics. Overall, RT provides a
         practical path toward foundation models for relational data.
+      </div>
+    </li>
+
+
+
+    <h4>[Feb 26th, 2026]</h4>
+      <li>
+        <b>
+            <a href="https://arxiv.org/pdf/2602.04029"> PLUREL: Synthetic Data unlocks Scaling Laws for Relational Foundation Models</a> 
+        </b>
+        <br> Presenter: <u>Vignesh Kothapalli</u> Stanford University
+        <a class="btn btn-info btn-xs" data-toggle="collapse" href="#26feb26bio" role="button" aria-expanded="false" aria-controls="collapseExample">
+          Speaker Bio
+        </a>
+        <div class="collapse" id="26feb26bio">
+          <div class="card card-body">
+            <u>Vignesh Kothapalli</u> is a first-year Computer Science PhD student at Stanford University. His research explores the fundamental mechanisms of learning in neural networks, examining how representations emerge and evolve during training, and how foundation models meta-learn to acquire new capabilities from demonstrations alone. He holds an MSc from NYU Courant and was previously a Senior ML Engineer at LinkedIn AI, where he built LLM-based foundation models for recommendation systems.
+          </div>
+        </div>
+        <br> 
+        <a href="https://snap-stanford.github.io/plurel/"><img src="https://img.shields.io/badge/website-blue"></a>
+        <a href="https://arxiv.org/pdf/2602.04029"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
+        <a href="https://github.com/snap-stanford/plurel"><img src="https://img.shields.io/badge/Github-link-lightgrey"></a>
+        <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#26feb26" role="button" aria-expanded="false" aria-controls="collapseExample">
+            Abstract
+          </a>
+      <div class="collapse" id="26feb26">
+      <div class="card card-body">
+        Relational Foundation Models (RFMs) facilitate data-driven decision-making by learning from complex multi-table databases. However, the diverse relational databases needed to train such models are rarely public due to privacy constraints. While there are methods to generate synthetic tabular data of arbitrary size, incorporating schema structure and primary--foreign key connectivity for multi-table generation remains challenging. Here we introduce PluRel, a framework to synthesize multi-tabular relational databases from scratch. In a step-by-step fashion, PluRel models (1) schemas with directed graphs, (2) inter-table primary-foreign key connectivity with bipartite graphs, and, (3) feature distributions in tables via conditional causal mechanisms. The design space across these stages supports the synthesis of a wide range of diverse databases, while being computationally lightweight. Using PluRel, we observe for the first time that (1) RFM pretraining loss exhibits power-law scaling with the number of synthetic databases and total pretraining tokens, (2) scaling the number of synthetic databases improves generalization to real databases, and (3) synthetic pretraining yields strong base models for continued pretraining on real databases. Overall, our framework and results position synthetic data scaling as a promising paradigm for RFMs.
       </div>
     </li>
 
@@ -265,6 +234,9 @@
           Graph Neural Networks (GNNs) are widely used to compute representations of node pairs for downstream tasks such as link prediction. Yet, theoretical understanding of their expressive power has focused almost entirely on graph-level representations. In this work, we shift the focus to links and provide the first comprehensive study of GNN expressiveness in link representation. We introduce a unifying framework, the k_\phi- k_rho- m framework, that subsumes existing message-passing link models and enables formal expressiveness comparisons. Using this framework, we derive a hierarchy of state-of-the-art methods and offer theoretical tools to analyze future architectures. To complement our analysis, we propose a synthetic evaluation protocol comprising the first benchmark specifically designed to assess link-level expressiveness. Finally, we ask: does expressiveness matter in practice? We use a graph symmetry metric that quantifies the difficulty of distinguishing links and show that while expressive models may underperform on standard benchmarks, they significantly outperform simpler ones as symmetry increases, highlighting the need for dataset-aware model selection.
         </div>
       </li>
+
+
+
 
 
 
@@ -425,6 +397,88 @@
     </div>
   </div>
 </section>
+
+
+<section id="Winter2026" class="some-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-2"></div>
+      <div class="col-sm-8">
+        <div class="listing" style="clear:both;">
+        <div class="left">
+      
+        <h3 style="text-align:center">Past Talks, Winter 2026</h3>
+
+
+        <h4>[Feb 5th, 2026]</h4>
+        <li>
+          <b>
+              <a href="https://arxiv.org/abs/2506.15507"> Over-squashing in Spatiotemporal Graph Neural Networks (NeurIPS 2025)</a>
+          </b>
+          <br> Presenter: <u>Ivan Marisca</u> Università della Svizzera italiana, ELLIS, GraphSight and <u>Jacob Bamberger</u> University of Oxford
+          <a class="btn btn-info btn-xs" data-toggle="collapse" href="#26feb5bio" role="button" aria-expanded="false" aria-controls="collapseExample">
+            Speaker Bio
+          </a>
+          <div class="collapse" id="26feb5bio">
+            <div class="card card-body">
+              <u>Ivan Marisca</u> is an affiliate researcher at the Università della Svizzera italiana (USI), an ELLIS member, and CTO of GraphSight, a Swiss startup delivering AI-powered, graph-based forecasting solutions for renewable energy systems. He recently completed his Ph.D. at IDSIA and USI in Lugano, Switzerland, under the supervision of Prof. Cesare Alippi, as part of the ELLIS Ph.D. Program jointly supervised by Prof. Alippi and Prof. Michael Bronstein. Ivan’s research focuses on graph deep learning for irregular spatiotemporal data, with particular interest in graph-based methods for sensor networks, including imputation, filtering, and prediction of irregularly sampled observations. He is the co-creator of the open-source machine learning libraries Torch Spatiotemporal and Torch Geometric Pool.
+              <br>
+              <u>Jacob Bamberger</u> is a third-year PhD student at University of Oxford working at the intersection of geometry and machine learning, supervised by Prof. Michael Bronstein and Prof. Xiaowen Dong. His research develops geometric methods to understand and design algorithms for learning on structured and high-dimensional data, with a focus on graph machine learning and generative models.
+            </div>
+          </div>
+          <br> 
+          <a href="https://youtu.be/CJCkH7eW0yc"><img src="https://img.shields.io/badge/Youtube-Recording-orange"></a>
+          <a href="https://neurips.cc/virtual/2025/loc/san-diego/poster/119283"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
+          <a href="https://arxiv.org/abs/2506.15507"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
+          <a href="https://github.com/marshka/spatiotemporal-oversquashing"><img src="https://img.shields.io/badge/Github-link-lightgrey"></a>
+          <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#26feb5" role="button" aria-expanded="false" aria-controls="collapseExample">
+              Abstract
+            </a>
+        <div class="collapse" id="26feb5">
+        <div class="card card-body">
+          Graph Neural Networks (GNNs) have achieved remarkable success across various domains. However, recent theoretical advances have identified fundamental limitations in their information propagation capabilities, such as over-squashing, where distant nodes fail to effectively exchange information. While extensively studied in static contexts, this issue remains unexplored in Spatiotemporal GNNs (STGNNs), which process sequences associated with graph nodes. Nonetheless, the temporal dimension amplifies this challenge by increasing the information that must be propagated. In this work, we formalize the spatiotemporal over-squashing problem and demonstrate its distinct characteristics compared to the static case. Our analysis reveals that, counterintuitively, convolutional STGNNs favor information propagation from points temporally distant rather than close in time. Moreover, we prove that architectures that follow either time-and-space or time-then-space processing paradigms are equally affected by this phenomenon, providing theoretical justification for computationally efficient implementations. We validate our findings on synthetic and real-world datasets, providing deeper insights into their operational dynamics and principled guidance for more effective designs.
+        </div>
+      </li>
+
+
+
+      <h4>[Feb 12th, 2026]</h4>
+        <li>
+          <b>
+              <a href="https://openreview.net/forum?id=jdKtkiH9ze"> Virtual Nodes Go Temporal(LOG 2025)</a>
+          </b>
+          <br> Presenter: <u>Sofiane Ennadir</u> King AI Lab
+          <a class="btn btn-info btn-xs" data-toggle="collapse" href="#26feb12bio" role="button" aria-expanded="false" aria-controls="collapseExample">
+            Speaker Bio
+          </a>
+          <div class="collapse" id="26feb12bio">
+            <div class="card card-body">
+              <u>Sofiane Ennadir</u> received his M.Sc. in Data Science from École Polytechnique in France and EMINES-UM6P in Morocco. He then pursued a Ph.D. at KTH Royal Institute of Technology in Sweden, under the supervision of Professor Michalis Vazirgiannis, investigating adversarial robustness in graph neural networks. He is currently an AI researcher at King AI Labs (Microsoft Gaming), where he works on representation learning in continuous-time dynamic graphs and theoretically understanding transformer-based models for different applications. 
+            </div>
+          </div>
+          <br> 
+          <a href="https://openreview.net/forum?id=jdKtkiH9ze"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
+          <a href="https://openreview.net/forum?id=M7Lhr2anjg"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
+          <a href="https://github.com/king/TVNs"><img src="https://img.shields.io/badge/Github-link-lightgrey"></a>
+          <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#26feb12" role="button" aria-expanded="false" aria-controls="collapseExample">
+              Abstract
+            </a>
+        <div class="collapse" id="26feb12">
+        <div class="card card-body">
+          Learning representations of temporally evolving graphs, also known as Continuous-Time Dynamic Graphs (CTDGs), has attracted increasing attention due to their ability to model a wide range of real-world phenomena. Recent works extend the well-established message-passing paradigm and Graph Neural Network (GNN) models, originally designed for static graphs, to account for the temporal dimension of dynamic graphs. In this talk, we propose a novel theoretical framework that analyzes the expressivity of CTDG models through an Information-Flow (IF) perspective, quantifying their ability to propagate and encode both temporal and structural information. Leveraging this framework, we provide a principled way to categorize and better understand existing CTDG methods based on their suitability for different graph types and application scenarios. Using this analysis, we show that although temporal message-passing models achieve strong empirical performance, they often inherit limitations from their static counterparts, particularly in capturing long-range interactions. In static graph settings, Virtual Nodes (VNs) have been shown to effectively mitigate locality constraints and improve performance. Motivated by this observation, we study the extension of VNs to CTDG-based models within the proposed information-flow framework. We demonstrate how incorporating VNs helps overcome these limitations by facilitating global information propagation over time. Building on these insights, we introduce k-Temporal Virtual Nodes (k-TVNs), a framework that incorporates multiple fully connected VNs, each representing a distinct community in the graph. Through theoretical analysis and empirical evaluation, we show that integrating VNs substantially improves the performance of CTDG models.
+        </div>
+      </li>
+
+
+
+
+
+    
+  
+      </div>
+    </div>
+  </section>
+
 
 
 <section id="summer2025" class="some-section">
