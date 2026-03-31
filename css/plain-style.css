@@ -3,3 +3,79 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+#organizers .listing {
+    clear: both;
+}
+
+.organizer-grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 24px;
+}
+
+.organizer-grid > [class*="col-"] {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.organizer-card {
+    width: 100%;
+    padding: 24px 22px;
+    border: 1px solid #e6e6e6;
+    border-radius: 16px;
+    background: #ffffff;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.06);
+}
+
+.organizer-photo {
+    display: block;
+    width: 160px;
+    height: 160px;
+    margin: 0 auto 18px;
+    border-radius: 18px;
+    object-fit: cover;
+    object-position: center top;
+}
+
+.organizer-name {
+    margin-top: 0;
+    margin-bottom: 14px;
+    text-align: center;
+    line-height: 1.35;
+}
+
+.organizer-name a {
+    color: #222222;
+}
+
+.organizer-name a:hover,
+.organizer-name a:focus {
+    color: #1f6fb2;
+    text-decoration: none;
+}
+
+.organizer-card p {
+    margin-bottom: 0;
+    line-height: 1.7;
+}
+
+.organizer-links {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.organizer-highlight {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+@media (max-width: 767px) {
+    .organizer-card {
+        padding: 20px 18px;
+    }
+
+    .organizer-photo {
+        width: 136px;
+        height: 136px;
+    }
+}
