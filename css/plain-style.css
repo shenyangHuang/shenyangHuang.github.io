@@ -50,8 +50,8 @@ a:focus {
 }
 
 .hero-logo {
-    width: 110px;
-    min-width: 110px;
+    width: 200px;
+    min-width: 200px;
     padding: 12px;
     border: 1px solid #d7e0e8;
     border-radius: 22px;
@@ -70,7 +70,7 @@ a:focus {
 
 .hero-title {
     margin: 0 0 14px;
-    font-size: 42px;
+    font-size: 30px;
     line-height: 1.15;
     color: #102a43;
 }
@@ -265,6 +265,11 @@ a:focus {
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.04em;
+    vertical-align: middle;
+}
+
+.archive-listing li .btn-info {
+    margin-left: 6px;
 }
 
 .archive-listing .btn-info {
@@ -375,7 +380,7 @@ a:focus {
     }
 
     .hero-title {
-        font-size: 36px;
+        font-size: 26px;
     }
 }
 
@@ -401,12 +406,12 @@ a:focus {
     }
 
     .hero-logo {
-        width: 88px;
-        min-width: 88px;
+        width: 120px;
+        min-width: 120px;
     }
 
     .hero-title {
-        font-size: 30px;
+        font-size: 22px;
     }
 
     .hero-summary {
