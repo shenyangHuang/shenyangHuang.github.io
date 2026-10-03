@@ -77,7 +77,7 @@
           <div class="hero-action-card">
             <h2>Join Live</h2>
             <p>Attend the reading group live each week.</p>
-            <a class="hero-button" href="https://mcgill.zoom.us/j/82923325520?pwd=T3kIaPsjUYxYz0y8QqQT9Ha3Y7oWgX.1">Join on Zoom</a>
+            <a class="hero-button" href="https://mcgill.zoom.us/j/84341694057?pwd=elEpwTbu0r6dGuzCFMF2xB16t63FlG.1">Join on Zoom</a>
           </div>
 
           <div class="hero-action-card">
@@ -93,7 +93,7 @@
             <h2>Community</h2>
             <p>Join the TGL Slack to discuss with the temporal graph learning community.</p>
             <div class="hero-link-row">
-              <a class="hero-link" href="https://join.slack.com/t/tglworkshop/shared_invite/zt-3ms3ovbfl-Wr3Qop0oQ_vnDhjEwo7wxw">Slack Invite</a>
+              <a class="hero-link" href="https://join.slack.com/t/tglworkshop/shared_invite/zt-490esu1up-tI09~1DyS6syt9zAngwYjQ">Slack Invite</a>
               <a class="hero-link" href="mailto:shenyang.huang@mail.mcgill.ca">Contact</a>
             </div>
             <p class="hero-note">Use the contact link if there is any issue with the invite.</p>
@@ -142,7 +142,7 @@
         <h4>[October 14th, 2026]</h4>
         <li>
           <b>
-              <a href="https://journals.aps.org/pre/pdf/10.1103/78vv-hs72"> Maximum entropy temporal networks (Physics review) </a>
+              <a href="https://doi.org/10.1103/78vv-hs72"> Maximum entropy temporal networks (Physics review) </a>
           </b>
           <br> Presenter: <u>Paolo Barucca</u> Department of Computer Science, University College London, London, United Kingdom
           <a class="btn btn-info btn-xs" data-toggle="collapse" href="#26oct14bio" role="button" aria-expanded="false" aria-controls="collapseExample">
@@ -150,29 +150,21 @@
           </a>
           <div class="collapse" id="26oct14bio">
             <div class="card card-body">
-              TBD
+              Paolo Barucca is an Associate Professor in the Department of Computer Science at University College London. He holds a PhD in Theoretical Physics from Sapienza University of Rome, focused on the statistical physics of disordered systems. His research sits at the intersection of statistical physics, network science and machine learning, developing principled, physics-inspired models that bring robustness, interpretability and theoretical foundations to data-driven methods – particularly for highly interconnected, non-stationary systems such as financial markets.
             </div>
           </div>
           <br> 
-          <a href="https://journals.aps.org/pre/pdf/10.1103/78vv-hs72"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
+          <a href="https://doi.org/10.1103/78vv-hs72"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
+          <a href="https://arxiv.org/abs/2509.02098"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
+          <a href="https://doi.org/10.5281/zenodo.18613086"><img src="https://img.shields.io/badge/Code-link-lightgrey"></a>
+          <a href="https://paolobarucca.github.io/"><img src="https://img.shields.io/badge/website-blue"></a>
+          
           <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#26Oct14" role="button" aria-expanded="false" aria-controls="collapseExample">
               Abstract
             </a>
         <div class="collapse" id="26Oct14">
         <div class="card card-body">
-          Temporal networks consist of time-stamped directed interactions that may appear continuously in time, yet few
-          studies have directly tackled the continuous-time modeling of networks. Here, we introduce a maximum-entropy
-          approach to temporal networks and with basic assumptions on constraints, the corresponding network ensembles
-          admit a modular and interpretable representation: a set of global time processes and a static maximum-entropy
-          edge, e.g., node pair or probability. This time-edge labels factorization yields closed-form log-likelihoods,
-          degree, clustering, and motif expectations, and yields an entire class of effective generative models. We provide
-          the maximum-entropy derivation for the nonhomogeneous Poisson process (NHPP) intensities governing the
-          probability of directed edges in temporal networks via the functional optimization over path entropy, connecting
-          NHPP modeling to maximum-entropy network ensembles. NHPPs consistently improve log-likelihood over
-          generic Poisson processes, while the maximum-entropy edge labels recover strength constraints and reproduce
-          expected unique-degree curves. We discuss the limitations of this framework and how it can be integrated
-          with multivariate Hawkes calibration procedures, renewal theory, and neural kernel estimation in graph neural
-          networks.
+          Many real systems – payments, communications, social platforms – are recorded as streams of time-stamped, directed interactions arriving in continuous time. Much of temporal graph learning handles this setting with expressive neural models, but principled, interpretable baselines built directly for continuous time remain scarce. In this talk I introduce a maximum-entropy framework for continuous-time temporal networks. Maximising the path entropy of a point process under structural and temporal constraints yields ensembles that factorise into a small set of global time processes and a static maximum-entropy distribution over edges, recovering non-homogeneous Poisson process intensities as the maximum-entropy solution. This factorisation gives closed-form log-likelihoods and expected degrees, clustering and motif counts, and defines a whole family of generative models that are cheap to fit and easy to interpret. I will show on empirical temporal networks that the model improves likelihood over standard Poisson baselines while reproducing observed node strengths and degree growth, and discuss how it can serve as a null model and a principled baseline for temporal graph learning.
         </div>
       </li>
 
