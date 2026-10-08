@@ -318,17 +318,18 @@
           </a>
           <div class="collapse" id="26nov25bio">
             <div class="card card-body">
-              TBD
+          Yuanyuan Xu is a Postdoctoral Fellow in the School of Computer Science and Engineering at the University of New South Wales (UNSW), Sydney, Australia. Her research focuses on dynamic graph intelligence, with a recent emphasis on multi-agent systems. She has published over 20 research papers in top-tier venues, including NeurIPS, IEEE TKDE, ACM SIGKDD and AAAI (Oral). She also serves as a reviewer for leading journals and conferences, including NeurIPS and ACM SIGKDD. Her honors include the Google Conference Scholarship, AAAI-26 Scholarship, and recognition as one of the KDD 2026 Best Reviewers.
             </div>
           </div>
           <br> 
           <a href="https://neurips.cc/virtual/2026/poster/151703"><img src="https://img.shields.io/badge/Paper-link-important"></a> 
+          <a href="https://luckygirl-xu.github.io/"><img src="https://img.shields.io/badge/website-blue"></a>
           <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#26nov25" role="button" aria-expanded="false" aria-controls="collapseExample">
               Abstract
             </a>
         <div class="collapse" id="26nov25">
         <div class="card card-body">
-          TBD
+            Dynamic link prediction requires determining whether the historical interactions of a source node provide reliable structural support for a specific target. Existing target-conditioned methods capture such support through structural heuristics such as repeated interactions or co-neighbor overlap, but typically instantiate them as identity-based encodings and inject them as passive token-level features before aggregation. This design is brittle when exact structural encodings are sparse, and the resulting structural signals can be diluted after being concatenated with high-dimensional time and edge features, while their dynamics remain unmodeled. In this paper, we revisit target-conditioned dynamic link prediction from a structural dynamics modeling perspective and propose TCSD, which formulates structural signals as target-conditioned states, evolves them over recent histories, and uses them to guide aggregation. Concretely, we construct hybrid structural states from exact indicators that preserve time-aware repeat and co-neighbor matches, and relaxed indicators that recover latent support beyond exact identity matching. TCSD further models the dynamics of these states to capture temporal consistency within indicators and complementarity across indicators. Instead of treating structural states as passive features, TCSD uses the learned dynamics as aggregation controllers to amplify target-relevant interactions and suppress irrelevant ones. Experiments on sixteen dynamic graphs show that TCSD outperforms ten baselines, achieving up to a 14.27% relative improvement in MRR.
         </div>
       </li>
 
